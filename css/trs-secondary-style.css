@@ -1,0 +1,347 @@
+/* Reset parameters in skeleton */
+
+body {
+font-family: 'National2', sans-serif ;
+}
+
+hr {
+    margin: 0;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    border: 0;
+    border-top: 3px solid rgba(0,0,0, 0.4);
+}
+
+a {
+    color:  rgba(0, 105, 62, 1.0);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color:   rgba(0, 105, 62, .3)}
+
+td,th {
+    border-bottom: 0; 
+}
+
+/* .container (960px) set in skeleton.css with media break options */
+.container{
+   padding: 20px;
+}
+
+/* End reset */
+
+.header{
+    grid-area: header;
+}
+
+.main{
+    grid-area: main;
+}
+
+.links {
+    grid-area: links;
+    text-align: center;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+
+img.rounded-corners{
+    border-radius: 6px;
+}
+
+.fit {
+  width: 100%;
+  height: 100%;
+ }
+
+.toprightname {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-family: Times New Roman, serif;
+  font-size:140%;
+  font-weight: 500;
+  letter-spacing: 1px; 
+}
+
+.toprightcredentials {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+  font-family:  sans-serif;
+  font-size:100%;
+  font-weight: normal;
+  font-style:italic;
+  font-size:  90%;
+  text-align: end;
+  color: rgba(0, 105, 62, 1.0);
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+      "header"
+	  "links"
+	  "main"
+	  "footer";
+
+    background-color: #fff;
+  }
+
+
+/*
+@media only screen and (min-width: 700px)   {
+   .wrapper {
+      grid-gap: 20px;
+      grid-template-columns: auto minmax(150px,auto) ;
+            grid-template-areas:
+            "header  header"
+	    "contact photo"
+	    "contact ..."
+            "links links"
+            "footer  ...";
+        }
+}
+
+
+@media only screen and (min-width: 1000px)   {
+   .wrapper {
+      grid-gap: 20px;
+      grid-template-columns: auto minmax(auto, 650px);
+            grid-template-areas:
+            "header  header"
+            "contact photo"
+	    "contact ..."
+            "links links"
+            "footer  ...";
+        }
+}
+*/
+
+.box {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 110%;
+}
+
+.tightbox {
+    background-color: #fff;
+    color: #000;
+    padding: 0px;
+    font-size: 110%;
+}
+
+
+.framebox {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 20px 20px 0px 20px;
+  font-size: 110%;
+  border: 2px solid rgba(0, 105, 62, 0.4);
+  }
+
+hr.dg15 {
+    width: 15%;
+    border-top: 3px solid rgba(0, 105, 62, 0.4);
+    //    border-top: 4px solid rgba(255,0,0, 0.4);
+}
+hr.dg100 {
+    width: 100%;
+    border-top: 3px solid rgba(0, 105, 62, 0.4);
+}
+
+hr.b15 {
+    width: 15%;
+    border-top: 3px solid rgba(1,1,1, 0.4);
+}
+
+.large {
+    font-size: 130%;
+}
+
+.small {
+    font-size: 80%;
+}
+
+.bold {
+    font-weight:600;
+}
+
+.center{
+    text-align: center;
+}
+
+.bgcolor-red{
+    background-color: rgba(220, 53, 69, 1);
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.bgcolor-pale-red{
+    background-color: rgba(245, 198, 203, 1); /* bootstrap danger #f5c6cb */
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+}
+.bgcolor-pale-blue{
+    background-color: rgba(190, 229, 235, 1); /* bootstrap info #bee5eb; */
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.bgcolor-pale-green{
+    background-color: rgba(195, 230, 203, .5); /* bootstrap success #c3e6cb; */
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+ 
+.bgcolor-green{
+    background-color: rgba(141, 169, 150, 1); 
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+ 
+ 
+.bgcolor-pale-blue{
+    background-color: rgba(190, 229, 235, 1); /* bootstrap info #c3e6cb; */
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.bgcolor-pale-yellow{
+    backgound-color:  rgba(255, 238, 186, 1)/* bootstrap warning #ffeeba; */
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.color-pale-red{
+    color: rgba(245, 198, 203, 1); /* bootstrap danger #f5c6cb */
+}
+
+
+
+.color-red{
+    color: rgba(220, 53, 69, 1);
+    font-weight: bold;
+}
+.color-gray{
+     color:rgba(0, 0, 0, 0.075); /* bootstrap active  */
+     font-weight: bold;
+}
+
+.color-green{
+    color: rgba(40, 167, 69, .4);
+    font-weight: bold;
+}
+
+.color-pale-green{
+    color: rgba(195, 230, 203, 1)); /* bootstrap success #c3e6cb; */
+    font-weight: bold;
+}
+
+.color-pale-blue{
+    color: rgba(190, 229, 235, 1); /* bootstrap info #c3e6cb; */
+    font-weight: bold;
+}
+ 
+.color-yellow{
+    color:  rgba(255, 238, 186, 1)/* bootstrap warning #ffeeba; */
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: National2;
+    src: url('/include/fonts/National2-Regular.otf');
+}
+@font-face {
+    font-family: National2;
+    src: url('/include/fonts/National2-Bold.otf');
+    font-weight:bold;
+}
+@font-face {
+    font-family: National2;
+    src: url('/include/fonts/National2-RegularItalic.otf');
+    font-style:italic;
+}
+@font-face {
+    font-family: National2;
+    src: url('/include/fonts/National2-BoldItalic.otf');
+    font-weight:bold;
+    font-style:italic;
+}
+
+@font-face {
+    font-family: DartmouthRuzicka;
+    src: url('/include/fonts/DartmouthRuzicka-Regular.ttf');
+}
+@font-face {
+    font-family:  DartmouthRuzicka;
+    src: url('/include/fonts/DartmouthRuzicka-Bold.ttf');
+    font-weight:bold;
+}
+@font-face {
+    font-family:  DartmouthRuzicka;
+    src: url('/include/fonts/DartmouthRuzicka-RegularItalic.ttf');
+    font-style:italic;
+}
+@font-face {
+    font-family:  DartmouthRuzicka;
+    src: url('/include/fonts/DartmouthRuzicka-BoldItalic.ttf');
+    font-weight:bold;
+    font-style:italic;
+}
+
+/* Other fonts */
+@font-face {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Raleway Medium"), local("Raleway-Medium"), url("/include/fonts/Raleway-Medium.ttf");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url("/include/fonts/SourceSansPro-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("/include/fonts/SourceSansPro-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("/include/fonts/OpenSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("/include/fonts/OpenSans-Semibold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("/include/fonts/OpenSans-Italic.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("/include/fonts/OpenSans-SemiboldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
