@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | HANG LI</title>
+    <link>https://hangli.me/tags/</link>
+      <atom:link href="https://hangli.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://hangli.me/images/icon_hu3004b989a6c4142912b7cfdd252613aa_18546_512x512_fill_lanczos_center_2.png</url>
+      <title>Tags</title>
+      <link>https://hangli.me/tags/</link>
+    </image>
+    
+  </channel>
+</rss>

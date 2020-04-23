@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Harrisen Scells | HANG LI</title>
+    <link>https://hangli.me/author/harrisen-scells/</link>
+      <atom:link href="https://hangli.me/author/harrisen-scells/index.xml" rel="self" type="application/rss+xml" />
+    <description>Harrisen Scells</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 24 Apr 2020 00:28:45 +1000</lastBuildDate>
+    <image>
+      <url>https://hangli.me/images/icon_hu3004b989a6c4142912b7cfdd252613aa_18546_512x512_fill_lanczos_center_2.png</url>
+      <title>Harrisen Scells</title>
+      <link>https://hangli.me/author/harrisen-scells/</link>
+    </image>
+    
+    <item>
+      <title>Systematic Review Automation Tools for End-to-End Query Formulation</title>
+      <link>https://hangli.me/publication/sigir2020-autotool/</link>
+      <pubDate>Fri, 24 Apr 2020 00:28:45 +1000</pubDate>
+      <guid>https://hangli.me/publication/sigir2020-autotool/</guid>
+      <description>&lt;p&gt;Automatic query formulation is a challenging task. In this paper, we present a novel end-to-end set of advanced tools for information specialists. These tools are tightly integrated into an existing Open Source search strategy refining package (searchrefiner). These tools aim to address the problems associated with search strategy development by providing a complete framework from query development, to refinement, to documentation. The implementation of these tools also offers a glimpse at the ease at which related tools may be implemented within the searchrefiner ecosystem.
+More information about the tools including installation, documentation, screenshots, and a link to a demo is made available on the searchrefiner website: &lt;a href=&#34;https://ielab.io/searchrefiner&#34;&gt;https://ielab.io/searchrefiner&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
