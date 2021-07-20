@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,43 +8,73 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+{% include base_path %}
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<img src="images/uq-banner.png" alt="uq-banner" width="200"/>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+# About Me
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+Alex Hang Li is currently a PhD student at [IELab](http://ielab.io/) in the [Faculty of ngineering, Architecture and Information Technology](https://www.eait.uq.edu.au/) at the [University of Queensland](https://www.uq.edu.au/), Australia, where he works closely with [A/Prof. Guido Zuccon](http://ielab.io/people/guido-zuccon), [Dr. Bevan Koopman](http://bevankoopman.github.io/), and [Dr. Ahmed Mourad](http://ielab.io/people/ahmed-mourad). Prior to Ph.D, Alex received his Bachelor of Science degree in [Computer Science](https://cse.umn.edu/cs) at the [University of Minnesota Twin-Cities](https://twin-cities.umn.edu/) in United States in during 2012-2016.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Alex works at the intersection of **Conversational Search**, **Natural Language Processing(NLP)**, and **Machine Learning(ML)** applications, where he utilises **different relevance feedbacks** to empower the **conversational search system**. His recent work seeks to address the **gap** between **relevance feedback**, **deep language models**, and **conversational search** through different approaches that helps to improve the conversational system effectiveness with **minimal efficiency cost**.
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Alex publishes at premier academic venues in IR (e.g. SIGIR, ECIR, TOIS). His work is supported by [Grains Research and Development Corporation](https://grdc.com.au/), through the [AgAsk project](http://ielab.io/projects/agask.html).
 
-**Markdown generator**
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+# News
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+* <b>2020-12-15</b> <br> 📃 Our paper [Deep Query Likelihood Model for Information Retrieval]({{ base_path }}/files/ecir2021.pdf) has been accepted to [ECIR 2021](https://www.ecir2021.eu) as a short paper! The code is open-sourced [here](https://github.com/ielab/GPT_Ranker). A video of the work is available [here](https://www.youtube.com/watch?v=oSGbYaC0ur0).
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+* <b>2020-12-06</b> <br> 📃 Our paper [Design and Research of Intelligent Question-Answering(Q&A) System Based on High School Course Knowledge Graph]({{ base_path }}/files/mob2021.pdf) has been accepted to [Mobile Networks and Applications](https://www.springer.com/journal/11036) as a journal paper!
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+* <b>2020-11-11</b> <br> 📃 Our workshop paper [IELAB for TREC Conversational Assistance Track (CAsT) 2020](https://trec.nist.gov/pubs/trec29/papers/ielab.C.pdf) is now published online! Our submissions are open-sourced [here](https://github.com/ielab/trec-cast-2020-public).
+
+* <b>2020-07-26</b> <br> 💬 I will present our work on [Systematic Review Automation Tools for End-to-End Query Formulation]({{ base_path }}/files/sigir2020_tools.pdf) at the [SIGIR 2020](https://sigir.org/sigir2020/)!
+
+* <b>2020-04-22</b> <br> 📃 Our paper [Systematic Review Automation Tools for End-to-End Query Formulation]({{ base_path }}/files/sigir2020_tools.pdf) has been accepted to [SIGIR 2020](https://sigir.org/sigir2020/) as a Demo paper! The code is open-sourced [here](https://github.com/ielab/searchrefiner). A video of my talk is also available [online](https://dl.acm.org/doi/10.1145/3397271.3401402).
+
+<details class="page__news">
+  <summary>MORE...</summary>
+  <ul>
+    <li><b>2020-03-01</b> <br> 🏫 I am thrilled to announce that I will be joining <a href="http://ielab.io/" target="_blank">IELab</a> @ <a href="https://www.uq.edu.au/" target="_blank">UQ</a> as a Ph.D student in Information Retrieval starting next month!</li>
+    <li><b>2020-03-01</b> <br> 🏫 I am thrilled to announce that I will be joining <a href="http://ielab.io/" target="_blank">IELab</a> @ <a href="https://www.uq.edu.au/" target="_blank">UQ</a> as a Ph.D student in Information Retrieval starting next month!</li>
+  </ul>
+</details>
+
+<br>
+
+# Travel
+
+* <b>2021-11-01 -- 2021-11-05</b> <br> ✈️ Gold Coast, Australia for CIKM 2021
+
+* <b>2021-07-11 -- 2021-07-15</b> <br> ✈️ ~~Montréal, Québec, Canada for SIGIR/ICTIR 2021~~ (Cancelled due to COVID-19)
+
+* <b>2021-04-19 -- 2021-04-23</b> <br> ✈️ ~~Ljubljana, Slovenia for WWW 2021~~ (Cancelled due to COVID-19)
+
+* <b>2021-03-28 -- 2021-04-01</b> <br> ✈️ ~~Lucca, Italy for ECIR 2021~~ (Cancelled due to COVID-19)
+
+<details class="page__travel">
+  <summary>MORE...</summary>
+  <ul>
+    <li><b>2021-03-14 -- 2021-03-19</b> <br> ✈️ <s>Canberra, Australia for CHIIR 2021</s> (Cancelled due to COVID-19)</li>
+    <li><b>2021-03-08 -- 2021-03-12</b> <br> ✈️ <s>Jerusalem, Israel for WSDM 2021</s> (Cancelled due to COVID-19)</li>
+    <li><b>2020-10-19 -- 2020-10-23</b> <br> ✈️ <s>Galway, Ireland for CIKM 2020</s> (Cancelled due to COVID-19)</li>
+    <li><b>2020-09-14 -- 2020-09-17</b> <br> ✈️ <s>Stavanger, Norway for ICTIR 2020</s> (Cancelled due to COVID-19)</li>
+    <li><b>2020-08-13 -- 2020-08-14</b> <br> ✈️ <s>Vancouver, Canada for CHIIR 2020</s> (Cancelled due to COVID-19)</li>
+    <li><b>2020-07-25 -- 2020-07-30</b> <br> ✈️ <s>Xi'An, China for SIGIR 2020</s> (Cancelled due to COVID-19)</li>
+    <li><b>2020-07-05 -- 2020-07-10</b> <br> ✈️ <s>Seattle, WA, USA for NAACL 2020</s> (Cancelled due to COVID-19)</li>
+    <li><b>2020-04-20 -- 2020-04-24</b> <br> ✈️ <s>Taipei, Taiwan for WWW 2020</s> (Cancelled due to COVID-19)</li>
+    <li><b>2020-04-14 -- 2020-04-17</b> <br> ✈️ <s>Lisbon, Portugal for ECIR 2020</s> (Cancelled due to COVID-19)</li>
+  </ul>
+</details>
+
+<br>
+
+# Recent Publications
+
+{% for post in site.publications reversed %}
+  {% capture pub_type %}{{ post.pub_type }}{% endcapture %}
+  {% if pub_type == "major_publication" %}
+    {% include archive-single-about.html %}
+  {% endif %}
+{% endfor %}

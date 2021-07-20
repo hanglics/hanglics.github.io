@@ -10,12 +10,14 @@
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
+  background-color: #32506d;
 
   &__inner-wrap {
     @include container;
     @include clearfix;
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
+    background-color: #32506d;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -23,6 +25,7 @@
 
     nav {
       z-index: 10;
+      background-color: #32506d;
     }
 
     a {
@@ -32,12 +35,13 @@
 }
 
 .masthead__menu {
-
+  background-color: #32506d;
   ul {
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
+    background-color: #32506d;
   }
 }
 
