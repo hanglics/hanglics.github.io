@@ -37,7 +37,6 @@ Alex publishes at premier academic venues in IR (e.g. SIGIR, ECIR, TOIS). His wo
   <summary>MORE...</summary>
   <ul>
     <li><b>2020-03-01</b> <br> 🏫 I am thrilled to announce that I will be joining <a href="http://ielab.io/" target="_blank">IELab</a> @ <a href="https://www.uq.edu.au/" target="_blank">UQ</a> as a Ph.D student in Information Retrieval starting next month!</li>
-    <li><b>2020-03-01</b> <br> 🏫 I am thrilled to announce that I will be joining <a href="http://ielab.io/" target="_blank">IELab</a> @ <a href="https://www.uq.edu.au/" target="_blank">UQ</a> as a Ph.D student in Information Retrieval starting next month!</li>
   </ul>
 </details>
 
