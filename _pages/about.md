@@ -14,24 +14,24 @@ redirect_from:
 
 # About Me
 
-Hang Li is currently a PhD student at [IELab](http://ielab.io/) in the [Faculty of ngineering, Architecture and Information Technology](https://www.eait.uq.edu.au/) at the [University of Queensland](https://www.uq.edu.au/), Australia, where he works closely with [A/Prof. Guido Zuccon](http://ielab.io/people/guido-zuccon), [Dr. Bevan Koopman](http://bevankoopman.github.io/), and [Dr. Ahmed Mourad](http://ielab.io/people/ahmed-mourad). Prior to Ph.D, Hang received his Bachelor of Science degree in [Computer Science](https://cse.umn.edu/cs) at the [University of Minnesota Twin-Cities](https://twin-cities.umn.edu/) in United States in 2016.
+Hang Li is currently a PhD student at <a href="http://ielab.io/" target="_blank">IELab</a> in the <a href="https://www.eait.uq.edu.au/" target="_blank">Faculty of ngineering, Architecture and Information Technology</a> at the <a href="https://www.uq.edu.au/" target="_blank">University of Queensland</a>, Australia, where he works closely with <a href="http://ielab.io/people/guido-zuccon" target="_blank">A/Prof. Guido Zuccon</a>, <a href="http://bevankoopman.github.io/" target="_blank">Dr. Bevan Koopman</a>, and <a href="http://ielab.io/people/ahmed-mourad" target="_blank">Dr. Ahmed Mourad</a>. Prior to Ph.D, Hang received his Bachelor of Science degree in <a href="https://cse.umn.edu/cs" target="_blank">Computer Science</a> at the <a href="https://twin-cities.umn.edu/" target="_blank">University of Minnesota Twin-Cities</a> in United States in 2016.
 
 Hang works at the intersection of **Conversational Search**, **Natural Language Processing(NLP)**, and **Machine Learning(ML)** applications, where he utilises **different relevance feedbacks** to empower the **conversational search system**. His recent work seeks to address the **gap** between **relevance feedback**, **deep language models**, and **conversational search** through different approaches that helps to improve the conversational system effectiveness with **minimal efficiency cost**.
 
-Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR, TOIS). His work is supported by [Grains Research and Development Corporation](https://grdc.com.au/), through the [AgAsk project](http://ielab.io/projects/agask.html).
+Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR, TOIS). His work is supported by <a href="https://grdc.com.au/" target="_blank">Grains Research and Development Corporation</a>, through the <a href="http://ielab.io/projects/agask.html" target="_blank">AgAsk project</a>.
 
 
 # News
 
-* <b>2020-12-15</b> <br> 📃 Our paper [Deep Query Likelihood Model for Information Retrieval]({{ base_path }}/files/ecir2021.pdf) has been accepted to [ECIR 2021](https://www.ecir2021.eu) as a short paper! The code is open-sourced [here](https://github.com/ielab/GPT_Ranker). A video of the work is available [here](https://www.youtube.com/watch?v=oSGbYaC0ur0).
+* <b>2020-12-15</b> <br> 📃 Our paper <a href="{{ base_path }}/files/ecir2021.pdf" target="_blank">Deep Query Likelihood Model for Information Retrieval</a> has been accepted to <a href="https://www.ecir2021.eu" target="_blank">ECIR 2021</a> as a short paper! The code is open-sourced <a href="https://github.com/ielab/GPT_Ranker" target="_blank">here</a>. A video of the work is available <a href="https://www.youtube.com/watch?v=oSGbYaC0ur0" target="_blank">here</a>.
 
-* <b>2020-12-06</b> <br> 📃 Our paper [Design and Research of Intelligent Question-Answering(Q&A) System Based on High School Course Knowledge Graph]({{ base_path }}/files/mob2021.pdf) has been accepted to [Mobile Networks and Applications](https://www.springer.com/journal/11036) as a journal paper!
+* <b>2020-12-06</b> <br> 📃 Our paper <a href="{{ base_path }}/files/mob2021.pdf" target="_blank">Design and Research of Intelligent Question-Answering(Q&A) System Based on High School Course Knowledge Graph has been accepted to <a href="https://www.springer.com/journal/11036" target="_blank">Mobile Networks and Applications as a journal paper!
 
-* <b>2020-11-11</b> <br> 📃 Our workshop paper [IELAB for TREC Conversational Assistance Track (CAsT) 2020](https://trec.nist.gov/pubs/trec29/papers/ielab.C.pdf) is now published online! Our submissions are open-sourced [here](https://github.com/ielab/trec-cast-2020-public).
+* <b>2020-11-11</b> <br> 📃 Our workshop paper <a href="https://trec.nist.gov/pubs/trec29/papers/ielab.C.pdf" target="_blank">IELAB for TREC Conversational Assistance Track (CAsT) 2020</a> is now published online! Our submissions are open-sourced <a href="https://github.com/ielab/trec-cast-2020-public" target="_blank">here</a>.
 
-* <b>2020-07-26</b> <br> 💬 I will present our work on [Systematic Review Automation Tools for End-to-End Query Formulation]({{ base_path }}/files/sigir2020_tools.pdf) at the [SIGIR 2020](https://sigir.org/sigir2020/)!
+* <b>2020-07-26</b> <br> 💬 I will present our work on <a href="{{ base_path }}/files/sigir2020_tools.pdf" target="_blank">Systematic Review Automation Tools for End-to-End Query Formulation</a> at the <a href="https://sigir.org/sigir2020/" target="_blank">SIGIR 2020</a>!
 
-* <b>2020-04-22</b> <br> 📃 Our paper [Systematic Review Automation Tools for End-to-End Query Formulation]({{ base_path }}/files/sigir2020_tools.pdf) has been accepted to [SIGIR 2020](https://sigir.org/sigir2020/) as a Demo paper! The code is open-sourced [here](https://github.com/ielab/searchrefiner). A video of my talk is also available [online](https://dl.acm.org/doi/10.1145/3397271.3401402).
+* <b>2020-04-22</b> <br> 📃 Our paper <a href="{{ base_path }}/files/sigir2020_tools.pdf" target="_blank">Systematic Review Automation Tools for End-to-End Query Formulation</a> has been accepted to <a href="https://sigir.org/sigir2020/" target="_blank">SIGIR 2020</a> as a Demo paper! The code is open-sourced <a href="https://github.com/ielab/searchrefiner" target="_blank">here</a>. A video of my talk is also available <a href="https://dl.acm.org/doi/10.1145/3397271.3401402" target="_blank">online</a>.
 
 <details class="page__news">
   <summary>MORE...</summary>
