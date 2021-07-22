@@ -25,7 +25,7 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 * <b>2020-12-15</b> <br> 📃 Our paper <a href="{{ base_path }}/files/ecir2021.pdf" target="_blank">Deep Query Likelihood Model for Information Retrieval</a> has been accepted to <a href="https://www.ecir2021.eu" target="_blank">ECIR 2021</a> as a short paper! The code is open-sourced <a href="https://github.com/ielab/GPT_Ranker" target="_blank">here</a>. A video of the work is available <a href="https://www.youtube.com/watch?v=oSGbYaC0ur0" target="_blank">here</a>.
 
-* <b>2020-12-06</b> <br> 📃 Our paper <a href="{{ base_path }}/files/mob2021.pdf" target="_blank">Design and Research of Intelligent Question-Answering(Q&A) System Based on High School Course Knowledge Graph has been accepted to <a href="https://www.springer.com/journal/11036" target="_blank">Mobile Networks and Applications as a journal paper!
+* <b>2020-12-06</b> <br> 📃 Our paper <a href="{{ base_path }}/files/mob2021.pdf" target="_blank">Design and Research of Intelligent Question-Answering(Q&A) System Based on High School Course Knowledge Graph</a> has been accepted to <a href="https://www.springer.com/journal/11036" target="_blank">Mobile Networks and Applications</a> as a journal paper!
 
 * <b>2020-11-11</b> <br> 📃 Our workshop paper <a href="https://trec.nist.gov/pubs/trec29/papers/ielab.C.pdf" target="_blank">IELAB for TREC Conversational Assistance Track (CAsT) 2020</a> is now published online! Our submissions are open-sourced <a href="https://github.com/ielab/trec-cast-2020-public" target="_blank">here</a>.
 
@@ -36,7 +36,7 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 <details class="page__news">
   <summary>MORE...</summary>
   <ul>
-    <li><b>2020-03-01</b> <br> 🏫 I am thrilled to announce that I will be joining <a href="http://ielab.io/" target="_blank">IELab</a> @ <a href="https://www.uq.edu.au/" target="_blank">UQ</a> as a Ph.D student in Information Retrieval starting next month!</li>
+    <li><b>2020-03-01</b> <br> 🏫 I am thrilled to announce that I will be joining <a href="http://ielab.io/" target="_blank">IELab</a> @ <a href="https://www.uq.edu.au/" target="_blank">UQ</a> as a Ph.D student in Information Retrieval under the supervision of <a href="http://ielab.io/people/guido-zuccon" target="_blank">A/Prof. Guido Zuccon</a> starting next month!</li>
   </ul>
 </details>
 
