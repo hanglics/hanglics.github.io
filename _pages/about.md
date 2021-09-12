@@ -47,13 +47,13 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 # Travel
 
-* <b>2021-11-01 -- 2021-11-05</b> <br> ✈️ ~~Gold Coast, Australia for CIKM 2021~~ (Cancelled due to COVID-19)
+* <b>2021-11-01 -- 2021-11-05</b> <br> ✈️ <s>Gold Coast, Australia for CIKM 2021</s> (Cancelled due to COVID-19)
 
-* <b>2021-07-11 -- 2021-07-15</b> <br> ✈️ ~~Montréal, Québec, Canada for SIGIR/ICTIR 2021~~ (Cancelled due to COVID-19)
+* <b>2021-07-11 -- 2021-07-15</b> <br> ✈️ <s>Montréal, Québec, Canada for SIGIR/ICTIR 2021</s> (Cancelled due to COVID-19)
 
-* <b>2021-04-19 -- 2021-04-23</b> <br> ✈️ ~~Ljubljana, Slovenia for WWW 2021~~ (Cancelled due to COVID-19)
+* <b>2021-04-19 -- 2021-04-23</b> <br> ✈️ <s>Ljubljana, Slovenia for WWW 2021</s> (Cancelled due to COVID-19)
 
-* <b>2021-03-28 -- 2021-04-01</b> <br> ✈️ ~~Lucca, Italy for ECIR 2021~~ (Cancelled due to COVID-19)
+* <b>2021-03-28 -- 2021-04-01</b> <br> ✈️ <s>Lucca, Italy for ECIR 2021</s> (Cancelled due to COVID-19)
 
 <details class="page__travel">
   <summary>MORE...</summary>
