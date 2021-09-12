@@ -25,7 +25,7 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 * <b>2021-09-09</b> <br> 🎉 I successfully passed the PhD Confirmation! Yay! Looking foward to do more experiments!
 
-* <b>2021-08-25</b> <br> 📃 Our journal paper <a href="https://arxiv.org/abs/2108.11044" target="_blank">Pseudo Relevance Feedback with Deep Language Models and Dense Retrievers: Successes and Pitfalls</a> is now available on Arxiv! Currently under review, was submitted to the <a href="https://dl.acm.org/journal/tois">Journal of ACM Transactions on Information Systems (TOIS)</a> in June, 2021.
+* <b>2021-08-25</b> <br> 📃 Our journal paper <a href="https://arxiv.org/abs/2108.11044" target="_blank">Pseudo Relevance Feedback with Deep Language Models and Dense Retrievers: Successes and Pitfalls</a> is now available on Arxiv! Code is available at <a href="https://github.com/hanglics/Neural-Relevance-Feedback-Public">here</a>. Paper is currently under review, was submitted to the <a href="https://dl.acm.org/journal/tois">Journal of ACM Transactions on Information Systems (TOIS)</a> in June, 2021.
 
 * <b>2020-12-15</b> <br> 📃 Our paper <a href="{{ base_path }}/files/ecir2021.pdf" target="_blank">Deep Query Likelihood Model for Information Retrieval</a> has been accepted to <a href="https://www.ecir2021.eu" target="_blank">ECIR 2021</a> as a short paper! The code is open-sourced <a href="https://github.com/ielab/GPT_Ranker" target="_blank">here</a>. A video of the work is available <a href="https://www.youtube.com/watch?v=oSGbYaC0ur0" target="_blank">here</a>.
 
