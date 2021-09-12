@@ -14,7 +14,7 @@ redirect_from:
 
 # About Me
 
-Hang Li is currently a PhD student at <a href="http://ielab.io/" target="_blank">IELab</a> in the <a href="https://itee.uq.edu.au/" target="_blank">School of Information Technology and Electrical Engineering</a> at the <a href="https://www.uq.edu.au/" target="_blank">University of Queensland</a>, Australia, where he works closely with <a href="http://ielab.io/people/guido-zuccon" target="_blank">A/Prof. Guido Zuccon</a>, <a href="http://bevankoopman.github.io/" target="_blank">Dr. Bevan Koopman</a>, and <a href="http://ielab.io/people/ahmed-mourad" target="_blank">Dr. Ahmed Mourad</a>. Prior to Ph.D, Hang received his Bachelor of Science degree in <a href="https://cse.umn.edu/cs" target="_blank">Computer Science</a> at the <a href="https://twin-cities.umn.edu/" target="_blank">University of Minnesota Twin-Cities</a> in United States in 2016.
+Hang Li is currently a PhD candidate at <a href="http://ielab.io/" target="_blank">IELab</a> in the <a href="https://itee.uq.edu.au/" target="_blank">School of Information Technology and Electrical Engineering</a> at the <a href="https://www.uq.edu.au/" target="_blank">University of Queensland</a>, Australia, where he works closely with <a href="http://ielab.io/people/guido-zuccon" target="_blank">A/Prof. Guido Zuccon</a>, <a href="http://bevankoopman.github.io/" target="_blank">Dr. Bevan Koopman</a>, and <a href="http://ielab.io/people/ahmed-mourad" target="_blank">Dr. Ahmed Mourad</a>. Prior to Ph.D, Hang received his Bachelor of Science degree in <a href="https://cse.umn.edu/cs" target="_blank">Computer Science</a> at the <a href="https://twin-cities.umn.edu/" target="_blank">University of Minnesota Twin-Cities</a> in United States in 2016.
 
 Hang works at the intersection of **Conversational Search**, **Natural Language Processing (NLP)**, and **Machine Learning (ML)** applications, where he utilises **different relevance feedbacks** to empower the **conversational search system**. His recent work seeks to address the **gap** between **relevance feedback**, **deep language models**, and **conversational search** through different approaches that helps to improve the conversational system effectiveness with **minimal efficiency cost**.
 
@@ -22,6 +22,10 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 
 # News
+
+* <b>2021-09-09</b> <br> 🎉 I successfully passed the PhD Confirmation! Yay! Looking foward to do more experiments!
+
+* <b>2021-08-25</b> <br> 📃 Our journal paper <a href="https://arxiv.org/abs/2108.11044" target="_blank">Pseudo Relevance Feedback with Deep Language Models and Dense Retrievers: Successes and Pitfalls</a> is now available on Arxiv! Currently under review, was submitted to the <a href="https://dl.acm.org/journal/tois">Journal of ACM Transactions on Information Systems (TOIS)</a> in June, 2021.
 
 * <b>2020-12-15</b> <br> 📃 Our paper <a href="{{ base_path }}/files/ecir2021.pdf" target="_blank">Deep Query Likelihood Model for Information Retrieval</a> has been accepted to <a href="https://www.ecir2021.eu" target="_blank">ECIR 2021</a> as a short paper! The code is open-sourced <a href="https://github.com/ielab/GPT_Ranker" target="_blank">here</a>. A video of the work is available <a href="https://www.youtube.com/watch?v=oSGbYaC0ur0" target="_blank">here</a>.
 
@@ -31,11 +35,10 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 * <b>2020-07-26</b> <br> 💬 I will present our work on <a href="{{ base_path }}/files/sigir2020_tools.pdf" target="_blank">Systematic Review Automation Tools for End-to-End Query Formulation</a> at the <a href="https://sigir.org/sigir2020/" target="_blank">SIGIR 2020</a>!
 
-* <b>2020-04-22</b> <br> 📃 Our paper <a href="{{ base_path }}/files/sigir2020_tools.pdf" target="_blank">Systematic Review Automation Tools for End-to-End Query Formulation</a> has been accepted to <a href="https://sigir.org/sigir2020/" target="_blank">SIGIR 2020</a> as a Demo paper! The code is open-sourced <a href="https://github.com/ielab/searchrefiner" target="_blank">here</a>. A video of my talk is also available <a href="https://dl.acm.org/doi/10.1145/3397271.3401402" target="_blank">online</a>.
-
 <details class="page__news">
   <summary>MORE...</summary>
   <ul>
+    <li><b>2020-04-22</b> <br> 📃 Our paper <a href="{{ base_path }}/files/sigir2020_tools.pdf" target="_blank">Systematic Review Automation Tools for End-to-End Query Formulation</a> has been accepted to <a href="https://sigir.org/sigir2020/" target="_blank">SIGIR 2020</a> as a Demo paper! The code is open-sourced <a href="https://github.com/ielab/searchrefiner" target="_blank">here</a>. A video of my talk is also available <a href="https://dl.acm.org/doi/10.1145/3397271.3401402" target="_blank">online</a>.</li>
     <li><b>2020-03-01</b> <br> 🏫 I am thrilled to announce that I will be joining <a href="http://ielab.io/" target="_blank">IELab</a> @ <a href="https://www.uq.edu.au/" target="_blank">UQ</a> as a Ph.D student in Information Retrieval under the supervision of <a href="http://ielab.io/people/guido-zuccon" target="_blank">A/Prof. Guido Zuccon</a> starting next month!</li>
   </ul>
 </details>
