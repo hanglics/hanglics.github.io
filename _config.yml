@@ -83,14 +83,15 @@ author:
   name             : "Hang Li"
   avatar           : "avatar.png"
   bio              : > 
-                    Pronoun: he/him <br> <br> 
-                    Ph.D Student <br> <br> 
-                    <a href='http://ielab.io/' target='_blank'>Information Engineering Lab</a> <br> <br> 
-                    <a href='https://www.uq.edu.au/' target='_blank'>University of Queensland</a> <br> <br> 
+                    Pronoun: he/him <br>
+                    Ph.D Candidate <br>
+                    <a href='http://ielab.io/' target='_blank'>Information Engineering Lab</a> <br>
+                    <a href='https://www.uq.edu.au/' target='_blank'>The University of Queensland</a> <br> <br>
                     <b>Research Interests</b>: <br> 
                     Information Retrieval <br>
-                    Natural Language Processing <br>
                     Conversational Search <br>
+                    User Feedback <br>
+                    Natural Language Processing <br>
                     Machine Learning <br>
   location         : "Brisbane, QLD, Australia"
   employer         :
@@ -110,13 +111,13 @@ author:
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
+  lastfm           : "hanglics"
   linkedin         :
   orcid            : "https://orcid.org/0000-0002-5317-7227"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
+  steam            : 
   tumblr           :
   twitter          : "hanglics"
   vine             :
