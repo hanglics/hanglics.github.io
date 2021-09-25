@@ -23,6 +23,8 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 # News
 
+* <b>2021-09-25</b> <br> 🎉 Our team ielab (<a href="https://arvinzhuang.github.io/">Shengyao Zhuang</a>, <a href="http://ielab.io/people/shuai-wang">Shuai Wang</a>, and myself) just won the Championship in the "Search Rankings in Multimodal and Multilingual Contexts Track" within the <a href="https://developer.huawei.com/consumer/en/activity/digixActivity/digixdetail/201621219634131423">2021 Huawei DIGIX Global AI Challenge</a>! Go TEAM IELAB!
+
 * <b>2021-09-09</b> <br> 🎉 I've successfully passed the PhD Confirmation! Yay! Looking foward to do more experiments!
 
 * <b>2021-08-25</b> <br> 📃 Our journal paper <a href="https://arxiv.org/abs/2108.11044" target="_blank">Pseudo Relevance Feedback with Deep Language Models and Dense Retrievers: Successes and Pitfalls</a> is now available on Arxiv! Code is available at <a href="https://github.com/hanglics/Neural-Relevance-Feedback-Public">here</a>. Paper is currently under review, was submitted to the <a href="https://dl.acm.org/journal/tois">Journal of ACM Transactions on Information Systems (TOIS)</a> in June, 2021.
@@ -33,11 +35,10 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 * <b>2020-11-11</b> <br> 📃 Our workshop paper <a href="https://trec.nist.gov/pubs/trec29/papers/ielab.C.pdf" target="_blank">IELAB for TREC Conversational Assistance Track (CAsT) 2020</a> is now published online! Our submissions are open-sourced <a href="https://github.com/ielab/trec-cast-2020-public" target="_blank">here</a>.
 
-* <b>2020-07-26</b> <br> 💬 I will present our work on <a href="{{ base_path }}/files/sigir2020_tools.pdf" target="_blank">Systematic Review Automation Tools for End-to-End Query Formulation</a> at the <a href="https://sigir.org/sigir2020/" target="_blank">SIGIR 2020</a>!
-
 <details class="page__news">
   <summary>MORE...</summary>
   <ul>
+    <li><b>2020-07-26</b> <br> 💬 I will present our work on <a href="{{ base_path }}/files/sigir2020_tools.pdf" target="_blank">Systematic Review Automation Tools for End-to-End Query Formulation</a> at the <a href="https://sigir.org/sigir2020/" target="_blank">SIGIR 2020</a>!</li>
     <li><b>2020-04-22</b> <br> 📃 Our paper <a href="{{ base_path }}/files/sigir2020_tools.pdf" target="_blank">Systematic Review Automation Tools for End-to-End Query Formulation</a> has been accepted to <a href="https://sigir.org/sigir2020/" target="_blank">SIGIR 2020</a> as a Demo paper! The code is open-sourced <a href="https://github.com/ielab/searchrefiner" target="_blank">here</a>. A video of my talk is also available <a href="https://dl.acm.org/doi/10.1145/3397271.3401402" target="_blank">online</a>.</li>
     <li><b>2020-03-01</b> <br> 🏫 I am thrilled to announce that I will be joining <a href="http://ielab.io/" target="_blank">IELab</a> @ <a href="https://www.uq.edu.au/" target="_blank">UQ</a> as a Ph.D student in Information Retrieval under the supervision of <a href="http://ielab.io/people/guido-zuccon" target="_blank">A/Prof. Guido Zuccon</a> starting next month!</li>
   </ul>
@@ -47,17 +48,18 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 # Travel
 
+* <b>2022-02-21 -- 2022-02-25</b> <br> ✈️ Phoenix, AZ, USA for WSDM 2022
+
 * <b>2021-11-01 -- 2021-11-05</b> <br> ✈️ <s>Gold Coast, Australia for CIKM 2021</s> (Cancelled due to COVID-19)
 
 * <b>2021-07-11 -- 2021-07-15</b> <br> ✈️ <s>Montréal, Québec, Canada for SIGIR/ICTIR 2021</s> (Cancelled due to COVID-19)
 
 * <b>2021-04-19 -- 2021-04-23</b> <br> ✈️ <s>Ljubljana, Slovenia for WWW 2021</s> (Cancelled due to COVID-19)
 
-* <b>2021-03-28 -- 2021-04-01</b> <br> ✈️ <s>Lucca, Italy for ECIR 2021</s> (Cancelled due to COVID-19)
-
 <details class="page__travel">
   <summary>MORE...</summary>
   <ul>
+    <li><b>2021-03-28 -- 2021-04-01</b> <br> ✈️ <s>Lucca, Italy for ECIR 2021</s> (Cancelled due to COVID-19)</li>
     <li><b>2021-03-14 -- 2021-03-19</b> <br> ✈️ <s>Canberra, Australia for CHIIR 2021</s> (Cancelled due to COVID-19)</li>
     <li><b>2021-03-08 -- 2021-03-12</b> <br> ✈️ <s>Jerusalem, Israel for WSDM 2021</s> (Cancelled due to COVID-19)</li>
     <li><b>2020-10-19 -- 2020-10-23</b> <br> ✈️ <s>Galway, Ireland for CIKM 2020</s> (Cancelled due to COVID-19)</li>
