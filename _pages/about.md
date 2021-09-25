@@ -23,7 +23,7 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 # News
 
-* <b>2021-09-25</b> <br> 🎉 Our team ielab (<a href="https://arvinzhuang.github.io/">Shengyao Zhuang</a>, <a href="http://ielab.io/people/shuai-wang">Shuai Wang</a>, and myself) just won the Championship in the "Search Rankings in Multimodal and Multilingual Contexts Track" within the <a href="https://developer.huawei.com/consumer/en/activity/digixActivity/digixdetail/201621219634131423">2021 Huawei DIGIX Global AI Challenge</a>! Go TEAM IELAB!
+* <b>2021-09-25</b> <br> 🎉 Our team ielab (<a href="https://arvinzhuang.github.io/" target="_blank">Shengyao Zhuang</a>, <a href="http://ielab.io/people/shuai-wang" target="_blank">Shuai Wang</a>, and myself) successfully defended our method and won the championship in the <a href="https://developer.huawei.com/consumer/en/activity/devStarAI/algo/competition.html#/preliminary/info/007/introduction" target="_blank">"Search Rankings in Multimodal and Multilingual Contexts Track"</a> within the <a href="https://developer.huawei.com/consumer/en/activity/digixActivity/digixdetail/201621219634131423" target="_blank">2021 Huawei DIGIX Global AI Challenge</a>! Go TEAM IELAB!
 
 * <b>2021-09-09</b> <br> 🎉 I've successfully passed the PhD Confirmation! Yay! Looking foward to do more experiments!
 
