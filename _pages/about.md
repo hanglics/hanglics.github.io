@@ -25,6 +25,8 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 * <b>2021-11-15</b> <br> 📃 Our paper <a href="{{ base_path }}/files/adcs2021.pdf" target="_blank">MeSH Term Suggestion for Systematic Review Literature Search</a> has been accepted to <a href="http://adcs-conference.org/2021/" target="_blank">ADCS 2021</a>! The code is open-sourced <a href="https://github.com/ielab/meshsuggest">here</a>.
 
+* <b>2020-11-13</b> <br> 📃 Our workshop paper <a href="{{ base_path }}/files/trecdl21.pdf" target="_blank">IELAB at TREC Deep Learning Track 2021</a> is now published!
+
 * <b>2021-09-25</b> <br> 🎉 Our team ielab (<a href="https://arvinzhuang.github.io/" target="_blank">Shengyao Zhuang</a>, <a href="http://ielab.io/people/shuai-wang" target="_blank">Shuai Wang</a>, and myself) successfully defended our method and won the championship in the <a href="https://developer.huawei.com/consumer/en/activity/devStarAI/algo/competition.html#/preliminary/info/007/introduction" target="_blank">"Search Rankings in Multimodal and Multilingual Contexts Track"</a> within the <a href="https://developer.huawei.com/consumer/en/activity/digixActivity/digixdetail/201621219634131423" target="_blank">2021 Huawei DIGIX Global AI Challenge</a>! Go TEAM IELAB!
 
 * <b>2021-09-09</b> <br> 🎉 I've successfully passed the PhD Confirmation! Yay! Looking foward to do more experiments!
