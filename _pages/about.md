@@ -23,6 +23,8 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 # News
 
+* <b>2021-11-15</b> <br> 📃 Our paper <a href="{{ base_path }}/files/adcs2021.pdf" target="_blank">MeSH Term Suggestion for Systematic Review Literature Search</a> has been accepted to <a href="http://adcs-conference.org/2021/" target="_blank">ADCS 2021</a>! The code is open-sourced <a href="https://github.com/ielab/meshsuggest">here</a>.
+
 * <b>2021-09-25</b> <br> 🎉 Our team ielab (<a href="https://arvinzhuang.github.io/" target="_blank">Shengyao Zhuang</a>, <a href="http://ielab.io/people/shuai-wang" target="_blank">Shuai Wang</a>, and myself) successfully defended our method and won the championship in the <a href="https://developer.huawei.com/consumer/en/activity/devStarAI/algo/competition.html#/preliminary/info/007/introduction" target="_blank">"Search Rankings in Multimodal and Multilingual Contexts Track"</a> within the <a href="https://developer.huawei.com/consumer/en/activity/digixActivity/digixdetail/201621219634131423" target="_blank">2021 Huawei DIGIX Global AI Challenge</a>! Go TEAM IELAB!
 
 * <b>2021-09-09</b> <br> 🎉 I've successfully passed the PhD Confirmation! Yay! Looking foward to do more experiments!
@@ -33,11 +35,10 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 * <b>2020-12-06</b> <br> 📃 Our paper <a href="{{ base_path }}/files/mob2021.pdf" target="_blank">Design and Research of Intelligent Question-Answering(Q&A) System Based on High School Course Knowledge Graph</a> has been accepted to <a href="https://www.springer.com/journal/11036" target="_blank">Mobile Networks and Applications</a> as a journal paper!
 
-* <b>2020-11-11</b> <br> 📃 Our workshop paper <a href="https://trec.nist.gov/pubs/trec29/papers/ielab.C.pdf" target="_blank">IELAB for TREC Conversational Assistance Track (CAsT) 2020</a> is now published online! Our submissions are open-sourced <a href="https://github.com/ielab/trec-cast-2020-public" target="_blank">here</a>.
-
 <details class="page__news">
   <summary>MORE...</summary>
   <ul>
+    <li><b>2020-11-11</b> <br> 📃 Our workshop paper <a href="https://trec.nist.gov/pubs/trec29/papers/ielab.C.pdf" target="_blank">IELAB for TREC Conversational Assistance Track (CAsT) 2020</a> is now published online! Our submissions are open-sourced <a href="https://github.com/ielab/trec-cast-2020-public" target="_blank">here</a>.</li>
     <li><b>2020-07-26</b> <br> 💬 I will present our work on <a href="{{ base_path }}/files/sigir2020_tools.pdf" target="_blank">Systematic Review Automation Tools for End-to-End Query Formulation</a> at the <a href="https://sigir.org/sigir2020/" target="_blank">SIGIR 2020</a>!</li>
     <li><b>2020-04-22</b> <br> 📃 Our paper <a href="{{ base_path }}/files/sigir2020_tools.pdf" target="_blank">Systematic Review Automation Tools for End-to-End Query Formulation</a> has been accepted to <a href="https://sigir.org/sigir2020/" target="_blank">SIGIR 2020</a> as a Demo paper! The code is open-sourced <a href="https://github.com/ielab/searchrefiner" target="_blank">here</a>. A video of my talk is also available <a href="https://dl.acm.org/doi/10.1145/3397271.3401402" target="_blank">online</a>.</li>
     <li><b>2020-03-01</b> <br> 🏫 I am thrilled to announce that I will be joining <a href="http://ielab.io/" target="_blank">IELab</a> @ <a href="https://www.uq.edu.au/" target="_blank">UQ</a> as a Ph.D student in Information Retrieval under the supervision of <a href="http://ielab.io/people/guido-zuccon" target="_blank">A/Prof. Guido Zuccon</a> starting next month!</li>
