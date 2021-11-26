@@ -23,6 +23,8 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 # News
 
+* <b>2021-11-26</b> <br> 📃 Our paper <a href="" target="_blank">Improving Query Representations for Dense Retrieval with Pseudo Relevance Feedback: A Reproducibility Study</a> has been accepted to <a href="https://ecir2022.org/" target="_blank">ECIR 2022</a>! The code is open-sourced <a href="https://github.com/ielab/APR" target="_blank">here</a>.
+
 * <b>2021-11-15</b> <br> 📃 Our paper <a href="{{ base_path }}/files/adcs2021.pdf" target="_blank">MeSH Term Suggestion for Systematic Review Literature Search</a> has been accepted to <a href="http://adcs-conference.org/2021/" target="_blank">ADCS 2021</a>! The code is open-sourced <a href="https://github.com/ielab/meshsuggest">here</a>.
 
 * <b>2020-11-13</b> <br> 📃 Our workshop paper <a href="{{ base_path }}/files/trecdl21.pdf" target="_blank">IELAB at TREC Deep Learning Track 2021</a> is now published!
