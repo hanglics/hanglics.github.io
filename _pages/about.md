@@ -23,7 +23,7 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 # News
 
-* <b>2021-11-26</b> <br> 📃 Our paper <a href="" target="_blank">Improving Query Representations for Dense Retrieval with Pseudo Relevance Feedback: A Reproducibility Study</a> has been accepted to <a href="https://ecir2022.org/" target="_blank">ECIR 2022</a>! The code is open-sourced <a href="https://github.com/ielab/APR" target="_blank">here</a>.
+* <b>2021-11-26</b> <br> 📃 Our paper <a href="{{ base_path }}/files/ecir2022repro.pdf" target="_blank">Improving Query Representations for Dense Retrieval with Pseudo Relevance Feedback: A Reproducibility Study</a> has been accepted to <a href="https://ecir2022.org/" target="_blank">ECIR 2022</a>! The code is open-sourced <a href="https://github.com/ielab/APR" target="_blank">here</a>.
 
 * <b>2021-11-15</b> <br> 📃 Our paper <a href="{{ base_path }}/files/adcs2021.pdf" target="_blank">MeSH Term Suggestion for Systematic Review Literature Search</a> has been accepted to <a href="http://adcs-conference.org/2021/" target="_blank">ADCS 2021</a>! The code is open-sourced <a href="https://github.com/ielab/meshsuggest">here</a>.
 
@@ -33,15 +33,14 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 * <b>2021-09-09</b> <br> 🎉 I've successfully passed the PhD Confirmation! Yay! Looking foward to do more experiments!
 
-* <b>2021-08-25</b> <br> 📃 Our journal paper <a href="https://arxiv.org/abs/2108.11044" target="_blank">Pseudo Relevance Feedback with Deep Language Models and Dense Retrievers: Successes and Pitfalls</a> is now available on Arxiv! Code is available at <a href="https://github.com/hanglics/Neural-Relevance-Feedback-Public">here</a>. Paper is currently under review, was submitted to the <a href="https://dl.acm.org/journal/tois">Journal of ACM Transactions on Information Systems (TOIS)</a> in June, 2021.
+* <b>2021-08-25</b> <br> 📃 Our journal paper <a href="https://arxiv.org/abs/2108.11044" target="_blank">Pseudo Relevance Feedback with Deep Language Models and Dense Retrievers: Successes and Pitfalls</a> is now available on arXiv! Code is available at <a href="https://github.com/hanglics/Neural-Relevance-Feedback-Public">here</a>. Paper is currently under review, was submitted to the <a href="https://dl.acm.org/journal/tois">Journal of ACM Transactions on Information Systems (TOIS)</a> in June, 2021.
 
 * <b>2020-12-15</b> <br> 📃 Our paper <a href="{{ base_path }}/files/ecir2021.pdf" target="_blank">Deep Query Likelihood Model for Information Retrieval</a> has been accepted to <a href="https://www.ecir2021.eu" target="_blank">ECIR 2021</a> as a short paper! The code is open-sourced <a href="https://github.com/ielab/GPT_Ranker" target="_blank">here</a>. A video of the work is available <a href="https://www.youtube.com/watch?v=oSGbYaC0ur0" target="_blank">here</a>.
-
-* <b>2020-12-06</b> <br> 📃 Our paper <a href="{{ base_path }}/files/mob2021.pdf" target="_blank">Design and Research of Intelligent Question-Answering(Q&A) System Based on High School Course Knowledge Graph</a> has been accepted to <a href="https://www.springer.com/journal/11036" target="_blank">Mobile Networks and Applications</a> as a journal paper!
 
 <details class="page__news">
   <summary>MORE...</summary>
   <ul>
+    <li><b>2020-12-06</b> <br> 📃 Our paper <a href="{{ base_path }}/files/mob2021.pdf" target="_blank">Design and Research of Intelligent Question-Answering(Q&A) System Based on High School Course Knowledge Graph</a> has been accepted to <a href="https://www.springer.com/journal/11036" target="_blank">Mobile Networks and Applications</a> as a journal paper!</li>
     <li><b>2020-11-11</b> <br> 📃 Our workshop paper <a href="https://trec.nist.gov/pubs/trec29/papers/ielab.C.pdf" target="_blank">IELAB for TREC Conversational Assistance Track (CAsT) 2020</a> is now published online! Our submissions are open-sourced <a href="https://github.com/ielab/trec-cast-2020-public" target="_blank">here</a>.</li>
     <li><b>2020-07-26</b> <br> 💬 I will present our work on <a href="{{ base_path }}/files/sigir2020_tools.pdf" target="_blank">Systematic Review Automation Tools for End-to-End Query Formulation</a> at the <a href="https://sigir.org/sigir2020/" target="_blank">SIGIR 2020</a>!</li>
     <li><b>2020-04-22</b> <br> 📃 Our paper <a href="{{ base_path }}/files/sigir2020_tools.pdf" target="_blank">Systematic Review Automation Tools for End-to-End Query Formulation</a> has been accepted to <a href="https://sigir.org/sigir2020/" target="_blank">SIGIR 2020</a> as a Demo paper! The code is open-sourced <a href="https://github.com/ielab/searchrefiner" target="_blank">here</a>. A video of my talk is also available <a href="https://dl.acm.org/doi/10.1145/3397271.3401402" target="_blank">online</a>.</li>
