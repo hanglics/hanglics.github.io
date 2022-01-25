@@ -93,4 +93,5 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 # Service
 
+* Service as the PC Member for <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>
 * Serving as the Proceeding Chair for <a href="https://cikm2021.org/" target="__blank">CIKM 2021</a>
