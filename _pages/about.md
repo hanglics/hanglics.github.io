@@ -54,7 +54,9 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 # Travel
 
-* <b>2022-04-10 -- 2022-04-14</b> <br> ✈️ Stavanger, Norway for ECIR 2022
+* <b>2022-07-11 -- 2022-07-15</b> <br> ✈️ Madrid, Spain for SIGIR 2022
+
+* <b>2022-04-10 -- 2022-04-14</b> <br> ✈️ <s>Stavanger, Norway for ECIR 2022</s> (Attending Online)
 
 * <b>2021-11-01 -- 2021-11-05</b> <br> ✈️ <s>Gold Coast, Australia for CIKM 2021</s> (Cancelled due to COVID-19)
 
