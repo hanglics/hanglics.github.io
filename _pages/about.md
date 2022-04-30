@@ -23,11 +23,11 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 # News
 
-* <b>2022-04-01</b> <br> 🎉 Our paper <a href="{{ base_path }}" target="_blank">To interpolate or not to Interpolate: PRF, Dense and Sparse Retrievers</a> has been accepted to <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>!
+* <b>2022-04-01</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/sigir2022-vpi.pdf" target="_blank">To interpolate or not to Interpolate: PRF, Dense and Sparse Retrievers</a> has been accepted to <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>!
 
-* <b>2022-04-01</b> <br> 🎉 Our paper <a href="{{ base_path }}" target="_blank">Implicit Feedback for Dense Passage Retrieval: A Counterfactual Approach</a> has been accepted to <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>!
+* <b>2022-04-01</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/sigir2022-counter.pdf" target="_blank">Implicit Feedback for Dense Passage Retrieval: A Counterfactual Approach</a> has been accepted to <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>!
 
-* <b>2022-04-01</b> <br> 🎉 Our paper <a href="{{ base_path }}" target="_blank">How does Feedback Signal Quality Impact Effectiveness of Pseudo Relevance Feedback for Passage Retrieval</a> has been accepted to <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>!
+* <b>2022-04-01</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/sigir2022-noise.pdf" target="_blank">How does Feedback Signal Quality Impact Effectiveness of Pseudo Relevance Feedback for Passage Retrieval</a> has been accepted to <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>!
 
 * <b>2022-01-18</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/adcs2021.pdf" target="_blank">MeSH Term Suggestion for Systematic Review Literature Search</a> has been awarded <b>the Best Student Paper Award</b> in ADCS 2021!
 
