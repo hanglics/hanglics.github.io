@@ -23,6 +23,8 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 # News
 
+* <b>2022-07-01</b> <br> ✈️ I will be in Italy and Spain during 2022/07/06 - 2022/07/25 for SIGIR 2022.
+
 * <b>2022-04-01</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/sigir2022-vpi.pdf" target="_blank">To interpolate or not to Interpolate: PRF, Dense and Sparse Retrievers</a> has been accepted to <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>!
 
 * <b>2022-04-01</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/sigir2022-counter.pdf" target="_blank">Implicit Feedback for Dense Passage Retrieval: A Counterfactual Approach</a> has been accepted to <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>!
