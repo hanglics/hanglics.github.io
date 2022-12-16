@@ -23,6 +23,14 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 # News
 
+* <b>2022-11-23</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/wsdm2023mesh.pdf" target="_blank">MeSH Suggester: A Library and System for MeSH Term Suggestion for Systematic Review Boolean Query Construction</a> has been accepted to <a href="https://www.wsdm-conference.org/2023/" target="_blank">WSDM 2023</a>!
+
+* <b>2022-11-23</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/wsdm2023agask.pdf" target="_blank">AgAsk: A Conversational Search Agent for Answering Agricultural Questions</a> has been accepted to <a href="https://www.wsdm-conference.org/2023/" target="_blank">WSDM 2023</a>!
+
+* <b>2022-11-15</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/adcs2022.pdf" target="_blank">Pseudo-Relevance Feedback with Dense Retrievers in Pyserini</a> has been accepted to <a href="http://adcs-conference.org/2022/" target="_blank">ADCS 2022</a>!
+
+* <b>2022-11-14</b> <br> ✈️ Visiting China, working remotely.
+
 * <b>2022-07-26</b> <br> 🏫 Came back from SIGIR 2022, now working on campus.
 
 * <b>2022-07-01</b> <br> ✈️ I will be in Italy and Spain during 2022/07/06 - 2022/07/25 for SIGIR 2022.
@@ -37,15 +45,12 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 * <b>2021-11-26</b> <br> 📃 Our paper <a href="{{ base_path }}/files/ecir2022repro.pdf" target="_blank">Improving Query Representations for Dense Retrieval with Pseudo Relevance Feedback: A Reproducibility Study</a> has been accepted to <a href="https://ecir2022.org/" target="_blank">ECIR 2022</a>! The code is open-sourced <a href="https://github.com/ielab/APR" target="_blank">here</a>.
 
-* <b>2021-11-15</b> <br> 📃 Our paper <a href="{{ base_path }}/files/adcs2021.pdf" target="_blank">MeSH Term Suggestion for Systematic Review Literature Search</a> has been accepted to <a href="http://adcs-conference.org/2021/" target="_blank">ADCS 2021</a>! The code is open-sourced <a href="https://github.com/ielab/meshsuggest">here</a>.
-
-* <b>2020-11-13</b> <br> 📃 Our workshop paper <a href="{{ base_path }}/files/trecdl21.pdf" target="_blank">IELAB at TREC Deep Learning Track 2021</a> is now published!
-
-* <b>2021-09-25</b> <br> 🎉 Our team ielab (<a href="https://arvinzhuang.github.io/" target="_blank">Shengyao Zhuang</a>, <a href="http://ielab.io/people/shuai-wang" target="_blank">Shuai Wang</a>, and myself) successfully defended our method and won the championship in the <a href="https://developer.huawei.com/consumer/en/activity/devStarAI/algo/competition.html#/preliminary/info/007/introduction" target="_blank">"Search Rankings in Multimodal and Multilingual Contexts Track"</a> within the <a href="https://developer.huawei.com/consumer/en/activity/digixActivity/digixdetail/201621219634131423" target="_blank">2021 Huawei DIGIX Global AI Challenge</a>! Go TEAM IELAB!
-
 <details class="page__news">
   <summary>MORE...</summary>
   <ul>
+    <li><b>2021-11-15</b> <br> 📃 Our paper <a href="{{ base_path }}/files/adcs2021.pdf" target="_blank">MeSH Term Suggestion for Systematic Review Literature Search</a> has been accepted to <a href="http://adcs-conference.org/2021/" target="_blank">ADCS 2021</a>! The code is open-sourced <a href="https://github.com/ielab/meshsuggest">here</a>.</li>
+    <li><b>2020-11-13</b> <br> 📃 Our workshop paper <a href="{{ base_path }}/files/trecdl21.pdf" target="_blank">IELAB at TREC Deep Learning Track 2021</a> is now published!</li>
+    <li><b>2021-09-25</b> <br> 🎉 Our team ielab (<a href="https://arvinzhuang.github.io/" target="_blank">Shengyao Zhuang</a>, <a href="http://ielab.io/people/shuai-wang" target="_blank">Shuai Wang</a>, and myself) successfully defended our method and won the championship in the <a href="https://developer.huawei.com/consumer/en/activity/devStarAI/algo/competition.html#/preliminary/info/007/introduction" target="_blank">"Search Rankings in Multimodal and Multilingual Contexts Track"</a> within the <a href="https://developer.huawei.com/consumer/en/activity/digixActivity/digixdetail/201621219634131423" target="_blank">2021 Huawei DIGIX Global AI Challenge</a>! Go TEAM IELAB!</li>
     <li><b>2021-09-09</b> <br> 🎉 I've successfully passed the PhD Confirmation! Yay! Looking foward to do more experiments!</li>
     <li><b>2021-08-25</b> <br> 📃 Our journal paper <a href="https://arxiv.org/abs/2108.11044" target="_blank">Pseudo Relevance Feedback with Deep Language Models and Dense Retrievers: Successes and Pitfalls</a> is now available on arXiv! Code is available at <a href="https://github.com/hanglics/Neural-Relevance-Feedback-Public">here</a>. Paper is currently under review, was submitted to the <a href="https://dl.acm.org/journal/tois">Journal of ACM Transactions on Information Systems (TOIS)</a> in June, 2021.</li>
     <li><b>2020-12-15</b> <br> 📃 Our paper <a href="{{ base_path }}/files/ecir2021.pdf" target="_blank">Deep Query Likelihood Model for Information Retrieval</a> has been accepted to <a href="https://www.ecir2021.eu" target="_blank">ECIR 2021</a> as a short paper! The code is open-sourced <a href="https://github.com/ielab/GPT_Ranker" target="_blank">here</a>. A video of the work is available <a href="https://www.youtube.com/watch?v=oSGbYaC0ur0" target="_blank">here</a>.</li>
@@ -61,19 +66,21 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 # Travel
 
+* <b>2023-02-27 -- 2023-03-03</b> <br> ✈️ Singapore for WSDM 2023
+
+* <b>2022-11-14 -- Now</b> <br> ✈️ Zhuji, Zhejiang, China for visting family
+
 * <b>2022-07-11 -- 2022-07-15</b> <br> ✈️ Madrid, Spain for SIGIR 2022
 
 * <b>2022-04-10 -- 2022-04-14</b> <br> ✈️ <s>Stavanger, Norway for ECIR 2022</s> (Attending Online)
 
 * <b>2021-11-01 -- 2021-11-05</b> <br> ✈️ <s>Gold Coast, Australia for CIKM 2021</s> (Cancelled due to COVID-19)
 
-* <b>2021-07-11 -- 2021-07-15</b> <br> ✈️ <s>Montréal, Québec, Canada for SIGIR/ICTIR 2021</s> (Cancelled due to COVID-19)
-
-* <b>2021-04-19 -- 2021-04-23</b> <br> ✈️ <s>Ljubljana, Slovenia for WWW 2021</s> (Cancelled due to COVID-19)
-
 <details class="page__travel">
   <summary>MORE...</summary>
   <ul>
+    <li><b>2021-07-11 -- 2021-07-15</b> <br> ✈️ <s>Montréal, Québec, Canada for SIGIR/ICTIR 2021</s> (Cancelled due to COVID-19)</li>
+    <li><b>2021-04-19 -- 2021-04-23</b> <br> ✈️ <s>Ljubljana, Slovenia for WWW 2021</s> (Cancelled due to COVID-19)</li>
     <li><b>2021-03-28 -- 2021-04-01</b> <br> ✈️ <s>Lucca, Italy for ECIR 2021</s> (Cancelled due to COVID-19)</li>
     <li><b>2021-03-14 -- 2021-03-19</b> <br> ✈️ <s>Canberra, Australia for CHIIR 2021</s> (Cancelled due to COVID-19)</li>
     <li><b>2021-03-08 -- 2021-03-12</b> <br> ✈️ <s>Jerusalem, Israel for WSDM 2021</s> (Cancelled due to COVID-19)</li>
