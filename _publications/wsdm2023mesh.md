@@ -7,6 +7,6 @@ date: 2022-11-23
 venue: "Proceedings of the 16th ACM International Conference on Web Search and Data Mining"
 paperurl: '/files/wsdm2023mesh.pdf'
 authors: 'Shuai Wang, <b>Hang Li</b>, and Guido Zuccon'
-award: 
+award: ''
 githuburl: 'https://github.com/ielab/meshsuggestlib'
 ---
