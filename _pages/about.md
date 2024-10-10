@@ -68,7 +68,7 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 * <b>2023-02-27 -- 2023-03-03</b> <br> ✈️ Singapore for WSDM 2023
 
-* <b>2022-11-14 -- Now</b> <br> ✈️ Zhuji, Zhejiang, China for visting family
+* <b>2022-11-14 -- 2024-10-06</b> <br> ✈️ Zhuji, Zhejiang, China for visting family
 
 * <b>2022-07-11 -- 2022-07-15</b> <br> ✈️ Madrid, Spain for SIGIR 2022
 
@@ -108,6 +108,14 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 <br>
 
 # Service
+
+* Serving as the PC Member for Full Paper Track at <a href="https://www.ecir2024.org/" target="_blank">ECIR 2024</a>
+
+* Serving as the PC Member for Short Paper Track at <a href="https://www.ecir2024.org/" target="_blank">ECIR 2024</a>
+
+* Serving as the PC Member for Resource Track at <a href="https://sigir.org/sigir2023/" target="_blank">SIGIR 2023</a>
+
+* Serving as the PC Member for Reproducibility Track at <a href="https://sigir.org/sigir2023/" target="_blank">SIGIR 2023</a>
 
 * Serving as the PC Member for Resource Track at <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>
 
