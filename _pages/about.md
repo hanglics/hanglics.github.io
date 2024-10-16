@@ -25,6 +25,10 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 * <b>2024-10-07</b> <br> ✈️ Back at Brisbane with full research power ON.
 
+* <b>2024-01-24</b><br> 🎉 Our work <a href="{{ base_path }}/files/arxiv2024.pdf" target="_blank">TPRF: A Transformer-based Pseudo-Relevance Feedback Model for Efficient and Effective Retrieval</a> is now on <a href="https://arxiv.org/abs/2401.13509" target="_blank">arXiv preprint</a>!
+
+* <b>2023-06-19</b><br> 🎉 Our work <a href="{{ base_path }}/files/ijdl2023.pdf" target="_blank">AgAsk: An Agent to Help Answer Farmer’s Questions From Scientific Documents</a> has been accepted to <a href="https://link.springer.com/article/10.1007/s00799-023-00369-y" target="_blank">International Journal on Digital Libraries</a>!
+
 * <b>2022-11-23</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/wsdm2023mesh.pdf" target="_blank">MeSH Suggester: A Library and System for MeSH Term Suggestion for Systematic Review Boolean Query Construction</a> has been accepted to <a href="https://www.wsdm-conference.org/2023/" target="_blank">WSDM 2023</a>!
 
 * <b>2022-11-23</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/wsdm2023agask.pdf" target="_blank">AgAsk: A Conversational Search Agent for Answering Agricultural Questions</a> has been accepted to <a href="https://www.wsdm-conference.org/2023/" target="_blank">WSDM 2023</a>!
@@ -37,19 +41,15 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 * <b>2022-07-01</b> <br> ✈️ I will be in Italy and Spain during 2022/07/06 - 2022/07/25 for SIGIR 2022.
 
-* <b>2022-04-01</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/sigir2022-vpi.pdf" target="_blank">To interpolate or not to Interpolate: PRF, Dense and Sparse Retrievers</a> has been accepted to <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>!
-
-* <b>2022-04-01</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/sigir2022-counter.pdf" target="_blank">Implicit Feedback for Dense Passage Retrieval: A Counterfactual Approach</a> has been accepted to <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>!
-
-* <b>2022-04-01</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/sigir2022-noise.pdf" target="_blank">How does Feedback Signal Quality Impact Effectiveness of Pseudo Relevance Feedback for Passage Retrieval</a> has been accepted to <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>!
-
-* <b>2022-01-18</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/adcs2021.pdf" target="_blank">MeSH Term Suggestion for Systematic Review Literature Search</a> has been awarded <b>the Best Student Paper Award</b> in ADCS 2021!
-
-* <b>2021-11-26</b> <br> 📃 Our paper <a href="{{ base_path }}/files/ecir2022repro.pdf" target="_blank">Improving Query Representations for Dense Retrieval with Pseudo Relevance Feedback: A Reproducibility Study</a> has been accepted to <a href="https://ecir2022.org/" target="_blank">ECIR 2022</a>! The code is open-sourced <a href="https://github.com/ielab/APR" target="_blank">here</a>.
-
 <details class="page__news">
   <summary>MORE...</summary>
   <ul>
+  <li><b>2022-04-01</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/sigir2022-vpi.pdf" target="_blank">To interpolate or not to Interpolate: PRF, Dense and Sparse Retrievers</a> has been accepted to <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>!</li>
+  <li><b>2022-04-01</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/sigir2022-counter.pdf" target="_blank">Implicit Feedback for Dense Passage Retrieval: A Counterfactual Approach</a> has been accepted to <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>!</li>
+    <li><b>2022-04-01</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/sigir2022-noise.pdf" target="_blank">How does Feedback Signal Quality Impact Effectiveness of Pseudo Relevance Feedback for Passage Retrieval</a> has been accepted to <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>!</li>
+    <li><b>2022-01-18</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/adcs2021.pdf" target="_blank">MeSH Term Suggestion for Systematic Review Literature Search</a> has been awarded <b>the Best Student Paper Award</b> in ADCS 2021!</li>
+    <li><b>2022-01-01</b> <br> 🎉 Our dataset <a href="https://espace.library.uq.edu.au/view/UQ:0160dc7" target="_blank">Agvaluate</a> is now available on UQ eSpace!</li>
+    <li><b>2021-11-26</b> <br> 📃 Our paper <a href="{{ base_path }}/files/ecir2022repro.pdf" target="_blank">Improving Query Representations for Dense Retrieval with Pseudo Relevance Feedback: A Reproducibility Study</a> has been accepted to <a href="https://ecir2022.org/" target="_blank">ECIR 2022</a>! The code is open-sourced <a href="https://github.com/ielab/APR" target="_blank">here</a>.</li>
     <li><b>2021-11-15</b> <br> 📃 Our paper <a href="{{ base_path }}/files/adcs2021.pdf" target="_blank">MeSH Term Suggestion for Systematic Review Literature Search</a> has been accepted to <a href="http://adcs-conference.org/2021/" target="_blank">ADCS 2021</a>! The code is open-sourced <a href="https://github.com/ielab/meshsuggest">here</a>.</li>
     <li><b>2020-11-13</b> <br> 📃 Our workshop paper <a href="{{ base_path }}/files/trecdl21.pdf" target="_blank">IELAB at TREC Deep Learning Track 2021</a> is now published!</li>
     <li><b>2021-09-25</b> <br> 🎉 Our team ielab (<a href="https://arvinzhuang.github.io/" target="_blank">Shengyao Zhuang</a>, <a href="http://ielab.io/people/shuai-wang" target="_blank">Shuai Wang</a>, and myself) successfully defended our method and won the championship in the <a href="https://developer.huawei.com/consumer/en/activity/devStarAI/algo/competition.html#/preliminary/info/007/introduction" target="_blank">"Search Rankings in Multimodal and Multilingual Contexts Track"</a> within the <a href="https://developer.huawei.com/consumer/en/activity/digixActivity/digixdetail/201621219634131423" target="_blank">2021 Huawei DIGIX Global AI Challenge</a>! Go TEAM IELAB!</li>
@@ -72,15 +72,12 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 * <b>2022-11-14 -- 2024-10-06</b> <br> ✈️ Zhuji, Zhejiang, China for visting family
 
-* <b>2022-07-11 -- 2022-07-15</b> <br> ✈️ Madrid, Spain for SIGIR 2022
-
-* <b>2022-04-10 -- 2022-04-14</b> <br> ✈️ <s>Stavanger, Norway for ECIR 2022</s> (Attending Online)
-
-* <b>2021-11-01 -- 2021-11-05</b> <br> ✈️ <s>Gold Coast, Australia for CIKM 2021</s> (Cancelled due to COVID-19)
-
 <details class="page__travel">
   <summary>MORE...</summary>
   <ul>
+    <li><b>2022-07-11 -- 2022-07-15</b> <br> ✈️ Madrid, Spain for SIGIR 2022</li>
+    <li><b>2022-04-10 -- 2022-04-14</b> <br> ✈️ <s>Stavanger, Norway for ECIR 2022</s> (Attending Online)</li>
+    <li><b>2021-11-01 -- 2021-11-05</b> <br> ✈️ <s>Gold Coast, Australia for CIKM 2021</s> (Cancelled due to COVID-19)</li>
     <li><b>2021-07-11 -- 2021-07-15</b> <br> ✈️ <s>Montréal, Québec, Canada for SIGIR/ICTIR 2021</s> (Cancelled due to COVID-19)</li>
     <li><b>2021-04-19 -- 2021-04-23</b> <br> ✈️ <s>Ljubljana, Slovenia for WWW 2021</s> (Cancelled due to COVID-19)</li>
     <li><b>2021-03-28 -- 2021-04-01</b> <br> ✈️ <s>Lucca, Italy for ECIR 2021</s> (Cancelled due to COVID-19)</li>
@@ -109,18 +106,16 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 <br>
 
+# Datasets:
+
+* <a href="https://espace.library.uq.edu.au/view/UQ:0160dc7" target="_blank">Agvaluate</a>
+
 # Service
 
-* Serving as the PC Member for Full Paper Track at <a href="https://www.ecir2024.org/" target="_blank">ECIR 2024</a>
-
-* Serving as the PC Member for Short Paper Track at <a href="https://www.ecir2024.org/" target="_blank">ECIR 2024</a>
-
-* Serving as the PC Member for Resource Track at <a href="https://sigir.org/sigir2023/" target="_blank">SIGIR 2023</a>
-
-* Serving as the PC Member for Reproducibility Track at <a href="https://sigir.org/sigir2023/" target="_blank">SIGIR 2023</a>
-
-* Serving as the PC Member for Resource Track at <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>
-
-* Serving as the PC Member for Reproducibility Track at <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>
-
 * Serving as the Proceeding Chair for <a href="https://cikm2021.org/" target="__blank">CIKM 2021</a>
+* Serving as the PC Member for Reproducibility Track at <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>
+* Serving as the PC Member for Resource Track at <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>
+* Serving as the PC Member for Reproducibility Track at <a href="https://sigir.org/sigir2023/" target="_blank">SIGIR 2023</a>
+* Serving as the PC Member for Resource Track at <a href="https://sigir.org/sigir2023/" target="_blank">SIGIR 2023</a>
+* Serving as the PC Member for Short Paper Track at <a href="https://www.ecir2024.org/" target="_blank">ECIR 2024</a>
+* Serving as the PC Member for Full Paper Track at <a href="https://www.ecir2024.org/" target="_blank">ECIR 2024</a>
