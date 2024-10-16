@@ -113,9 +113,9 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 # Service
 
 * Serving as the Proceeding Chair for <a href="https://cikm2021.org/" target="__blank">CIKM 2021</a>
-* Serving as the PC Member for Reproducibility Track at <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>
-* Serving as the PC Member for Resource Track at <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>
-* Serving as the PC Member for Reproducibility Track at <a href="https://sigir.org/sigir2023/" target="_blank">SIGIR 2023</a>
-* Serving as the PC Member for Resource Track at <a href="https://sigir.org/sigir2023/" target="_blank">SIGIR 2023</a>
-* Serving as the PC Member for Short Paper Track at <a href="https://www.ecir2024.org/" target="_blank">ECIR 2024</a>
-* Serving as the PC Member for Full Paper Track at <a href="https://www.ecir2024.org/" target="_blank">ECIR 2024</a>
+
+* Serving as the PC Member for Reproducibility Track at <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>/<a href="https://sigir.org/sigir2023/" target="_blank">2023</a>
+
+* Serving as the PC Member for Resource Track at <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>/<a href="https://sigir.org/sigir2023/" target="_blank">2023</a>
+
+* Serving as the PC Member at <a href="https://ecir2023.org/" target="_blank">ECIR 2023</a>/<a href="https://www.ecir2024.org/" target="_blank">2024</a>
