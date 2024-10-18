@@ -20,8 +20,6 @@ Hang works at the intersection of **Conversational Search**, **Natural Language 
 
 Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is supported by <a href="https://grdc.com.au/" target="_blank">Grains Research and Development Corporation</a>, through the <a href="http://ielab.io/projects/agask.html" target="_blank">AgAsk project</a>.
 
-<br>
-
 # News
 
 * <b>2024-10-07</b> <br> ✈️ Back at Brisbane with full research power ON.
