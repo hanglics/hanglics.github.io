@@ -9,8 +9,8 @@ main:
   # - title: "Students"
   #   url: /students/
     
-  # - title: "CV"
-  #   url: /files/cv.pdf
+  - title: "CV"
+    url: /files/cv.pdf
   
   # - title: "Misc."
   #   url: /misc/
