@@ -6,7 +6,7 @@ teaser: 'image-alignment-150x150.jpg'
 date: 2024-01-24
 venue: "arXiv preprint arXiv:2401.13509"
 paperurl: '/files/arxiv2024.pdf'
-authors: 'Chuting Yu*, <b>Hang Li</b>*, Ahmed Mourad, Bevan Koopman, Guido Zuccon'
+authors: '<b>Hang Li</b>*, Chuting Yu*, Ahmed Mourad, Bevan Koopman, Guido Zuccon'
 award: ''
 githuburl: ''
 ---

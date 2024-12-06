@@ -32,17 +32,14 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 * <b>2022-11-23</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/wsdm2023agask.pdf" target="_blank">AgAsk: A Conversational Search Agent for Answering Agricultural Questions</a> has been accepted to <a href="https://www.wsdm-conference.org/2023/" target="_blank">WSDM 2023</a>!
 
-* <b>2022-11-15</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/adcs2022.pdf" target="_blank">Pseudo-Relevance Feedback with Dense Retrievers in Pyserini</a> has been accepted to <a href="http://adcs-conference.org/2022/" target="_blank">ADCS 2022</a>!
-
-* <b>2022-11-14</b> <br> ✈️ Visiting China, working remotely.
-
-* <b>2022-07-26</b> <br> 🏫 Came back from SIGIR 2022, now working on campus.
-
-* <b>2022-07-01</b> <br> ✈️ I will be in Italy and Spain during 2022/07/06 - 2022/07/25 for SIGIR 2022.
 
 <details class="page__news">
   <summary>MORE...</summary>
   <ul>
+  <li><b>2022-11-15</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/adcs2022.pdf" target="_blank">Pseudo-Relevance Feedback with Dense Retrievers in Pyserini</a> has been accepted to <a href="http://adcs-conference.org/2022/" target="_blank">ADCS 2022</a>!</li>
+  <li><b>2022-11-14</b> <br> ✈️ Visiting China, working remotely.</li>
+  <li><b>2022-07-26</b> <br> 🏫 Came back from SIGIR 2022, now working on campus.</li>
+  <li><b>2022-07-01</b> <br> ✈️ I will be in Italy and Spain during 2022/07/06 - 2022/07/25 for SIGIR 2022.</li>
   <li><b>2022-04-01</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/sigir2022-vpi.pdf" target="_blank">To interpolate or not to Interpolate: PRF, Dense and Sparse Retrievers</a> has been accepted to <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>!</li>
   <li><b>2022-04-01</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/sigir2022-counter.pdf" target="_blank">Implicit Feedback for Dense Passage Retrieval: A Counterfactual Approach</a> has been accepted to <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>!</li>
     <li><b>2022-04-01</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/sigir2022-noise.pdf" target="_blank">How does Feedback Signal Quality Impact Effectiveness of Pseudo Relevance Feedback for Passage Retrieval</a> has been accepted to <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>!</li>
@@ -67,13 +64,15 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 # Travel
 
+* <b>2024-12-09 -- 2024-12-12</b> <br> ✈️ Melbourne for SIGIR AP 2024 Satellite
+
 * <b>2023-02-27 -- 2023-03-03</b> <br> ✈️ Singapore for WSDM 2023
 
-* <b>2022-11-14 -- 2024-10-06</b> <br> ✈️ Zhuji, Zhejiang, China for visting family
 
 <details class="page__travel">
   <summary>MORE...</summary>
   <ul>
+    <li><b>2022-11-14 -- 2024-10-06</b> <br> ✈️ Back to China for visting family</li>
     <li><b>2022-07-11 -- 2022-07-15</b> <br> ✈️ Madrid, Spain for SIGIR 2022</li>
     <li><b>2022-04-10 -- 2022-04-14</b> <br> ✈️ <s>Stavanger, Norway for ECIR 2022</s> (Attending Online)</li>
     <li><b>2021-11-01 -- 2021-11-05</b> <br> ✈️ <s>Gold Coast, Australia for CIKM 2021</s> (Cancelled due to COVID-19)</li>
