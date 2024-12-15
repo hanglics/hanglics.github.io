@@ -119,3 +119,7 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 * Serving as the PC Member for Resource Track at <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>/<a href="https://sigir.org/sigir2023/" target="_blank">2023</a>
 
 * Serving as the PC Member at <a href="https://ecir2023.org/" target="_blank">ECIR 2023</a>/<a href="https://www.ecir2024.org/" target="_blank">2024</a>
+
+<br>
+
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=365&t=n&d=3vg4ZDSAz8HrE8NUuuxpmP_wqqFZInZqKqN2xvVYeIE'></script>
