@@ -3,7 +3,7 @@ permalink: /
 title: ""
 excerpt: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
@@ -14,13 +14,19 @@ redirect_from:
 
 # About Me
 
-Hang Li is currently a PhD candidate at <a href="http://ielab.io/" target="_blank">IELab</a> in the <a href="https://itee.uq.edu.au/" target="_blank">School of Information Technology and Electrical Engineering</a> at the <a href="https://www.uq.edu.au/" target="_blank">University of Queensland</a>, Australia, where he works closely with <a href="http://ielab.io/people/guido-zuccon" target="_blank">A/Prof. Guido Zuccon</a>, <a href="http://bevankoopman.github.io/" target="_blank">Dr. Bevan Koopman</a>, and <a href="http://ielab.io/people/ahmed-mourad" target="_blank">Dr. Ahmed Mourad</a>. Prior to Ph.D, Hang received his Bachelor of Science degree in <a href="https://cse.umn.edu/cs" target="_blank">Computer Science</a> at the <a href="https://twin-cities.umn.edu/" target="_blank">University of Minnesota Twin-Cities</a> in United States in 2016.
+Hang Li is currently a last-year PhD candidate at <a href="http://ielab.io/" target="_blank">IELab</a> in the <a href="https://itee.uq.edu.au/" target="_blank">School of Information Technology and Electrical Engineering</a> at the <a href="https://www.uq.edu.au/" target="_blank">University of Queensland</a>, Australia, where he works closely with <a href="http://ielab.io/people/guido-zuccon" target="_blank">A/Prof. Guido Zuccon</a>, <a href="http://bevankoopman.github.io/" target="_blank">Dr. Bevan Koopman</a>, and <a href="http://ielab.io/people/ahmed-mourad" target="_blank">Dr. Ahmed Mourad</a>. Prior to Ph.D, Hang received his Bachelor of Science degree in <a href="https://cse.umn.edu/cs" target="_blank">Computer Science</a> at the <a href="https://twin-cities.umn.edu/" target="_blank">University of Minnesota Twin-Cities</a> in United States in 2016.
 
 Hang works at the intersection of **Conversational Search**, **Natural Language Processing (NLP)**, and **Machine Learning (ML)** applications, where he utilises **different relevance feedbacks** to empower the **conversational search system**. His recent work seeks to address the **gap** between **relevance feedback**, **deep language models**, and **conversational search** through different approaches that helps to improve the conversational system effectiveness with **minimal efficiency cost**.
 
-Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is supported by <a href="https://grdc.com.au/" target="_blank">Grains Research and Development Corporation</a>, through the <a href="http://ielab.io/projects/agask.html" target="_blank">AgAsk project</a>.
+Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR, WSDM, WWW, TOIS, IJDL). His work is supported by <a href="https://grdc.com.au/" target="_blank">Grains Research and Development Corporation</a>, through the <a href="http://ielab.io/projects/agask.html" target="_blank">AgAsk project</a>.
+
+**🔊 <span style="color:red">I am completing my PhD at the University of Queensland and am actively seeking opportunities in both academia and industrial in the area of Information Retrieval, Large Language Models, Natural Language Processing, AI, and Machine Learning. Please reach out if you know of any exciting roles or just want to chat!</span>**
 
 # News
+
+* <b>2025-02-18</b> <br> 🎉 We have submitted one work to <a href="https://sigir2025.dei.unipd.it/">SIGIR 2025</a>, we will release the preprint and code soon, stay tuned!
+
+* <b>2024-11-03</b> <br> 🎉 We have submitted one work to <a href="https://ecir2025.eu/">ECIR 2025</a>, we will release the preprint and code soon, stay tuned!
 
 * <b>2024-10-07</b> <br> ✈️ Back at Brisbane with full research power ON.
 
@@ -30,12 +36,10 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR). His work is 
 
 * <b>2022-11-23</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/wsdm2023mesh.pdf" target="_blank">MeSH Suggester: A Library and System for MeSH Term Suggestion for Systematic Review Boolean Query Construction</a> has been accepted to <a href="https://www.wsdm-conference.org/2023/" target="_blank">WSDM 2023</a>!
 
-* <b>2022-11-23</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/wsdm2023agask.pdf" target="_blank">AgAsk: A Conversational Search Agent for Answering Agricultural Questions</a> has been accepted to <a href="https://www.wsdm-conference.org/2023/" target="_blank">WSDM 2023</a>!
-
-
 <details class="page__news">
   <summary>MORE...</summary>
   <ul>
+  <li><b>2022-11-23</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/wsdm2023agask.pdf" target="_blank">AgAsk: A Conversational Search Agent for Answering Agricultural Questions</a> has been accepted to <a href="https://www.wsdm-conference.org/2023/" target="_blank">WSDM 2023</a>!</li>
   <li><b>2022-11-15</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/adcs2022.pdf" target="_blank">Pseudo-Relevance Feedback with Dense Retrievers in Pyserini</a> has been accepted to <a href="http://adcs-conference.org/2022/" target="_blank">ADCS 2022</a>!</li>
   <li><b>2022-11-14</b> <br> ✈️ Visiting China, working remotely.</li>
   <li><b>2022-07-26</b> <br> 🏫 Came back from SIGIR 2022, now working on campus.</li>
