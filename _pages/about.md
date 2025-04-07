@@ -24,9 +24,9 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR, WSDM, WWW, TO
 
 # News
 
-* <b>2025-02-18</b> <br> 🎉 We have submitted one work to <a href="https://sigir2025.dei.unipd.it/">SIGIR 2025</a>, we will release the preprint and code soon, stay tuned!
+* <b>2025-02-18</b> <br> 🎉 We have one work released on arXiv, check it out here: <a href="https://arxiv.org/abs/2503.14887" target="_blank">Pseudo-Relevance Feedback Can Improve Zero-Shot LLM-Based Dense Retrieval</a>!
 
-* <b>2024-11-03</b> <br> 🎉 We have submitted one work to <a href="https://ecir2025.eu/">ECIR 2025</a>, we will release the preprint and code soon, stay tuned!
+* <b>2024-11-03</b> <br> 🎉 We have one work released on arXiv, check it out here: <a href="https://arxiv.org/abs/2504.01448" target="_blank">LLM-VPRF: Large Language Model Based Vector Pseudo Relevance Feedback</a>!
 
 * <b>2024-10-07</b> <br> ✈️ Back at Brisbane with full research power ON.
 
@@ -117,6 +117,8 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR, WSDM, WWW, TO
 # Service
 
 * Serving as the PC Member for Short Paper Track at <a href="https://sigir2025.dei.unipd.it/" target="_blank">SIGIR 2025</a>
+
+* Serving as Reviewer for <a href="https://dl.acm.org/journal/tois" target="_blank">ACM Transactions on Information Systems (TOIS)</a> since 2024.
 
 * Serving as the PC Member for Resource and Reproducibility Track at <a href="https://ecir2023.org/" target="_blank">ECIR 2023</a>/<a href="https://www.ecir2024.org/" target="_blank">2024</a>
 
