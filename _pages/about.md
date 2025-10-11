@@ -118,6 +118,8 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR, WSDM, WWW, TO
 
 # Service
 
+* Serving as the PC Member for Short Paper Track at <a href="https://wsdm-conference.org/2026/" target="_blank">WSDM 2026</a>
+
 * Serving as the PC Member for Short Paper Track at <a href="https://sigir2025.dei.unipd.it/" target="_blank">SIGIR 2025</a>
 
 * Serving as Reviewer for <a href="https://dl.acm.org/journal/tois" target="_blank">ACM Transactions on Information Systems (TOIS)</a> since 2024.
