@@ -14,13 +14,15 @@ redirect_from:
 
 # About Me
 
-Hang Li is currently a Research Officer and graduating PhD candidate in <a href="http://ielab.io/" target="_blank">IELab</a> within the <a href="https://itee.uq.edu.au/" target="_blank">School of Information Technology and Electrical Engineering</a> at the <a href="https://www.uq.edu.au/" target="_blank">University of Queensland</a>, Australia, where he works closely with <a href="http://ielab.io/people/guido-zuccon" target="_blank">A/Prof. Guido Zuccon</a>, <a href="http://bevankoopman.github.io/" target="_blank">Dr. Bevan Koopman</a>, and <a href="http://ielab.io/people/ahmed-mourad" target="_blank">Dr. Ahmed Mourad</a>. Prior to Ph.D, Hang received his Bachelor of Science degree in <a href="https://cse.umn.edu/cs" target="_blank">Computer Science</a> at the <a href="https://twin-cities.umn.edu/" target="_blank">University of Minnesota Twin-Cities</a> in United States in 2016.
+Hang Li is currently a Research Officer and graduating PhD candidate in <a href="http://ielab.io/" target="_blank">IELab</a> within the <a href="https://itee.uq.edu.au/" target="_blank">School of Information Technology and Electrical Engineering</a> at the <a href="https://www.uq.edu.au/" target="_blank">University of Queensland</a>, Australia, where he works closely with <a href="http://ielab.io/people/guido-zuccon" target="_blank">Prof. Guido Zuccon</a>, <a href="http://bevankoopman.github.io/" target="_blank">A/Prof. Bevan Koopman</a>, and <a href="http://ielab.io/people/ahmed-mourad" target="_blank">Dr. Ahmed Mourad</a>. Prior to Ph.D, Hang received his Bachelor of Science degree in <a href="https://cse.umn.edu/cs" target="_blank">Computer Science</a> at the <a href="https://twin-cities.umn.edu/" target="_blank">University of Minnesota Twin-Cities</a> in United States in 2016.
 
 Hang works at the intersection of **Information Retrieval (IR)**, **Large Language Models (LLMs)**, **Natural Language Processing (NLP)**, and **Machine Learning (ML)** applications, where he utilises **different relevance feedback signals** to empower the **information retrieval system**. His recent work seeks to address the **gap** between **relevance feedback**, **deep language models**, and **information retrieval** through different approaches that helps to improve the IR system effectiveness with **minimal efficiency cost**.
 
-Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR, WSDM, WWW, TOIS, IJDL). His work is supported by <a href="https://grdc.com.au/" target="_blank">Grains Research and Development Corporation</a>, through the <a href="http://ielab.io/projects/agask.html" target="_blank">AgAsk project</a>.
+Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR, WSDM, WWW, TOIS, IJDL). His work is supported by <a href="https://grdc.com.au/" target="_blank">Grains Research and Development Corporation</a>, through the <a href="http://ielab.io/projects/agask.html" target="_blank">AgAsk Project</a>.
 
 # News
+
+* <b>2025-12-17</b> <br> 🎉 Our work <a href="{{ base_path }}/files/ecir2026-evalugator.pdf" target="_blank">Evaluator - Rapid, Agile Development and Evaluation of Retrieval Augmented Generation Systems Without Labels</a> has been accetped to <a href="https://ecir2026.eu" target="_blank">ECIR 2026</a>! 
 
 * <b>2025-10-01</b> <br> 🎉 Officially started to work as a Post-Doctoral Research Officer here at UQ! Check out my profile <a href="https://about.uq.edu.au/experts/51052" target="_blank">here</a>.
 
