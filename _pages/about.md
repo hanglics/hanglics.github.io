@@ -14,13 +14,15 @@ redirect_from:
 
 # About Me
 
-Hang is currently a Postdoctoral Research Officer in <a href="http://ielab.io/" target="_blank">IELab</a> within the <a href="https://eecs.uq.edu.au/" target="_blank">School of Electrical Engineering and Computer Science</a> at the <a href="https://www.uq.edu.au/" target="_blank">University of Queensland</a>, Australia, where he works closely with <a href="http://ielab.io/people/guido-zuccon" target="_blank">Prof. Guido Zuccon</a>, <a href="http://bevankoopman.github.io/" target="_blank">A/Prof. Bevan Koopman</a>, and <a href="http://ielab.io/people/ahmed-mourad" target="_blank">Dr. Ahmed Mourad</a>. Prior to Ph.D, he received his Bachelor of Science degree in <a href="https://cse.umn.edu/cs" target="_blank">Computer Science</a> at the <a href="https://twin-cities.umn.edu/" target="_blank">University of Minnesota Twin-Cities</a> in United States, 2016.
+I am currently a Postdoctoral Research Officer in <a href="http://ielab.io/" target="_blank">IELab</a> within the <a href="https://eecs.uq.edu.au/" target="_blank">School of Electrical Engineering and Computer Science</a> at the <a href="https://www.uq.edu.au/" target="_blank">University of Queensland</a>, Australia. During my Ph.D, I work closely with <a href="http://ielab.io/people/guido-zuccon" target="_blank">Prof. Guido Zuccon</a>, <a href="http://bevankoopman.github.io/" target="_blank">A/Prof. Bevan Koopman</a>, and <a href="http://ielab.io/people/ahmed-mourad" target="_blank">Dr. Ahmed Mourad</a> (<a href="{{ base_path }}/files/thesis.pdf" target="_blank">Read My Thesis</a>). Prior to Ph.D, I received my Bachelor of Science degree in <a href="https://cse.umn.edu/cs" target="_blank">Computer Science</a> at the <a href="https://twin-cities.umn.edu/" target="_blank">University of Minnesota Twin-Cities</a> in United States, 2016.
 
-Hang works at the intersection of **Information Retrieval (IR)**, **Large Language Models (LLMs)**, **Natural Language Processing (NLP)**, and **Machine Learning (ML)** applications, where he utilises **different relevance feedback signals** to empower the **information retrieval system**. His recent work seeks to address the **gap** between **relevance feedback**, **deep language models**, and **information retrieval** through different approaches that helps to improve the IR system effectiveness with **minimal efficiency cost**.
+My research focus at the intersection of **Information Retrieval (IR)**, **Large Language Models (LLMs)**, **Natural Language Processing (NLP)**, and **Machine Learning (ML)** applications, where I utilise **different relevance feedback signals** to empower the **information retrieval system**. My recent work seeks to address the **gap** between **relevance feedback**, **deep language models**, and **information retrieval** through different approaches that helps to improve the IR system effectiveness with **minimal efficiency cost**.
 
-Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR, WSDM, WWW, TOIS, IJDL). His work was supported by <a href="https://grdc.com.au/" target="_blank">Grains Research and Development Corporation</a>, through the <a href="http://ielab.io/projects/agask.html" target="_blank">AgAsk Project</a> during my Ph.D.
+I publish at premier academic venues in IR (e.g. SIGIR, ECIR, WSDM, WWW, TOIS, IJDL). During my Ph.D, my work was supported by <a href="https://grdc.com.au/" target="_blank">Grains Research and Development Corporation</a>, through the <a href="http://ielab.io/projects/agask.html" target="_blank">AgAsk Project</a>.
 
 # News
+
+* <b>2026-02-25</b> <br> 📃 My thesis "Advanced Query Representation and Feedback Methods for Neural Information Retrieval" is now public at UQ eSpace, read it <a href="{{ base_path }}/files/thesis.pdf" target="_blank">here</a>.
 
 * <b>2026-01-15</b> <br> 🎉 I've successfully defended my thesis! Huge thanks to my external examiners <a href="https://www.gla.ac.uk/schools/computing/staff/iadhounis/" target="_blank">Prof. Iadh Ounis</a> and <a href="https://www.cs.cmu.edu/~callan/" target="_blank">Prof. Jamie Callan</a>, as well as my Chair <a href="https://jmmackenzie.io/" target="_blank">Dr. Joel Mackenzie</a>. Also huge thanks to my supervisors Prof. Guido, A/Prof. Bevan, Dr. Ahmed, and everyone along my journey! Now a new chapter has started!
 
@@ -38,13 +40,11 @@ Hang publishes at premier academic venues in IR (e.g. SIGIR, ECIR, WSDM, WWW, TO
 
 * <b>2024-01-24</b><br> 🎉 Our work <a href="{{ base_path }}/files/arxiv2024.pdf" target="_blank">TPRF: A Transformer-based Pseudo-Relevance Feedback Model for Efficient and Effective Retrieval</a> is now on <a href="https://arxiv.org/abs/2401.13509" target="_blank">arXiv preprint</a>!
 
-* <b>2023-06-19</b><br> 🎉 Our work <a href="{{ base_path }}/files/ijdl2023.pdf" target="_blank">AgAsk: An Agent to Help Answer Farmer’s Questions From Scientific Documents</a> has been accepted to <a href="https://link.springer.com/article/10.1007/s00799-023-00369-y" target="_blank">International Journal on Digital Libraries</a>!
-
-* <b>2022-11-23</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/wsdm2023mesh.pdf" target="_blank">MeSH Suggester: A Library and System for MeSH Term Suggestion for Systematic Review Boolean Query Construction</a> has been accepted to <a href="https://www.wsdm-conference.org/2023/" target="_blank">WSDM 2023</a>!
-
 <details class="page__news">
   <summary>MORE...</summary>
   <ul>
+  <li><b>2023-06-19</b><br> 🎉 Our work <a href="{{ base_path }}/files/ijdl2023.pdf" target="_blank">AgAsk: An Agent to Help Answer Farmer’s Questions From Scientific Documents</a> has been accepted to <a href="https://link.springer.com/article/10.1007/s00799-023-00369-y" target="_blank">International Journal on Digital Libraries</a>!</li>
+  <li><b>2022-11-23</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/wsdm2023mesh.pdf" target="_blank">MeSH Suggester: A Library and System for MeSH Term Suggestion for Systematic Review Boolean Query Construction</a> has been accepted to <a href="https://www.wsdm-conference.org/2023/" target="_blank">WSDM 2023</a>!</li>
   <li><b>2022-11-23</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/wsdm2023agask.pdf" target="_blank">AgAsk: A Conversational Search Agent for Answering Agricultural Questions</a> has been accepted to <a href="https://www.wsdm-conference.org/2023/" target="_blank">WSDM 2023</a>!</li>
   <li><b>2022-11-15</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/adcs2022.pdf" target="_blank">Pseudo-Relevance Feedback with Dense Retrievers in Pyserini</a> has been accepted to <a href="http://adcs-conference.org/2022/" target="_blank">ADCS 2022</a>!</li>
   <li><b>2022-11-14</b> <br> ✈️ Visiting China, working remotely.</li>
