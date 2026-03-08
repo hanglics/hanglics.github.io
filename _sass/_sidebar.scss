@@ -14,7 +14,7 @@
   margin-bottom: 1em;
 
   @include breakpoint($large) {
-    @include span(2 of 12);
+    @include span(3 of 12);
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -42,6 +42,8 @@
     font-family: $sans-serif;
     font-size: $type-size-6;
     line-height: 1.5;
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 
   img {
@@ -73,8 +75,6 @@
   display: table-cell;
   vertical-align: top;
   width: 36px;
-  // set width only, for non-square avatars
-  // height: 36px;
 
   @include breakpoint($large) {
     display: block;
@@ -85,10 +85,17 @@
   img {
     max-width: 175px;
     border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      padding: 4px;
+      border: 3px solid #e2e8f0;
+      box-shadow: 0 4px 15px rgba(30, 58, 95, 0.15);
+
+      &:hover {
+        transform: scale(1.03);
+        box-shadow: 0 6px 25px rgba(30, 58, 95, 0.25);
+      }
     }
   }
 }
@@ -117,16 +124,20 @@
   }
 }
 .sidebar .author__name {
-  font-family: $sans-serif;
-  font-size: $type-size-5;
+  font-family: $serif;
+  font-size: 1.15em;
+  font-weight: 700;
+  color: $primary-color;
 }
 
 .author__bio {
   margin: 0;
+  color: $gray;
 
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
+    line-height: 1.6;
   }
 }
 
@@ -217,7 +228,7 @@
   }
 
   li {
-    white-space: nowrap;
+    white-space: normal;
   }
 
   a {
@@ -229,9 +240,31 @@
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    transition: color 0.2s ease, transform 0.2s ease;
 
     &:hover {
-      text-decoration: underline;
+      color: $accent-color;
+      text-decoration: none;
+      transform: translateX(3px);
     }
   }
+}
+
+/* Keep icon fonts stable in sidebar even if other styles override font-family */
+.sidebar .author__urls .fa,
+.sidebar .author__urls .fas {
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900;
+}
+
+.sidebar .author__urls .fab {
+  font-family: "Font Awesome 5 Brands" !important;
+  font-weight: 400;
+}
+
+.sidebar .author__urls .ai {
+  font-family: "Academicons" !important;
+  font-weight: 400;
 }

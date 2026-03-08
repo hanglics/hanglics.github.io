@@ -1,21 +1,95 @@
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+# hangli.me - Personal Academic Website
 
-# Instructions
+Personal website for Dr. Hang Li, built with [Jekyll](https://jekyllrb.com/) using a customized [AcademicPages](https://github.com/academicpages/academicpages.github.io) theme (a fork of [Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/)).
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+**Live site:** [https://hangli.me](https://hangli.me)
 
-See more info at https://academicpages.github.io/
+## Run Locally
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+### Prerequisites
 
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+- Ruby (2.6+ recommended)
+- Bundler (`gem install bundler`)
+- Node.js
+
+**macOS:**
+
+```bash
+brew install ruby node
+gem install bundler
+```
+
+**Ubuntu/Debian:**
+
+```bash
+sudo apt install ruby-dev ruby-bundler nodejs
+```
+
+### Setup and Serve
+
+```bash
+# Clone the repository
+git clone https://github.com/hanglics/hanglics.github.io.git
+cd hanglics.github.io
+
+# Install dependencies
+bundle install
+# If you get errors, try: rm Gemfile.lock && bundle install
+
+# Serve locally with live reload
+bundle exec jekyll serve
+```
+
+The site will be available at `http://localhost:4000`. It auto-rebuilds on file changes.
+
+## Deploy to GitHub Pages
+
+This site is deployed automatically via GitHub Pages.
+
+### How it works
+
+1. Push changes to the `master` branch of the repository `hanglics/hanglics.github.io`.
+2. GitHub Pages automatically builds and deploys the Jekyll site.
+
+### Custom Domain (hangli.me) with HTTPS
+
+The custom domain is configured via:
+
+- A `CNAME` file in the repo root containing `hangli.me`.
+- DNS records pointing to GitHub Pages servers. The DNS should have:
+  - An `A` record pointing to GitHub Pages IPs:
+    ```
+    185.199.108.153
+    185.199.109.153
+    185.199.110.153
+    185.199.111.153
+    ```
+  - A `CNAME` record for `www` pointing to `hanglics.github.io`.
+- HTTPS is enforced via the repository settings under **Settings > Pages > Enforce HTTPS**.
+
+### Adding Content
+
+- **Publications:** Add Markdown files to `_publications/` with proper front matter.
+- **Teaching:** Add Markdown files to `_teaching/`.
+- **Files (PDFs, etc.):** Place in `files/` directory. Accessible at `https://hangli.me/files/<filename>`.
+- **Images:** Place in `images/` directory.
+- **Site config:** Edit `_config.yml` (requires server restart).
+
+## Project Structure
+
+```
+_config.yml         # Site configuration
+_pages/             # Static pages (about, publications, teaching, etc.)
+_publications/      # Publication entries
+_teaching/          # Teaching entries
+_talks/             # Talk entries
+_includes/          # HTML partials (masthead, footer, sidebar, etc.)
+_layouts/           # Page layout templates
+_sass/              # SCSS stylesheets
+assets/css/         # Main CSS entry point and additional styles
+assets/js/          # JavaScript files
+images/             # Image assets
+files/              # Downloadable files (PDFs, etc.)
+_data/              # YAML data files (navigation, authors)
+CNAME               # Custom domain configuration
+```

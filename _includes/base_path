@@ -1,5 +1,12 @@
-{% if site.url %}
-  {% assign base_path = site.url | append: site.baseurl %}
-{% else %}
+{% assign site_url = site.url | default: "" %}
+{% if jekyll.environment == "development" %}
+  {% assign base_path = site.baseurl | default: "" %}
+{% elsif site_url contains "localhost" or site_url contains "127.0.0.1" %}
+  {% assign base_path = site.baseurl | default: "" %}
+{% elsif site_url != "" %}
+  {% assign base_path = site_url | append: site.baseurl %}
+{% elsif site.github.url %}
   {% assign base_path = site.github.url %}
+{% else %}
+  {% assign base_path = site.baseurl | default: "" %}
 {% endif %}

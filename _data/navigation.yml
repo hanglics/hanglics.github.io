@@ -1,19 +1,10 @@
-# main links links
+# main links
 main:
   - title: "Publications"
-    url: /publications/ 
+    url: /publications/
 
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
 
-  # - title: "Students"
-  #   url: /students/
-    
   - title: "CV"
     url: /files/cv.pdf
-  
-  # - title: "Misc."
-  #   url: /misc/
-    
-  # - title: "Guide"
-  #   url: /markdown/

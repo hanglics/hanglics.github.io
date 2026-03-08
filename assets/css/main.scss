@@ -39,3 +39,300 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+
+/* ==========================================================================
+   Custom UI Enhancements
+   ========================================================================== */
+
+/* Selection color */
+::selection {
+  background: rgba(37, 99, 235, 0.15);
+  color: #1e293b;
+}
+
+/* Greedy nav overrides for fixed masthead */
+.greedy-nav {
+  background: transparent;
+
+  a {
+    color: $masthead-link-color;
+
+    &:hover {
+      color: $masthead-link-color-hover;
+    }
+  }
+
+  .visible-links {
+    a {
+      color: $masthead-link-color;
+      &:hover {
+        color: $masthead-link-color-hover;
+      }
+      &::before {
+        background: transparent;
+      }
+    }
+  }
+
+  button {
+    background: transparent;
+    color: #fff;
+  }
+}
+
+/* Page content card-like feel */
+.page {
+  @include breakpoint($large) {
+    background: #fff;
+    border-radius: 12px;
+    padding: 2em 2.5em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+    margin-bottom: 2em;
+  }
+}
+
+/* News items styling */
+.page__content {
+  ul > li {
+    b {
+      color: $primary-color;
+      font-weight: 600;
+    }
+  }
+
+  /* Collapsible sections */
+  details {
+    margin: 0.5em 0;
+
+    summary {
+      cursor: pointer;
+      color: $accent-color;
+      font-weight: 600;
+      padding: 0.5em 0;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: mix(#000, $accent-color, 20%);
+      }
+    }
+  }
+}
+
+/* Author sidebar card styling on desktop */
+.sidebar {
+  @include breakpoint($large) {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.5em 1em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+    margin-top: 0;
+    position: sticky;
+    top: 80px;
+  }
+}
+
+/* Social icons in sidebar */
+.author__urls {
+  @include breakpoint($large) {
+    li {
+      margin-bottom: 2px;
+    }
+
+    a {
+      border-radius: 6px;
+      padding: 4px 6px;
+
+      &:hover {
+        background: rgba(37, 99, 235, 0.06);
+      }
+    }
+  }
+}
+
+/* Publication cards */
+.archive__about {
+  padding: 1em 1.2em;
+  margin-bottom: 0.8em;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+}
+
+.archive__about-title {
+  font-size: 1.05em;
+  margin: 0 0 0.4em;
+  font-family: $sans-serif;
+  font-weight: 600;
+
+  a {
+    color: $primary-color;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}
+
+/* Archive items */
+.archive__item {
+  padding: 0.8em 1em;
+  margin-bottom: 0.5em;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+
+  &:hover {
+    background: rgba(37, 99, 235, 0.03);
+  }
+}
+
+.archive__item-title {
+  font-family: $sans-serif;
+  font-weight: 600;
+
+  a {
+    color: $primary-color;
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}
+
+/* Follow button in sidebar */
+.btn--inverse {
+  background: linear-gradient(135deg, #1e3a5f, #2c5364);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 0.4em 1.2em;
+  font-weight: 500;
+  font-size: 0.85em;
+  letter-spacing: 0.02em;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(30, 58, 95, 0.3);
+    color: #fff;
+  }
+}
+
+/* Links styling */
+.page__content a:not(.btn) {
+  color: $accent-color;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease, color 0.2s ease;
+
+  &:hover {
+    border-bottom-color: $accent-color;
+  }
+}
+
+/* UQ Banner on home page */
+.page__content img[alt="uq-banner"] {
+  border-radius: 8px;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+/* Footer social icons */
+.page__footer-follow {
+  .social-icons {
+    li {
+      a {
+        color: rgba(255, 255, 255, 0.7);
+        transition: color 0.2s ease;
+
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+/* Service section - make it look like a list of badges */
+.page__content h1 + ul > li,
+.page__content h2 + ul > li {
+  margin-bottom: 0.3em;
+}
+
+/* Visitor map container */
+.page__content > script + br,
+.page__content > script {
+  display: block;
+  margin-top: 1em;
+}
+
+/* Code blocks */
+div.highlighter-rouge,
+figure.highlight {
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+}
+
+/* Tables */
+table {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+
+  th {
+    background: #f1f5f9;
+    font-weight: 600;
+    color: $primary-color;
+  }
+}
+
+/* Smooth scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 4px;
+
+  &:hover {
+    background: #64748b;
+  }
+}
+
+/* Hidden links dropdown on mobile */
+.hidden-links {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 0.5em;
+
+  a {
+    color: $primary-color !important;
+
+    &:hover {
+      color: $accent-color !important;
+    }
+  }
+}
+
+/* Teaching page cards */
+.archive__item-teaser {
+  border-radius: 8px;
+  overflow: hidden;
+}
