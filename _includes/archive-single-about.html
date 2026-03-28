@@ -2,21 +2,25 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__about" itemscope itemtype="http://schema.org/CreativeWork">
-      
+
       <h2 class="archive__about-title" itemprop="headline">
-          <a href="{{ base_path }}{{ post.paperurl }}" target="_blank">{{ post.title }}</a> 
+          <a href="{{ base_path }}{{ post.paperurl }}" target="_blank">{{ post.title }}</a>
       </h2>
 
-      {{ post.authors }} <br>
-      {{ post.venue }} <br>
-      {% if post.award != '' %}
-        {{ post.award }} <br>
-      {% endif %}
+      <p class="archive__about-meta">
+        <span class="archive__about-authors">{{ post.authors }}</span>
+        <span class="archive__about-venue">{{ post.venue }}</span>
+        {% if post.award != '' %}
+          <span class="archive__about-award">{{ post.award }}</span>
+        {% endif %}
+      </p>
 
-      [<a href=" {{ base_path }}{{ post.paperurl }} " target="_blank">Paper PDF</a>] 
-      {% if post.githuburl != '' %}
-        [<a href=" {{ post.githuburl }} " target="_blank">Github</a>]
-      {% endif %}
+      <div class="archive__about-links">
+        <a href="{{ base_path }}{{ post.paperurl }}" target="_blank" class="pub-link pub-link--paper"><i class="fas fa-file-pdf"></i> Paper</a>
+        {% if post.githuburl != '' %}
+          <a href="{{ post.githuburl }}" target="_blank" class="pub-link pub-link--code"><i class="fab fa-github"></i> Code</a>
+        {% endif %}
+      </div>
 
   </article>
 </div>

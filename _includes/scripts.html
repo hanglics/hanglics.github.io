@@ -1,4 +1,58 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+// Scroll reveal animation using Intersection Observer
+(function() {
+  // Add reveal class to section headings and major content blocks
+  var selectors = [
+    '.page__content > h1',
+    '.page__content > h2',
+    '.page__content > ul',
+    '.page__content > p',
+    '.page__content > details',
+    '.archive__about',
+    '.archive__item'
+  ];
+
+  var elements = document.querySelectorAll(selectors.join(','));
+  elements.forEach(function(el, i) {
+    el.classList.add('reveal');
+    el.style.transitionDelay = Math.min(i * 0.04, 0.2) + 's';
+  });
+
+  if ('IntersectionObserver' in window) {
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.reveal').forEach(function(el) {
+      observer.observe(el);
+    });
+  } else {
+    // Fallback: show everything
+    document.querySelectorAll('.reveal').forEach(function(el) {
+      el.classList.add('revealed');
+    });
+  }
+
+  // Masthead scroll effect: subtle shadow change
+  var masthead = document.querySelector('.masthead');
+  if (masthead) {
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 20) {
+        masthead.style.boxShadow = '0 4px 30px rgba(0,0,0,0.18)';
+      } else {
+        masthead.style.boxShadow = '0 1px 30px rgba(0,0,0,0.12)';
+      }
+    }, { passive: true });
+  }
+})();
+</script>
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}

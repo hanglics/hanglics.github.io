@@ -13,9 +13,9 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* system typefaces */
-$serif                      : "Source Serif 4", Georgia, Times, serif;
+$serif                      : "Crimson Pro", "Source Serif 4", Georgia, Times, serif;
 $sans-serif                 : "Inter", -apple-system, "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : "SF Mono", Monaco, Consolas, "Lucida Console", monospace;
+$monospace                  : "JetBrains Mono", "SF Mono", Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
@@ -136,8 +136,9 @@ $susy: (
    Other
    ========================================================================== */
 
-$border-radius              : 8px;
-$box-shadow                 : 0 1px 3px rgba(0, 0, 0, 0.08);
+$border-radius              : 10px;
+$box-shadow                 : 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+$box-shadow-hover           : 0 10px 30px rgba(30, 58, 95, 0.12), 0 4px 12px rgba(0, 0, 0, 0.06);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.25s cubic-bezier(0.4, 0, 0.2, 1);

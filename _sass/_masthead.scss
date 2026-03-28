@@ -7,19 +7,22 @@
   top: 0;
   left: 0;
   right: 0;
-  border-bottom: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
-  background: linear-gradient(135deg, #0f2027 0%, #1e3a5f 50%, #2c5364 100%);
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(135deg, rgba(15, 32, 39, 0.95) 0%, rgba(30, 58, 95, 0.95) 50%, rgba(44, 83, 100, 0.95) 100%);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.12);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
 
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 0.8em 1.5em;
+    padding: 0.7em 1.5em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -52,19 +55,23 @@
 
   a {
     position: relative;
-    padding: 0.4em 0;
+    padding: 0.5em 0;
     font-weight: 500;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
+    font-size: 0.9em;
+    text-transform: uppercase;
 
     &::after {
       content: '';
       position: absolute;
       bottom: 0;
-      left: 0;
+      left: 50%;
+      transform: translateX(-50%);
       width: 0;
       height: 2px;
-      background: #60a5fa;
-      transition: width 0.3s ease;
+      background: linear-gradient(90deg, #60a5fa, #a78bfa);
+      border-radius: 1px;
+      transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     &:hover::after {
@@ -77,8 +84,13 @@
     font-weight: 700;
 
     a {
-      font-size: 1.15em;
-      letter-spacing: 0.01em;
+      font-size: 1.1em;
+      letter-spacing: 0.02em;
+      text-transform: none;
+
+      &::after {
+        display: none;
+      }
     }
   }
 }
