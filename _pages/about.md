@@ -20,6 +20,8 @@ I publish at premier academic venues in IR (e.g. SIGIR, ECIR, WSDM, WWW, TOIS, I
 
 # News
 
+* <b>2026-04-03</b> <br> 🎉 Our work "<a href="{{ base_path }}/files/sigir2026-judge.pdf" target="_blank">When LLM Judges Inflate Scores: Exploring Overrating in Relevance Assessment</a>" has been accepted to <a href="https://sigir2026.org/en-AU" target="_blank">SIGIR 2026</a>! 
+
 * <b>2026-02-25</b> <br> 📃 My thesis "Advanced Query Representation and Feedback Methods for Neural Information Retrieval" is now public at UQ eSpace, read it <a href="{{ base_path }}/files/thesis.pdf" target="_blank">here</a>.
 
 * <b>2026-01-15</b> <br> 🎉 I've successfully defended my thesis! Huge thanks to my external examiners <a href="https://www.gla.ac.uk/schools/computing/staff/iadhounis/" target="_blank">Prof. Iadh Ounis</a> and <a href="https://www.cs.cmu.edu/~callan/" target="_blank">Prof. Jamie Callan</a>, as well as my Chair <a href="https://jmmackenzie.io/" target="_blank">Dr. Joel Mackenzie</a>. Also huge thanks to my supervisors Prof. Guido, A/Prof. Bevan, Dr. Ahmed, and everyone along my journey! Now a new chapter has started!
