@@ -36,13 +36,11 @@ I publish at premier academic venues in IR (e.g. SIGIR, ECIR, WSDM, WWW, TOIS, I
 
 * <b>2024-11-03</b> <br> 🎉 We have one work released on arXiv, check it out here: <a href="https://arxiv.org/abs/2504.01448" target="_blank">LLM-VPRF: Large Language Model Based Vector Pseudo Relevance Feedback</a>!
 
-* <b>2024-10-07</b> <br> ✈️ Back at Brisbane with full research power ON.
-
-* <b>2024-01-24</b><br> 🎉 Our work <a href="{{ base_path }}/files/arxiv2024.pdf" target="_blank">TPRF: A Transformer-based Pseudo-Relevance Feedback Model for Efficient and Effective Retrieval</a> is now on <a href="https://arxiv.org/abs/2401.13509" target="_blank">arXiv preprint</a>!
-
 <details class="page__news">
   <summary>MORE...</summary>
   <ul>
+  <li><b>2024-10-07</b> <br> ✈️ Back at Brisbane with full research power ON.</li>
+  <li><b>2024-01-24</b><br> 🎉 Our work <a href="{{ base_path }}/files/arxiv2024.pdf" target="_blank">TPRF: A Transformer-based Pseudo-Relevance Feedback Model for Efficient and Effective Retrieval</a> is now on <a href="https://arxiv.org/abs/2401.13509" target="_blank">arXiv preprint</a>!</li>
   <li><b>2023-06-19</b><br> 🎉 Our work <a href="{{ base_path }}/files/ijdl2023.pdf" target="_blank">AgAsk: An Agent to Help Answer Farmer’s Questions From Scientific Documents</a> has been accepted to <a href="https://link.springer.com/article/10.1007/s00799-023-00369-y" target="_blank">International Journal on Digital Libraries</a>!</li>
   <li><b>2022-11-23</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/wsdm2023mesh.pdf" target="_blank">MeSH Suggester: A Library and System for MeSH Term Suggestion for Systematic Review Boolean Query Construction</a> has been accepted to <a href="https://www.wsdm-conference.org/2023/" target="_blank">WSDM 2023</a>!</li>
   <li><b>2022-11-23</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/wsdm2023agask.pdf" target="_blank">AgAsk: A Conversational Search Agent for Answering Agricultural Questions</a> has been accepted to <a href="https://www.wsdm-conference.org/2023/" target="_blank">WSDM 2023</a>!</li>
@@ -122,21 +120,17 @@ I publish at premier academic venues in IR (e.g. SIGIR, ECIR, WSDM, WWW, TOIS, I
 
 # Service
 
-* Serving as the PC Member for Short Paper Track at <a href="https://ecir2026.eu/" target="_blank">ECIR 2026</a>.
+* Serving as the PC Member at International ACM Conference on Knowledge and Information Management (CIKM) 2026.
 
-* Serving as the PC Member for Short Paper Track at <a href="https://wsdm-conference.org/2026/" target="_blank">WSDM 2026</a>.
+* Serving as the PC Member at European Conference on Information Retrieval (ECIR) 2023/2024/2026.
 
-* Serving as the PC Member for Short Paper Track at <a href="https://sigir2025.dei.unipd.it/" target="_blank">SIGIR 2025</a>/<a href="https://sigir2026.org/en-AU" target="_blank">2026</a>.
+* Serving as the PC Member at ACM International Conference on Web Search and Data Mining (WSDM) 2026.
 
-* Serving as Reviewer for <a href="https://dl.acm.org/journal/tois" target="_blank">ACM Transactions on Information Systems (TOIS)</a> since 2024.
+* Serving as the PC Member at International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR) 2022/2023/2025/2026.
 
-* Serving as the PC Member for Resource and Reproducibility Track at <a href="https://ecir2023.org/" target="_blank">ECIR 2023</a>/<a href="https://www.ecir2024.org/" target="_blank">2024</a>.
+* Serving as Reviewer for ACM Transactions on Information Systems (TOIS) since 2024.
 
-* Serving as the PC Member for Reproducibility Track at <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>/<a href="https://sigir.org/sigir2023/" target="_blank">2023</a>.
-
-* Serving as the PC Member for Resource Track at <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>/<a href="https://sigir.org/sigir2023/" target="_blank">2023</a>.
-
-* Serving as the Proceeding Chair for <a href="https://cikm2021.org/" target="__blank">CIKM 2021</a>.
+* Serving as the Proceeding Chair for International ACM Conference on Knowledge and Information Management (CIKM) 2021</a>.
 
 <br>
 
