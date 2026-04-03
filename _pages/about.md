@@ -130,7 +130,7 @@ I publish at premier academic venues in IR (e.g. SIGIR, ECIR, WSDM, WWW, TOIS, I
 
 * Serving as Reviewer for ACM Transactions on Information Systems (TOIS) since 2024.
 
-* Serving as the Proceeding Chair for International ACM Conference on Knowledge and Information Management (CIKM) 2021</a>.
+* Serving as the Proceeding Chair for International ACM Conference on Knowledge and Information Management (CIKM) 2021.
 
 <br>
 
