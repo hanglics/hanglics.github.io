@@ -72,6 +72,8 @@ I publish at premier academic venues in IR (e.g. SIGIR, ECIR, WSDM, WWW, TOIS, I
 
 # Travel
 
+* <b>2026-07-19 -- 2026-07-26</b> <br> ✈️ Melbourne for SIGIR 2026
+
 * <b>2024-12-09 -- 2024-12-12</b> <br> ✈️ Melbourne for SIGIR AP 2024 Satellite
 
 * <b>2023-02-27 -- 2023-03-03</b> <br> ✈️ Singapore for WSDM 2023
@@ -119,6 +121,8 @@ I publish at premier academic venues in IR (e.g. SIGIR, ECIR, WSDM, WWW, TOIS, I
 <br>
 
 # Service
+
+* Serving as the PC Member at Empirical Methods in Natural Language Processing (EMNLP) 2026.
 
 * Serving as the PC Member at International ACM Conference on Knowledge and Information Management (CIKM) 2026.
 
