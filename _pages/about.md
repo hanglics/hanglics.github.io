@@ -122,6 +122,8 @@ I publish at premier academic venues in IR (e.g. SIGIR, ECIR, WSDM, WWW, TOIS, I
 
 # Service
 
+* Serving as the PC Member at The Web Conference (TheWebConf) 2027.
+
 * Serving as the PC Member at Empirical Methods in Natural Language Processing (EMNLP) 2026.
 
 * Serving as the PC Member at International ACM Conference on Knowledge and Information Management (CIKM) 2026.
