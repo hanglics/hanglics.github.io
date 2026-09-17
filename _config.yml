@@ -84,13 +84,14 @@ author:
   avatar           : "avatar.png"
   bio              : > 
                     Pronoun: he/him <br>
-                    Postdoctoral Research Officer <br>
+                    Postdoctoral Research Fellow <br>
                     <a href='http://ielab.io/' target='_blank'>Information Engineering Lab</a> <br>
                     <a href='https://www.uq.edu.au/' target='_blank'>The University of Queensland</a> <br> <br>
                     <b>Research Interests</b>: <br> 
                     Information Retrieval <br>
-                    Conversational Search <br>
-                    User Feedback <br>
+                    Large Language Models <br>
+                    Agentic Search <br>
+                    Retrieval-Augmented Generation <br>
                     Natural Language Processing <br>
                     Machine Learning <br>
   location         : "Brisbane, QLD, Australia"
