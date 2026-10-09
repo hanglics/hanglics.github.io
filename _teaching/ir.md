@@ -1,6 +1,8 @@
 ---
 title: "UQ: Information Retrieval and Web Search"
 collection: teaching
+course_code: "INFS7410"
+summary: "Tutorials and assessment support in information retrieval, plus a guest lecture on BERT-based reranking."
 type: "Graduate Course"
 date: 2021-07-01
 position: "Teaching Assistant"

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#ede9f7"/><stop offset="1" stop-color="#f5eaf0"/></linearGradient></defs>
+  <rect width="640" height="400" fill="url(#bg)"/>
+  <circle cx="583" cy="364" r="164" fill="#fff" opacity=".25"/>
+  <g font-family="system-ui, sans-serif" fill="#64517e">
+    <text x="58" y="75" font-size="13" letter-spacing="3">AGENTIC RAG EVALUATION</text>
+    <path d="M221 196h52m-10-8 10 8-10 8M416 196h52m-10-8 10 8-10 8M519 243v34H135v-34" fill="none" stroke="#a395bb" stroke-width="2" stroke-linecap="round"/>
+    <rect x="58" y="144" width="164" height="99" rx="20" fill="#fff" fill-opacity=".74" stroke="#c7badb"/>
+    <rect x="273" y="144" width="143" height="99" rx="20" fill="#fff" fill-opacity=".74" stroke="#c7badb"/>
+    <rect x="468" y="144" width="114" height="99" rx="20" fill="#fff" fill-opacity=".74" stroke="#c7badb"/>
+    <text x="94" y="187" font-size="16" font-weight="600">Generate</text><text x="107" y="210" font-size="13">test data</text>
+    <text x="295" y="187" font-size="16" font-weight="600">Experiment</text><text x="307" y="210" font-size="13">RAG pipeline</text>
+    <text x="495" y="187" font-size="16" font-weight="600">Evaluate</text><text x="496" y="210" font-size="13">LLM judge</text>
+    <circle cx="325" cy="277" r="15" fill="#e5def1" stroke="#c7badb"/>
+    <path d="m320 278 4 4 7-9" fill="none" stroke="#8b71ac" stroke-width="2"/>
+    <text x="58" y="333" font-size="19">From synthetic data to useful evidence.</text>
+  </g>
+</svg>

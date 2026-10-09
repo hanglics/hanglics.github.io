@@ -2,19 +2,31 @@
 layout: archive
 title: "Teaching"
 permalink: /teaching/
-author_profile: true
+author_profile: false
+hide_title: true
+body_class: collection-page
+description: "Teaching and guest lectures by Dr. Hang Li at the University of Queensland."
 ---
 
-{% include base_path %}
+<header class="page-header">
+  <p class="eyebrow">Teaching &amp; mentoring</p>
+  <h1>Sharing what I learn<span class="accent-dot">.</span></h1>
+  <p class="page-lead">Helping students connect the foundations of computer science with the systems they can build.</p>
+</header>
 
-I am very passionate about teaching! At the University of Queensland, I have TA'd for several core Master level Computer Science courses:
-INFS7410: Information Retrieval and Web Search, CSSE7610: Concurrency: Theory and Practice, and INFS7202: Web Information Systems. I was working with <a href="https://jmmackenzie.io/" target="_blank">Dr. Joel Mackenzie</a> for CSSE7610: Concurrency: Theory and Practice course for practical sessions, consultations, and exams. I have served as the Head of TA
-for INFS7202 course, where I worked closely with the course coordinator <a href="https://researchers.adelaide.edu.au/profile/weitong.chen" target="_blank">Dr. Tony Chen</a> to
-design course syllabus and content. I also give guest lectures in INFS7410 course under the guidance of the course coordinator <a href="http://ielab.io/people/guido-zuccon" target="_blank">Prof. Guido Zuccon</a> and <a href="https://wshuai190.github.io/" target="_blank">Dr. Shuai Wang</a>.
-<br><br>
-I have also worked as a tutor at UQ resident halls, where I mentored students about COMP7702: Artificial Intelligence and INFS7410: Information Retrieval
-and Web Search in 2022.
+<div class="teaching-intro">
+  <p>At the University of Queensland, I teach and give guest lectures in postgraduate computer science, spanning information retrieval, concurrent programming, and web information systems.</p>
+  <p>My teaching has included practical sessions, consultations, assessment design, and leading the teaching assistant team for INFS7202. I have also mentored students in artificial intelligence and information retrieval as a tutor in UQ residential halls.</p>
+</div>
 
-{% for post in site.teaching reversed %}
-  {% include archive-single-teaching.html %}
-{% endfor %}
+<section class="teaching-section" aria-labelledby="teaching-experience">
+  <div class="section-heading">
+    <h2 id="teaching-experience">Teaching experience</h2>
+    <span class="section-kicker">The University of Queensland</span>
+  </div>
+  <div class="teaching-grid">
+    {% for post in site.teaching reversed %}
+      {% include archive-single-teaching.html post=post %}
+    {% endfor %}
+  </div>
+</section>

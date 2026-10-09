@@ -1,6 +1,8 @@
 ---
-title: "UQ: Currency: Theory and Practice"
+title: "UQ: Concurrency: Theory and Practice"
 collection: teaching
+course_code: "CSSE7610"
+summary: "Concurrent programming, correctness, and synchronisation, with practical sessions and assessment support."
 type: "Graduate Course"
 date: 2025-07-01
 position: "Teaching Assistant"

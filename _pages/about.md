@@ -1,8 +1,9 @@
 ---
+layout: home
 permalink: /
-title: ""
-excerpt: "About me"
-author_profile: true
+title: "Dr. Hang Li — Search, Retrieval & AI"
+excerpt: "Dr. Hang Li (Alex), a postdoctoral researcher at the University of Queensland working on information retrieval, language models, and useful AI systems."
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
@@ -10,134 +11,81 @@ redirect_from:
 
 {% include base_path %}
 
-# About Me
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero__copy">
+    <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Researcher · Brisbane, Australia</p>
+    <h1 id="hero-title">Dr. Hang Li<span class="hero__alias">(Alex)</span><span class="hero__period">.</span></h1>
+    <p class="hero__statement">Better Search.<br><em>More Useful AI.</em></p>
+    <p class="hero__intro">I study how retrieval and language models can make information easier to find, understand, and use.</p>
+    <p class="hero__affiliation">Postdoctoral Research Fellow at <a href="http://ielab.io/">IELab</a>,<br>the <a href="https://www.uq.edu.au/">University of Queensland</a>.</p>
+    <div class="hero__actions">
+      <a class="glass-button glass-button--primary" href="#research">Explore My Research <span aria-hidden="true">↗</span></a>
+      <a class="glass-button" href="{{ base_path }}/files/cv.pdf">Curriculum Vitae <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="hero__links" aria-label="Professional profiles">
+      <a href="mailto:{{ site.author.email }}">Email <span aria-hidden="true">↗</span></a>
+      <a href="{{ site.author.googlescholar }}">Google Scholar <span aria-hidden="true">↗</span></a>
+      <a href="https://github.com/{{ site.author.github }}">GitHub <span aria-hidden="true">↗</span></a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+  <div class="hero__portrait">
+    <div class="portrait-frame">
+      <img src="{{ base_path }}/images/avatar.png" alt="Dr. Hang Li" width="949" height="1000" fetchpriority="high">
+      <div class="portrait-caption"><span class="portrait-caption__icon" aria-hidden="true">↗</span><div><strong>Search, Retrieval & AI</strong><span>Information Engineering Lab · UQ</span></div></div>
+    </div>
+    <span class="portrait-orbit portrait-orbit--one" aria-hidden="true"></span>
+    <span class="portrait-orbit portrait-orbit--two" aria-hidden="true"></span>
+  </div>
+</section>
 
-I am currently a Postdoctoral Research Fellow in <a href="http://ielab.io/" target="_blank">IELab</a> within the <a href="https://eecs.uq.edu.au/" target="_blank">School of Electrical Engineering and Computer Science</a> at the <a href="https://www.uq.edu.au/" target="_blank">University of Queensland</a>, Australia. During my Ph.D, I worked closely with <a href="http://ielab.io/people/guido-zuccon" target="_blank">Prof. Guido Zuccon</a>, <a href="http://bevankoopman.github.io/" target="_blank">A/Prof. Bevan Koopman</a>, and <a href="http://ielab.io/people/ahmed-mourad" target="_blank">Dr. Ahmed Mourad</a> (<a href="{{ base_path }}/files/thesis.pdf" target="_blank">Read My Thesis</a>). Prior to Ph.D, I received my Bachelor of Science degree in <a href="https://cse.umn.edu/cs" target="_blank">Computer Science</a> at the <a href="https://twin-cities.umn.edu/" target="_blank">University of Minnesota Twin-Cities</a> in United States, 2016.
+<section class="research-overview home-section" id="research" aria-labelledby="research-title">
+  <div class="section-heading">
+    <div><p class="eyebrow">01 / Research</p><h2 id="research-title">Finding the Signal.</h2></div>
+    <p>Connecting Effective Retrieval with the Reasoning and Generation Capabilities of Large Language Models.</p>
+  </div>
+  <div class="research-directions">
+    <article class="research-direction"><span class="direction-number">01</span><h3>Retrieval & Feedback</h3><p>Neural and dense retrieval, query representations, and relevance feedback that helps search systems find better evidence.</p><span class="direction-keywords">Information Retrieval · PRF · Dense Retrieval</span></article>
+    <article class="research-direction"><span class="direction-number">02</span><h3>Large Language Models & Search</h3><p>Relevance assessment, conversational and agentic search, and the efficient integration of large language models into retrieval pipelines.</p><span class="direction-keywords">LLMs · Agentic Search · NLP</span></article>
+    <article class="research-direction"><span class="direction-number">03</span><h3>Grounded Generation</h3><p>Retrieval-augmented generation systems, with a focus on how we design, evaluate, and improve their usefulness.</p><span class="direction-keywords">RAG · Evaluation · Reliable AI</span></article>
+  </div>
+</section>
 
-My research interests include **Information Retrieval (IR)**, **Large Language Models (LLMs)**, **Natural Language Processing (NLP)**, **Agentic Search**, **Retrieval-Augmented Generation (RAG)**, and **Machine Learning (ML)**. In particular, I am interested in developing intelligent search and information-access systems that combine effective retrieval with the reasoning and generation capabilities of LLMs. My research explores topics including neural and dense retrieval, retrieval enhancement and feedback, LLM-based relevance assessment, agentic and conversational search, RAG system design and evaluation, and the efficient and reliable integration of LLMs into real-world information retrieval pipelines.
+<section class="selected-work home-section" aria-labelledby="selected-title">
+  <div class="section-heading"><div><p class="eyebrow">02 / Selected Work</p><h2 id="selected-title">Ideas Into Evidence.</h2></div><a class="text-link" href="{{ base_path }}/publications/">All Publications <span aria-hidden="true">↗</span></a></div>
+  <div class="selected-work-grid">
+    {% assign selected_work = site.publications | where: "selected", true | sort: "selected_order" %}
+    {% for publication in selected_work limit:6 %}
+      {% include publication-card.html post=publication selected=true %}
+    {% endfor %}
+  </div>
+</section>
 
-I publish at premier academic venues in IR (e.g. SIGIR, ECIR, WSDM, WWW, TOIS, IJDL). During my Ph.D, my work was supported by <a href="https://grdc.com.au/" target="_blank">Grains Research and Development Corporation</a>, through the <a href="http://ielab.io/projects/agask.html" target="_blank">AgAsk Project</a>.
+<section class="news-section home-section" id="news" aria-labelledby="news-title">
+  <div class="section-heading"><div><p class="eyebrow">03 / Latest Updates</p><h2 id="news-title">Along the Way.</h2></div><span class="section-aside">Papers, Milestones & A Little Life.</span></div>
+  <ol class="news-list">
+    {% for item in site.data.news limit:4 %}
+    <li><time datetime="{{ item.date }}">{{ item.date | date: "%d %b %Y" }}</time><div>{{ item.body | replace: 'BASE_PATH', base_path }}</div></li>
+    {% endfor %}
+  </ol>
+  <details class="content-disclosure news-archive"><summary>Earlier Updates <span aria-hidden="true">+</span></summary><ol class="news-list">{% for item in site.data.news offset:4 %}<li><time datetime="{{ item.date }}">{{ item.date | date: "%d %b %Y" }}</time><div>{{ item.body | replace: 'BASE_PATH', base_path }}</div></li>{% endfor %}</ol></details>
+</section>
 
-# News
+<section class="about-section home-section" id="about" aria-labelledby="about-title">
+  <div class="section-heading"><div><p class="eyebrow">04 / Beyond the Papers</p><h2 id="about-title">About Me.</h2></div></div>
+  <div class="about-grid">
+    <div class="about-story">
+      <p>I am currently a Postdoctoral Research Fellow in <a href="http://ielab.io/">IELab</a> within the <a href="https://eecs.uq.edu.au/">School of Electrical Engineering and Computer Science</a> at the <a href="https://www.uq.edu.au/">University of Queensland</a>, Australia. During my PhD, I worked closely with <a href="http://ielab.io/people/guido-zuccon">Prof. Guido Zuccon</a>, <a href="http://bevankoopman.github.io/">A/Prof. Bevan Koopman</a>, and <a href="http://ielab.io/people/ahmed-mourad">Dr. Ahmed Mourad</a> (<a href="{{ base_path }}/files/thesis.pdf">Read My Thesis</a>). Before my PhD, I received my Bachelor of Science degree in <a href="https://cse.umn.edu/cs">Computer Science</a> at the <a href="https://twin-cities.umn.edu/">University of Minnesota Twin Cities</a> in the United States in 2016.</p>
+      <p>My research interests include <strong>Information Retrieval (IR)</strong>, <strong>Large Language Models (LLMs)</strong>, <strong>Natural Language Processing (NLP)</strong>, <strong>Agentic Search</strong>, <strong>Retrieval-Augmented Generation (RAG)</strong>, and <strong>Machine Learning (ML)</strong>. In particular, I am interested in developing intelligent search and information-access systems that combine effective retrieval with the reasoning and generation capabilities of LLMs. My research explores topics including neural and dense retrieval, retrieval enhancement and feedback, LLM-based relevance assessment, agentic and conversational search, RAG system design and evaluation, and the efficient and reliable integration of LLMs into real-world information retrieval pipelines.</p>
+      <p>I publish at premier academic venues in IR, including SIGIR, ECIR, WSDM, WWW, TOIS, and IJDL. During my PhD, my work was supported by the <a href="https://grdc.com.au/">Grains Research and Development Corporation</a> through the <a href="http://ielab.io/projects/agask.html">AgAsk Project</a>.</p>
+    </div>
+    <div class="about-notes">
+      <article class="note-card"><span class="note-card__icon" aria-hidden="true">↗</span><h3>Teaching & Mentoring</h3><p>Guest lectures, tutorials, and course leadership in information retrieval, concurrency, and web information systems.</p><a class="text-link" href="{{ base_path }}/teaching/">Teaching Experience <span aria-hidden="true">↗</span></a></article>
+      <article class="note-card"><span class="note-card__icon" aria-hidden="true">⌘</span><h3>Data for Better Evaluation</h3><p>Agvaluate: a resource for evaluating answers to agricultural questions.</p><a class="text-link" href="https://espace.library.uq.edu.au/view/UQ:0160dc7">Explore the Dataset <span aria-hidden="true">↗</span></a></article>
+    </div>
+  </div>
+  <details class="content-disclosure service-disclosure"><summary>Academic Service <span aria-hidden="true">+</span></summary><div class="service-grid"><div><h3>Programme Committees</h3><dl><div><dt>SIGIR</dt><dd>2022, 2023, 2025, 2026</dd></div><div><dt>ECIR</dt><dd>2023, 2024, 2026</dd></div><div><dt>WSDM</dt><dd>2026</dd></div><div><dt>CIKM</dt><dd>2026</dd></div><div><dt>EMNLP</dt><dd>2026</dd></div><div><dt>The Web Conference</dt><dd>2027</dd></div></dl></div><div><h3>Reviewing & organisation</h3><p>Reviewer for ACM Transactions on Information Systems (TOIS) since 2024.</p><p>Proceedings Chair for CIKM 2021.</p></div></div></details>
+  <details class="content-disclosure travel-disclosure"><summary>Travel Archive <span aria-hidden="true">+</span></summary><div class="travel-history">{% capture travel_history %}{% include travel-history.md %}{% endcapture %}{{ travel_history | markdownify }}</div></details>
+</section>
 
-* <b>2026-04-03</b> <br> 🎉 Our work "<a href="{{ base_path }}/files/sigir2026-judge.pdf" target="_blank">When LLM Judges Inflate Scores: Exploring Overrating in Relevance Assessment</a>" has been accepted to <a href="https://sigir2026.org/en-AU" target="_blank">SIGIR 2026</a>! 
-
-* <b>2026-02-25</b> <br> 📃 My thesis "Advanced Query Representation and Feedback Methods for Neural Information Retrieval" is now public at UQ eSpace, read it <a href="{{ base_path }}/files/thesis.pdf" target="_blank">here</a>.
-
-* <b>2026-01-15</b> <br> 🎉 I've successfully defended my thesis! Huge thanks to my external examiners <a href="https://www.gla.ac.uk/schools/computing/staff/iadhounis/" target="_blank">Prof. Iadh Ounis</a> and <a href="https://www.cs.cmu.edu/~callan/" target="_blank">Prof. Jamie Callan</a>, as well as my Chair <a href="https://jmmackenzie.io/" target="_blank">Dr. Joel Mackenzie</a>. Also huge thanks to my supervisors Prof. Guido, A/Prof. Bevan, Dr. Ahmed, and everyone along my journey! Now a new chapter has started!
-
-* <b>2025-12-17</b> <br> 🎉 Our work <a href="{{ base_path }}/files/ecir2026-evalugator.pdf" target="_blank">Evaluator - Rapid, Agile Development and Evaluation of Retrieval Augmented Generation Systems Without Labels</a> has been accetped to <a href="https://ecir2026.eu" target="_blank">ECIR 2026</a>! 
-
-* <b>2025-10-01</b> <br> 🎉 Officially started to work as a Postdoctoral Research Officer at UQ! Check out my profile <a href="https://about.uq.edu.au/experts/51052" target="_blank">here</a>.
-
-* <b>2025-07-30</b> <br> 🎉 Finally submitted my PhD Thesis! Pending review and starting to work as a PostDoc in <a href="http://ielab.io/" target="_blank">IELab</a> at The University of Queensland.
-
-* <b>2025-02-18</b> <br> 🎉 We have one work released on arXiv, check it out here: <a href="https://arxiv.org/abs/2503.14887" target="_blank">Pseudo-Relevance Feedback Can Improve Zero-Shot LLM-Based Dense Retrieval</a>!
-
-* <b>2024-11-03</b> <br> 🎉 We have one work released on arXiv, check it out here: <a href="https://arxiv.org/abs/2504.01448" target="_blank">LLM-VPRF: Large Language Model Based Vector Pseudo Relevance Feedback</a>!
-
-<details class="page__news">
-  <summary>MORE...</summary>
-  <ul>
-  <li><b>2024-10-07</b> <br> ✈️ Back at Brisbane with full research power ON.</li>
-  <li><b>2024-01-24</b><br> 🎉 Our work <a href="{{ base_path }}/files/arxiv2024.pdf" target="_blank">TPRF: A Transformer-based Pseudo-Relevance Feedback Model for Efficient and Effective Retrieval</a> is now on <a href="https://arxiv.org/abs/2401.13509" target="_blank">arXiv preprint</a>!</li>
-  <li><b>2023-06-19</b><br> 🎉 Our work <a href="{{ base_path }}/files/ijdl2023.pdf" target="_blank">AgAsk: An Agent to Help Answer Farmer’s Questions From Scientific Documents</a> has been accepted to <a href="https://link.springer.com/article/10.1007/s00799-023-00369-y" target="_blank">International Journal on Digital Libraries</a>!</li>
-  <li><b>2022-11-23</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/wsdm2023mesh.pdf" target="_blank">MeSH Suggester: A Library and System for MeSH Term Suggestion for Systematic Review Boolean Query Construction</a> has been accepted to <a href="https://www.wsdm-conference.org/2023/" target="_blank">WSDM 2023</a>!</li>
-  <li><b>2022-11-23</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/wsdm2023agask.pdf" target="_blank">AgAsk: A Conversational Search Agent for Answering Agricultural Questions</a> has been accepted to <a href="https://www.wsdm-conference.org/2023/" target="_blank">WSDM 2023</a>!</li>
-  <li><b>2022-11-15</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/adcs2022.pdf" target="_blank">Pseudo-Relevance Feedback with Dense Retrievers in Pyserini</a> has been accepted to <a href="http://adcs-conference.org/2022/" target="_blank">ADCS 2022</a>!</li>
-  <li><b>2022-11-14</b> <br> ✈️ Visiting China, working remotely.</li>
-  <li><b>2022-07-26</b> <br> 🏫 Came back from SIGIR 2022, now working on campus.</li>
-  <li><b>2022-07-01</b> <br> ✈️ I will be in Italy and Spain during 2022/07/06 - 2022/07/25 for SIGIR 2022.</li>
-  <li><b>2022-04-01</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/sigir2022-vpi.pdf" target="_blank">To interpolate or not to Interpolate: PRF, Dense and Sparse Retrievers</a> has been accepted to <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>!</li>
-  <li><b>2022-04-01</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/sigir2022-counter.pdf" target="_blank">Implicit Feedback for Dense Passage Retrieval: A Counterfactual Approach</a> has been accepted to <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>!</li>
-    <li><b>2022-04-01</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/sigir2022-noise.pdf" target="_blank">How does Feedback Signal Quality Impact Effectiveness of Pseudo Relevance Feedback for Passage Retrieval</a> has been accepted to <a href="https://sigir.org/sigir2022/" target="_blank">SIGIR 2022</a>!</li>
-    <li><b>2022-01-18</b> <br> 🎉 Our paper <a href="{{ base_path }}/files/adcs2021.pdf" target="_blank">MeSH Term Suggestion for Systematic Review Literature Search</a> has been awarded <b>the Best Student Paper Award</b> in ADCS 2021!</li>
-    <li><b>2022-01-01</b> <br> 🎉 Our dataset <a href="https://espace.library.uq.edu.au/view/UQ:0160dc7" target="_blank">Agvaluate</a> is now available on UQ eSpace!</li>
-    <li><b>2021-11-26</b> <br> 📃 Our paper <a href="{{ base_path }}/files/ecir2022repro.pdf" target="_blank">Improving Query Representations for Dense Retrieval with Pseudo Relevance Feedback: A Reproducibility Study</a> has been accepted to <a href="https://ecir2022.org/" target="_blank">ECIR 2022</a>! The code is open-sourced <a href="https://github.com/ielab/APR" target="_blank">here</a>.</li>
-    <li><b>2021-11-15</b> <br> 📃 Our paper <a href="{{ base_path }}/files/adcs2021.pdf" target="_blank">MeSH Term Suggestion for Systematic Review Literature Search</a> has been accepted to <a href="http://adcs-conference.org/2021/" target="_blank">ADCS 2021</a>! The code is open-sourced <a href="https://github.com/ielab/meshsuggest">here</a>.</li>
-    <li><b>2020-11-13</b> <br> 📃 Our workshop paper <a href="{{ base_path }}/files/trecdl21.pdf" target="_blank">IELAB at TREC Deep Learning Track 2021</a> is now published!</li>
-    <li><b>2021-09-25</b> <br> 🎉 Our team ielab (<a href="https://arvinzhuang.github.io/" target="_blank">Shengyao Zhuang</a>, <a href="http://ielab.io/people/shuai-wang" target="_blank">Shuai Wang</a>, and myself) successfully defended our method and won the championship in the <a href="https://developer.huawei.com/consumer/en/activity/devStarAI/algo/competition.html#/preliminary/info/007/introduction" target="_blank">"Search Rankings in Multimodal and Multilingual Contexts Track"</a> within the <a href="https://developer.huawei.com/consumer/en/activity/digixActivity/digixdetail/201621219634131423" target="_blank">2021 Huawei DIGIX Global AI Challenge</a>! Go TEAM IELAB!</li>
-    <li><b>2021-09-09</b> <br> 🎉 I've successfully passed the PhD Confirmation! Yay! Looking foward to do more experiments!</li>
-    <li><b>2021-08-25</b> <br> 📃 Our journal paper <a href="https://arxiv.org/abs/2108.11044" target="_blank">Pseudo Relevance Feedback with Deep Language Models and Dense Retrievers: Successes and Pitfalls</a> is now available on arXiv! Code is available at <a href="https://github.com/hanglics/Neural-Relevance-Feedback-Public">here</a>. Paper is currently under review, was submitted to the <a href="https://dl.acm.org/journal/tois">Journal of ACM Transactions on Information Systems (TOIS)</a> in June, 2021.</li>
-    <li><b>2020-12-15</b> <br> 📃 Our paper <a href="{{ base_path }}/files/ecir2021.pdf" target="_blank">Deep Query Likelihood Model for Information Retrieval</a> has been accepted to <a href="https://www.ecir2021.eu" target="_blank">ECIR 2021</a> as a short paper! The code is open-sourced <a href="https://github.com/ielab/GPT_Ranker" target="_blank">here</a>. A video of the work is available <a href="https://www.youtube.com/watch?v=oSGbYaC0ur0" target="_blank">here</a>.</li>
-    <li><b>2020-12-06</b> <br> 📃 Our paper <a href="{{ base_path }}/files/mob2021.pdf" target="_blank">Design and Research of Intelligent Question-Answering(Q&A) System Based on High School Course Knowledge Graph</a> has been accepted to <a href="https://www.springer.com/journal/11036" target="_blank">Mobile Networks and Applications</a> as a journal paper!</li>
-    <li><b>2020-11-11</b> <br> 📃 Our workshop paper <a href="https://trec.nist.gov/pubs/trec29/papers/ielab.C.pdf" target="_blank">IELAB for TREC Conversational Assistance Track (CAsT) 2020</a> is now published online! Our submissions are open-sourced <a href="https://github.com/ielab/trec-cast-2020-public" target="_blank">here</a>.</li>
-    <li><b>2020-07-26</b> <br> 💬 I will present our work on <a href="{{ base_path }}/files/sigir2020_tools.pdf" target="_blank">Systematic Review Automation Tools for End-to-End Query Formulation</a> at the <a href="https://sigir.org/sigir2020/" target="_blank">SIGIR 2020</a>!</li>
-    <li><b>2020-04-22</b> <br> 📃 Our paper <a href="{{ base_path }}/files/sigir2020_tools.pdf" target="_blank">Systematic Review Automation Tools for End-to-End Query Formulation</a> has been accepted to <a href="https://sigir.org/sigir2020/" target="_blank">SIGIR 2020</a> as a Demo paper! The code is open-sourced <a href="https://github.com/ielab/searchrefiner" target="_blank">here</a>. A video of my talk is also available <a href="https://dl.acm.org/doi/10.1145/3397271.3401402" target="_blank">online</a>.</li>
-    <li><b>2020-03-01</b> <br> 🏫 I am thrilled to announce that I will be joining <a href="http://ielab.io/" target="_blank">IELab</a> @ <a href="https://www.uq.edu.au/" target="_blank">UQ</a> as a Ph.D student in Information Retrieval under the supervision of <a href="http://ielab.io/people/guido-zuccon" target="_blank">A/Prof. Guido Zuccon</a> starting next month!</li>
-  </ul>
-</details>
-
-<br>
-
-# Travel
-
-* <b>2026-07-19 -- 2026-07-26</b> <br> ✈️ Melbourne for SIGIR 2026
-
-* <b>2024-12-09 -- 2024-12-12</b> <br> ✈️ Melbourne for SIGIR AP 2024 Satellite
-
-* <b>2023-02-27 -- 2023-03-03</b> <br> ✈️ Singapore for WSDM 2023
-
-
-<details class="page__travel">
-  <summary>MORE...</summary>
-  <ul>
-    <li><b>2022-11-14 -- 2024-10-06</b> <br> ✈️ Back to China for visting family</li>
-    <li><b>2022-07-11 -- 2022-07-15</b> <br> ✈️ Madrid, Spain for SIGIR 2022</li>
-    <li><b>2022-04-10 -- 2022-04-14</b> <br> ✈️ <s>Stavanger, Norway for ECIR 2022</s> (Attending Online)</li>
-    <li><b>2021-11-01 -- 2021-11-05</b> <br> ✈️ <s>Gold Coast, Australia for CIKM 2021</s> (Cancelled due to COVID-19)</li>
-    <li><b>2021-07-11 -- 2021-07-15</b> <br> ✈️ <s>Montréal, Québec, Canada for SIGIR/ICTIR 2021</s> (Cancelled due to COVID-19)</li>
-    <li><b>2021-04-19 -- 2021-04-23</b> <br> ✈️ <s>Ljubljana, Slovenia for WWW 2021</s> (Cancelled due to COVID-19)</li>
-    <li><b>2021-03-28 -- 2021-04-01</b> <br> ✈️ <s>Lucca, Italy for ECIR 2021</s> (Cancelled due to COVID-19)</li>
-    <li><b>2021-03-14 -- 2021-03-19</b> <br> ✈️ <s>Canberra, Australia for CHIIR 2021</s> (Cancelled due to COVID-19)</li>
-    <li><b>2021-03-08 -- 2021-03-12</b> <br> ✈️ <s>Jerusalem, Israel for WSDM 2021</s> (Cancelled due to COVID-19)</li>
-    <li><b>2020-10-19 -- 2020-10-23</b> <br> ✈️ <s>Galway, Ireland for CIKM 2020</s> (Cancelled due to COVID-19)</li>
-    <li><b>2020-09-14 -- 2020-09-17</b> <br> ✈️ <s>Stavanger, Norway for ICTIR 2020</s> (Cancelled due to COVID-19)</li>
-    <li><b>2020-08-13 -- 2020-08-14</b> <br> ✈️ <s>Vancouver, Canada for CHIIR 2020</s> (Cancelled due to COVID-19)</li>
-    <li><b>2020-07-25 -- 2020-07-30</b> <br> ✈️ <s>Xi'An, China for SIGIR 2020</s> (Cancelled due to COVID-19)</li>
-    <li><b>2020-07-05 -- 2020-07-10</b> <br> ✈️ <s>Seattle, WA, USA for NAACL 2020</s> (Cancelled due to COVID-19)</li>
-    <li><b>2020-04-20 -- 2020-04-24</b> <br> ✈️ <s>Taipei, Taiwan for WWW 2020</s> (Cancelled due to COVID-19)</li>
-    <li><b>2020-04-14 -- 2020-04-17</b> <br> ✈️ <s>Lisbon, Portugal for ECIR 2020</s> (Cancelled due to COVID-19)</li>
-  </ul>
-</details>
-
-<br>
-
-# Recent Publications
-
-{% for post in site.publications reversed %}
-  {% capture pub_type %}{{ post.pub_type }}{% endcapture %}
-  {% if pub_type == "major_publication" %}
-    {% include archive-single-about.html %}
-  {% endif %}
-{% endfor %}
-
-<br>
-
-# Datasets:
-
-* <a href="https://espace.library.uq.edu.au/view/UQ:0160dc7" target="_blank">Agvaluate</a>
-
-<br>
-
-# Service
-
-* Serving as the PC Member at The Web Conference (TheWebConf) 2027.
-
-* Serving as the PC Member at Empirical Methods in Natural Language Processing (EMNLP) 2026.
-
-* Serving as the PC Member at International ACM Conference on Knowledge and Information Management (CIKM) 2026.
-
-* Serving as the PC Member at European Conference on Information Retrieval (ECIR) 2023/2024/2026.
-
-* Serving as the PC Member at ACM International Conference on Web Search and Data Mining (WSDM) 2026.
-
-* Serving as the PC Member at International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR) 2022/2023/2025/2026.
-
-* Serving as Reviewer for ACM Transactions on Information Systems (TOIS) since 2024.
-
-* Serving as the Proceeding Chair for International ACM Conference on Knowledge and Information Management (CIKM) 2021.
-
-<br>
-
-<script type="text/javascript" id="clustrmaps" src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=365&t=n&d=3vg4ZDSAz8HrE8NUuuxpmP_wqqFZInZqKqN2xvVYeIE"></script>
+<section class="contact-section" aria-labelledby="contact-title"><p class="eyebrow">Let’s Connect</p><h2 id="contact-title">Good Questions Lead<br>to <em>Good Conversations.</em></h2><p>Interested in retrieval, language models, or working together? I’d be happy to hear from you.</p><a class="glass-button glass-button--primary" href="mailto:{{ site.author.email }}">{{ site.author.email }} <span aria-hidden="true">↗</span></a></section>

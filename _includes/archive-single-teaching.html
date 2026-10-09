@@ -1,16 +1,17 @@
-{% include base_path %}
-
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      
-      <h2 class="archive__item-title" itemprop="headline">
-          <a href="{{ post.course_page }}" target="_blank">{{ post.title }}</a> 
-      </h2>
-
-      <i>{{ post.position }}, {{ post.semester }}</i> <br>
-      {{ post.description }} <br>
-
-      [<a href=" {{ post.course_page }} " target="_blank">Course Homepage</a>]
-
-  </article>
-</div>
+{% assign course = include.post | default: post %}
+{% assign course_url = course.course_page | default: "" | strip %}
+<article class="teaching-card">
+  <div class="teaching-card__meta">
+    {% if course.course_code %}<span class="teaching-card__code">{{ course.course_code }}</span>{% endif %}
+    <span class="teaching-card__type">{{ course.type }}</span>
+  </div>
+  <h3 class="teaching-card__title">{{ course.title | remove: "UQ: " }}</h3>
+  <p class="teaching-card__role">{{ course.position }}</p>
+  <p class="teaching-card__semester">{{ course.semester }}</p>
+  <p class="teaching-card__summary">{{ course.summary | default: course.description }}</p>
+  <details class="teaching-card__details">
+    <summary>Course &amp; responsibilities</summary>
+    <div>{{ course.description }}</div>
+  </details>
+  {% if course_url != "" %}<a class="paper-link" href="{{ course_url }}">Course outline <span aria-hidden="true">↗</span></a>{% endif %}
+</article>

@@ -1,0 +1,46 @@
+{% assign publication = include.post | default: post %}
+{% assign publication_category = "other" %}
+{% if publication.pub_type == "major_publication" %}{% assign publication_category = "peer-reviewed" %}{% endif %}
+{% assign publication_year = publication.date | date: "%Y" %}
+{% if publication.publication_year %}{% assign publication_year = publication.publication_year %}{% endif %}
+{% assign publication_paper = publication.paperurl | default: "" | strip %}
+{% assign publication_code = publication.githuburl | default: "" | strip %}
+{% assign publication_award = publication.award | default: "" | strip %}
+{% assign publication_image = publication.research_image | default: "" | strip %}
+{% assign publication_image_kind = publication.research_image_kind | default: "generated" %}
+{% capture publication_image_fallback %}Visual summary of {{ publication.title | strip }}{% endcapture %}
+{% if publication_paper != "" %}
+  {% unless publication_paper contains "://" %}{% assign publication_paper = publication_paper | relative_url %}{% endunless %}
+{% endif %}
+{% if publication_code != "" %}
+  {% unless publication_code contains "://" %}{% assign publication_code = publication_code | relative_url %}{% endunless %}
+{% endif %}
+{% capture publication_search_text %}{{ publication.title }} {{ publication.authors | strip_html }} {{ publication.venue }} {{ publication.short_venue }} {{ publication_year }}{% endcapture %}
+<article class="publication-card{% if include.selected %} publication-card--selected{% endif %}{% if publication_image != '' %} publication-card--illustrated{% endif %}" data-publication-card data-publication-category="{{ publication_category }}" data-search-text="{{ publication_search_text | strip | escape }}" itemscope itemtype="https://schema.org/ScholarlyArticle">
+  {% if publication_image != '' %}
+    <div class="publication-card__image publication-card__image--{{ publication_image_kind | escape }}">
+      {% if publication_paper != '' %}<a href="{{ publication_paper }}">{% endif %}
+      <img src="{{ publication_image | relative_url }}" alt="{{ publication.research_image_alt | default: publication_image_fallback | escape }}" loading="lazy" decoding="async" width="{{ publication.research_image_width | default: 640 }}" height="{{ publication.research_image_height | default: 400 }}" itemprop="image">
+      {% if publication_paper != '' %}</a>{% endif %}
+    </div>
+  {% endif %}
+  <div class="publication-card__body">
+    <div class="publication-card__meta">
+      <span class="publication-card__venue" title="{{ publication.venue | strip_html | escape }}">{{ publication.short_venue | default: publication.venue }}</span>
+      <span class="publication-card__year">{{ publication_year }}</span>
+      {% if publication_category == "other" %}<span class="publication-card__type">{% if publication.venue contains "arXiv" or publication.venue contains "SSRN" %}Preprint{% else %}Workshop / track report{% endif %}</span>{% endif %}
+    </div>
+    <h3 class="publication-card__title" itemprop="headline">
+      {% if publication_paper != "" %}<a href="{{ publication_paper }}">{{ publication.title | strip }}</a>{% else %}{{ publication.title | strip }}{% endif %}
+    </h3>
+    {% if include.selected and publication.summary %}<p class="publication-card__summary" itemprop="abstract">{{ publication.summary }}</p>{% endif %}
+    <p class="publication-card__authors" itemprop="author">{{ publication.authors | strip }}</p>
+    {% if publication_award != "" %}<p class="publication-award"><span aria-hidden="true">✦</span> {{ publication_award }}</p>{% endif %}
+    {% if publication_paper != "" or publication_code != "" %}
+      <div class="publication-card__links">
+        {% if publication_paper != "" %}<a class="paper-link" href="{{ publication_paper }}" aria-label="Read {{ publication.title | strip | escape }}">Paper <span aria-hidden="true">↗</span></a>{% endif %}
+        {% if publication_code != "" %}<a class="paper-link" href="{{ publication_code }}" aria-label="Resources for {{ publication.title | strip | escape }}">{% if publication_code contains "github.com" %}Code{% else %}Project{% endif %} <span aria-hidden="true">↗</span></a>{% endif %}
+      </div>
+    {% endif %}
+  </div>
+</article>

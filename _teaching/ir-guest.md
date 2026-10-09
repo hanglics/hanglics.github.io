@@ -1,6 +1,8 @@
 ---
 title: "UQ: Information Retrieval and Web Search"
 collection: teaching
+course_code: "INFS7410"
+summary: "Guest lectures on pseudo-relevance feedback, PageRank, dense retrieval, and LLM-based feedback methods."
 type: "Graduate Course"
 date: 2025-05-01
 position: "Guest Lecturer"

@@ -1,20 +1,15 @@
-{% include base_path %}
-
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.author.github %}
-      <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
-    {% endif %}
-    {% if site.author.linkedin %}
-      <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
-    {% endif %}
-    {% if site.author.googlescholar %}
-      <li><a href="{{ site.author.googlescholar }}"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Scholar</a></li>
-    {% endif %}
-    {% if site.twitter.username %}
-      <li><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-    {% endif %}
-  </ul>
+<div class="site-container footer-inner">
+  <div class="footer-brand">
+    <a href="{{ '/' | relative_url }}">Dr. Hang Li<span class="brand-dot">.</span></a>
+    <p>Information Retrieval. Large Language Models. Better Search.</p>
+  </div>
+  <nav class="footer-links" aria-label="Social and contact links">
+    {% if site.author.email %}<a href="mailto:{{ site.author.email }}">Email <span aria-hidden="true">↗</span></a>{% endif %}
+    {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}">Scholar <span aria-hidden="true">↗</span></a>{% endif %}
+    {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">GitHub <span aria-hidden="true">↗</span></a>{% endif %}
+  </nav>
+  <div class="footer-meta">
+    <span>&copy; {{ site.time | date: '%Y' }} Dr. Hang Li</span>
+    <span>Brisbane, Australia</span>
+  </div>
 </div>
-
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}</div>

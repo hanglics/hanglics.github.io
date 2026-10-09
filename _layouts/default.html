@@ -2,30 +2,20 @@
 layout: compress
 ---
 
-{% include base_path %}
-
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js" data-theme="light" data-theme-mode="system">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
-
-  <body>
-
-    {% include browser-upgrade.html %}
+  <body class="layout-{{ page.layout | default: 'single' }} {{ page.body_class }}">
+    <a class="skip-link" href="#main">Skip to content</a>
     {% include masthead.html %}
-
     {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
+    <footer class="site-footer">
+      {% include footer.html %}
+      {% include footer/custom.html %}
+    </footer>
     {% include scripts.html %}
-
   </body>
 </html>

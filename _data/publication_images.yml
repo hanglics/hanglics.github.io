@@ -1,0 +1,448 @@
+# Source figures and content-based illustration prompts for publication thumbnails.
+adcs2021:
+  image: /images/publications/adcs2021.webp
+  kind: paper-figure
+  source: /files/adcs2021.pdf
+  alt: 'MeSH term suggestion pipeline: fragment a Boolean query, remove MeSH terms, retrieve, rank and
+    refine replacement terms, then reconstruct the query.'
+  width: 744
+  height: 675
+  selection_note: The original Figure 1 explicitly presents the overall suggestion procedure.
+  figure: 1
+  pdf_page: 2
+adcs2022:
+  image: /images/publications/adcs2022.webp
+  kind: paper-figure
+  source: /files/adcs2022.pdf
+  alt: Pyserini dense pseudo-relevance feedback framework with query encoding, first-round dense retrieval,
+    feedback query-vector creation and final retrieval.
+  width: 1200
+  height: 380
+  selection_note: Figure 1 presents the overall framework with the QueryEncoder, SimpleDenseSearcher and
+    DenseVectorPrf modules.
+  figure: 1
+  pdf_page: 3
+arxiv2024:
+  image: /images/publications/arxiv2024.webp
+  kind: generated
+  source: /files/arxiv2024.pdf
+  alt: Query and feedback passage embeddings pass through a compact transformer to produce a refined query
+    vector for a second retrieval pass.
+  width: 1200
+  height: 800
+  selection_note: All pages and both figure captions inspected. The only figures report model-size, effectiveness,
+    and latency results; no overall pipeline diagram.
+  generator: built-in image_gen
+  prompt: 'Use case: scientific-educational. Asset type: landscape academic publication thumbnail in a
+    3:2 composition. Create a restrained editorial scientific illustration that reads clearly at a small
+    size: crisp flat diagram shapes with gentle depth, generous white space, white/off-white background,
+    coordinated blue and teal with restrained amber accents. Preserve safe margins. Only sparse short
+    labels and clear arrows. No paper title, logos, watermarks, dense prose, invented numerical findings
+    or performance charts. This is a conceptual method illustration, not an experimental figure. TPRF
+    is a small transformer-based pseudo-relevance feedback model for dense retrieval. Stack an original
+    query vector with top-k feedback passage vectors; send these through a compact attention/transformer
+    block labelled TPRF; emit a refined query vector which searches the same dense vector index to produce
+    ranked results. Visually emphasize embedding vectors and a compact module, not text generation or
+    language-model answers. Exact labels only: "Query", "Feedback vectors", "TPRF", "Refined query", "Vector
+    index", "Results".'
+arxiv2025-1:
+  image: /images/publications/arxiv2025-1.webp
+  kind: generated
+  source: /files/arxiv2025-1.pdf
+  alt: An LLM-based dense retriever refines a query embedding using top-ranked document vectors before
+    a second retrieval pass.
+  width: 1200
+  height: 800
+  selection_note: All 13 pages inspected. The paper contains tables and equations but no figures or overview
+    diagram.
+  generator: built-in image_gen
+  prompt: 'Use case: scientific-educational. Asset type: landscape academic publication thumbnail in a
+    3:2 composition. Create a restrained editorial scientific illustration that reads clearly at a small
+    size: crisp flat diagram shapes with gentle depth, generous white space, white/off-white background,
+    coordinated blue and teal with restrained amber accents. Preserve safe margins. Only sparse short
+    labels and clear arrows. No paper title, logos, watermarks, dense prose, invented numerical findings
+    or performance charts. This is a conceptual method illustration, not an experimental figure. LLM-VPRF
+    applies vector pseudo-relevance feedback to LLM-based dense retrievers. An LLM encoder creates the
+    original query embedding; first dense search returns top document embeddings; a vector-feedback aggregation
+    blends these with the original query using Rocchio-style feedback; the refined query retrieves again.
+    Show one vector-space loop and two retrieval passes, not generated text. Exact labels only: "Query",
+    "LLM encoder", "First retrieval", "Vector feedback", "Refined query", "Second retrieval".'
+arxiv2025-2:
+  image: /images/publications/arxiv2025-2.webp
+  kind: generated
+  source: /files/arxiv2025-2.pdf
+  alt: PromptPRF extracts document features offline and uses features from retrieved passages to enrich
+    a small dense retriever at query time.
+  width: 1200
+  height: 800
+  selection_note: All 12 pages and all six figure captions inspected. Existing figures are evaluation
+    plots rather than a method or pipeline overview.
+  generator: built-in image_gen
+  prompt: 'Use case: scientific-educational. Asset type: landscape academic publication thumbnail in a
+    3:2 composition. Create a restrained editorial scientific illustration that reads clearly at a small
+    size: crisp flat diagram shapes with gentle depth, generous white space, white/off-white background,
+    coordinated blue and teal with restrained amber accents. Preserve safe margins. Only sparse short
+    labels and clear arrows. No paper title, logos, watermarks, dense prose, invented numerical findings
+    or performance charts. This is a conceptual method illustration, not an experimental figure. PromptPRF
+    uses offline LLM features to improve a small dense retriever without extra retriever training. Show
+    two clearly separated lanes: offline document cards pass through a feature extractor and stored feature
+    cards (entities, summaries, keywords); online a small retriever searches, gathers stored features
+    from the first retrieved passages, enriches the query prompt, re-encodes the query and performs refined
+    retrieval. A single arrow hands stored features from offline into online query enrichment. Never show
+    a live LLM generating features during online retrieval. Exact short labels only: "Offline features",
+    "Query", "Small retriever", "Query enrichment", "Refined search".'
+  revision_prompt: 'Correct only the arrows of this PromptPRF illustration, preserving all modules, words,
+    colors, document icons and two-lane composition. Stored offline features must enter Query enrichment,
+    not Small retriever: remove the existing arrow crossing from Offline features into Small retriever;
+    draw one new clear arrow from the stored feature-card group directly to Query enrichment, routed above
+    the Small retriever if needed. In the online lane, Small retriever still produces first retrieved
+    passage cards. Those bottom-left passage cards must point to Query enrichment in one direction only.
+    Remove the backward arrowhead that points from enrichment back toward those passage cards. Query still
+    feeds both Small retriever and Query enrichment; Query enrichment still flows into Refined search,
+    which yields final passage cards. Do not introduce an online LLM feature generation module.'
+arxiv2026-1:
+  image: /images/publications/arxiv2026-1.webp
+  kind: paper-figure
+  source: https://arxiv.org/pdf/2606.01782
+  alt: Windowed Setwise, Whole-Pool Top, and DualEnd comparisons show local versus whole-pool candidates
+    and fixing the best and worst ranking endpoints.
+  width: 1200
+  height: 632
+  selection_note: Original method overview figure, cropped from PDF with scientific content intact.
+  figure: 1
+  pdf_page: 4
+arxiv2026-2:
+  image: /images/publications/arxiv2026-2.webp
+  kind: generated
+  source: https://arxiv.org/pdf/2609.38099
+  alt: Shared in-context examples condition independent query and document LLM encoding; embeddings are
+    compared to retrieve ranked documents.
+  width: 1200
+  height: 800
+  selection_note: Paper figures are a recall plot and long prompt templates, with no overall pipeline
+    figure.
+  generator: built-in image_gen
+  prompt: 'Use case: scientific-educational.
+
+    Asset type: landscape publication thumbnail for an academic researcher website, 3:2 composition.
+
+    Create a polished restrained scientific illustration of RICE (Representations from In-Context Examples),
+    a training-free dense retrieval method. Based on this actual paper: a few shared query-document demonstrations
+    condition both query and document encoding; a decoder-only language model generates a representative
+    word, whose final hidden state becomes an embedding; query and document embeddings are compared for
+    retrieval. Show two parallel lanes: Query and Documents, receiving the same small stack of shared
+    examples; each passes through a matching language-model encoder module into compact embedding bars;
+    the lanes converge at a similarity match and ranked documents. Do not show parameter training or fine-tuning.
+
+    Style: refined clean editorial technical illustration with crisp flat diagram elements, subtle depth,
+    generous white space, off-white background, blue and teal with a small amber accent. Visually readable
+    as a small thumbnail. Preserve diagram margins. Exact short labels only: "Shared examples", "Query",
+    "Documents", "LLM", "Embeddings", "Retrieval". No title, no metrics, no benchmark charts, no logos,
+    no watermark, no dense prose. This is a conceptual illustration rather than an original experimental
+    figure.'
+  revision_prompt: 'Edit this RICE conceptual publication illustration, preserving the existing white
+    background, visual style, labels, document icons, two LLM boxes, embedding strips, and retrieval ranking.
+
+    Correct only the input arrows so the two encoder lanes are independent and both receive the shared
+    examples: the Shared examples panel must have exactly two separate arrow paths, one ending at the
+    blue query LLM box and one ending at the teal document LLM box. Remove the arrow from the shared examples
+    panel to the upper Embeddings strip. Remove the vertical arrow from the blue LLM box to the teal LLM
+    box. The Query card still feeds the blue LLM and the Documents stack still feeds the teal LLM; their
+    embeddings still meet at similarity comparison and Retrieval. There must be no arrow from one LLM
+    box to the other. Keep every label and all other elements unchanged.'
+cast2020:
+  image: /images/publications/cast2020.webp
+  kind: generated
+  source: /files/cross2020treccast.pdf
+  alt: 'Two conversational search systems: context-expanded BM25/RM3 retrieval, and manually rewritten-query
+    BM25/RM3 retrieval with T5 query-likelihood reranking.'
+  width: 1200
+  height: 800
+  selection_note: The paper contains conversation examples and evaluation tables but no system or pipeline
+    figure.
+  generator: built-in image_gen
+  prompt: 'Use case: scientific-educational. Landscape 3:2 academic publication thumbnail. Restrained
+    clean technical editorial illustration, crisp readable flat modules with gentle depth, white/off-white
+    background, blue and teal with restrained amber accents, generous safe margins. No numbers, results
+    graphs, logos, watermark, title or dense prose. This is a conceptual research illustration. Represent
+    TWO INDEPENDENT systems explored in the IELAB TREC CAsT 2020 report. Draw two clearly separated horizontal
+    rows with no arrows between them.
+
+    Top row: conversational context (first utterance) and current question combine at a context expansion
+    module, then BM25 + RM3 retrieval, then ranked passages. This row ends at ranked passages; it DOES
+    NOT connect to T5.
+
+    Bottom row: manually rewritten query flows through BM25 + RM3 retrieval, then a T5-QLM reranker, then
+    a separate ranked passage stack. This row does not receive the top row''s automatic expansion.
+
+    Labels only: "Context expansion", "BM25 + RM3", "Ranked passages", "Rewritten query", "T5-QLM". Show
+    chat bubbles for the first row and a rewritten query card for the second. Maintain distinct separate
+    row backgrounds or lane spacing.'
+ecir2021:
+  image: /images/publications/ecir2021.webp
+  kind: generated
+  source: /files/ecir2021.pdf
+  alt: Deep query-likelihood ranking with T5 estimating the probability of a query given a passage.
+  width: 1200
+  height: 800
+  selection_note: Only a rank-position gains and losses chart appears; there is no method overview figure.
+  generator: built-in image_gen
+  prompt: 'Use case: scientific-educational. Asset type: landscape academic publication thumbnail, 3:2
+    composition. Make a restrained editorial scientific illustration, readable at thumbnail size, crisp
+    flat diagram modules with gentle depth, generous white space, white/off-white background, coordinated
+    blue and teal with a small amber accent. Preserve wide margins. Short, sparse labels, clear arrows
+    and document/vector shapes. This is a conceptual method illustration: no invented metrics, no numerical
+    benchmark charts, no claims about measured gains, no logos, no watermark, no paper title, no dense
+    prose. Represent a Deep Query Likelihood Model for Information Retrieval. A query and candidate passage
+    enter a T5 language model that computes the likelihood of generating the query given that passage,
+    P(q|d). These likelihood scores order a set of candidate passages. Show two input paths into T5, then
+    a likelihood scoring module, then ordered passage cards. Distinguish query from passage and make the
+    scoring direction clear. No conversational answer. Labels only: "Query", "Passage", "T5", "P(q|d)",
+    "Ranked passages".'
+ecir2022repro:
+  image: /images/publications/ecir2022repro.webp
+  kind: generated
+  source: /files/ecir2022repro.pdf
+  alt: The original query and first-round feedback passages enter a trained PRF query encoder; the refined
+    query vector drives one second dense retrieval pass.
+  width: 1200
+  height: 800
+  selection_note: This reproducibility paper uses evaluation tables and has no numbered figure or system
+    screenshot.
+  generator: built-in image_gen
+  prompt: 'Use case: scientific-educational. Asset type: landscape academic publication thumbnail, 3:2
+    composition. Make a restrained editorial scientific illustration, readable at thumbnail size, crisp
+    flat diagram modules with gentle depth, generous white space, white/off-white background, coordinated
+    blue and teal with a small amber accent. Preserve wide margins. Short, sparse labels, clear arrows
+    and document/vector shapes. This is a conceptual method illustration: no invented metrics, no numerical
+    benchmark charts, no claims about measured gains, no logos, no watermark, no paper title, no dense
+    prose. Represent reproducing dense retrieval with ANCE pseudo-relevance feedback: a query goes through
+    a first dense search; top-k feedback passages join the query in a bundle; a trained PRF query encoder
+    creates a refined query vector; a second dense search returns an updated ranking. Show a careful two-stage
+    retrieval loop with first feedback and second ranking distinct, with a subtle repeat/check symbol
+    for reproducibility. Do not imply training-free inference method or invent comparisons. Labels only:
+    "Query", "First retrieval", "Feedback passages", "PRF query encoder", "Second retrieval".'
+  revision_prompt: 'Edit only one element in this scientific illustration: remove the entire bottom dashed
+    loop that returns from the final ranked documents to the original Query, including its loop arrows
+    and repeat/check symbol. Leave empty white space there. The method is exactly one first retrieval
+    and one feedback-based second retrieval, with no iterative output-to-query cycling. Preserve all other
+    modules, labels, arrows, colors and composition exactly as they are.'
+ecir2026:
+  image: /images/publications/ecir2026.webp
+  kind: paper-figure
+  source: /files/ecir2026-evalugator.pdf
+  alt: Evalugator architecture linking synthetic question generation, an experiment datastore, a live
+    RAG system, persistent work queues, and retriever and answer judging agents.
+  width: 1200
+  height: 687
+  selection_note: Original Fig. 1 is the complete technical system overview. Cropped from page 3, with
+    its explanatory annotations preserved and caption removed.
+  figure: 1
+  pdf_page: 3
+ijdl2023:
+  image: /images/publications/ijdl2023.webp
+  kind: paper-figure
+  source: /files/ijdl2023.pdf
+  alt: 'AgAsk architecture: scientific documents become searchable passages and BM25/TILDEv2 indexes,
+    feeding a retrieval and reranking service that answers farmers through a Telegram interface.'
+  width: 1125
+  height: 1137
+  selection_note: Figure 11 is explicitly the overall architecture of AgAsk; preferred over survey and
+    effectiveness charts.
+  figure: 11
+  pdf_page: 11
+mob2021:
+  image: /images/publications/mob2021.webp
+  kind: paper-figure
+  source: /files/mob2021.pdf
+  alt: 'Knowledge graph question-answering system: analyse student questions, recognise entities, search
+    knowledge and answers, then collect question behaviour to predict learning.'
+  width: 951
+  height: 936
+  selection_note: Figure 1 is the complete system flowchart.
+  figure: 1
+  pdf_page: 3
+sigir2020-tools:
+  image: /images/publications/sigir2020-tools.webp
+  kind: generated
+  source: /files/sigir2020_tools.pdf
+  alt: Searchrefiner workspace with a Boolean query tree and complementary tools for formulating, refining,
+    and documenting systematic review searches.
+  width: 1200
+  height: 800
+  selection_note: The paper has system screenshots but no overall pipeline figure; a conceptual illustration
+    represents its integrated tool suite.
+  generator: built-in image_gen
+  prompt: 'Use case: scientific-educational. Asset type: landscape 3:2 academic publication thumbnail.
+    Create a compact polished editorial scientific illustration of a searchrefiner workspace for medical
+    systematic review search. Center a simple Boolean query tree with AND/OR nodes inside a clean browser-like
+    panel. Around the tree are three complementary tool panels labelled "Formulate", "Refine", and "Document":
+    seed studies and suggested search terms; alternative keywords plus a query-variation view; a search-strategy
+    documentation report. These represent tools supporting query formulation, refinement and documentation
+    inside an integrated workspace. Do not invent a mandatory serial pipeline; there must be no sequential
+    arrows connecting those three panels. White/off-white background, coordinated blue, teal and restrained
+    amber accents, clear document and keyword icons, sparse readable labels, subtle depth, generous margins.
+    Exact labels only: "Formulate", "Refine", "Document", "AND", "OR". No paper title, metrics, empirical
+    plots, logos or watermark.'
+sigir2022-counter:
+  image: /images/publications/sigir2022-counter.webp
+  kind: paper-figure
+  source: /files/sigir2022-counter.pdf
+  alt: Historic click-log query and passage vectors are aggregated into an updated query representation
+    used to search a dense retrieval index and produce a result ranking.
+  width: 930
+  height: 394
+  selection_note: Original Fig. 1 is explicitly the high-level overview of exploiting historic implicit
+    click feedback for dense retrieval. Complete figure cropped from page 2 without caption.
+  figure: 1
+  pdf_page: 2
+sigir2022-noises:
+  image: /images/publications/sigir2022-noises.webp
+  kind: generated
+  source: /files/sigir2022-noise.pdf
+  alt: Strong, moderate, and weak passage feedback signals are compared for their effect on pseudo-relevance
+    feedback and the resulting search rankings.
+  width: 1200
+  height: 800
+  selection_note: All five pages inspected. The paper contains tables and equations but no figures or
+    overall pipeline.
+  generator: built-in image_gen
+  prompt: 'Use case: scientific-educational. Asset type: landscape academic publication thumbnail in a
+    3:2 composition. Create a restrained editorial scientific illustration that reads clearly at a small
+    size: crisp flat diagram shapes with gentle depth, generous white space, white/off-white background,
+    coordinated blue and teal with restrained amber accents. Preserve safe margins. Only sparse short
+    labels and clear arrows. No paper title, logos, watermarks, dense prose, invented numerical findings
+    or performance charts. This is a conceptual method illustration, not an experimental figure. A controlled
+    research study compares how different pseudo-relevance feedback methods respond to feedback passage
+    quality. Show three small input groups of passage cards labelled Strong, Moderate, Weak, distinguished
+    by green, amber, muted red relevance markers. They enter one controlled PRF evaluation block and emerge
+    as contrasting abstract ranking stacks. Do not assert all methods fail on weak feedback; no quantitative
+    chart. Minimal exact labels only: "Feedback quality", "Strong", "Moderate", "Weak", "PRF", "Rankings".'
+sigir2022-vpi:
+  image: /images/publications/sigir2022-vpi.webp
+  kind: generated
+  source: /files/sigir2022-vpi.pdf
+  alt: Sparse and dense retrieval signals merge before vector feedback and merge again after the second
+    retrieval pass.
+  width: 1200
+  height: 800
+  selection_note: All six pages inspected. The paper contains tables and equations but no figures or overall
+    pipeline.
+  generator: built-in image_gen
+  prompt: 'Use case: scientific-educational. Asset type: landscape academic publication thumbnail in a
+    3:2 composition. Create a restrained editorial scientific illustration that reads clearly at a small
+    size: crisp flat diagram shapes with gentle depth, generous white space, white/off-white background,
+    coordinated blue and teal with restrained amber accents. Preserve safe margins. Only sparse short
+    labels and clear arrows. No paper title, logos, watermarks, dense prose, invented numerical findings
+    or performance charts. This is a conceptual method illustration, not an experimental figure. This
+    study investigates sparse/dense interpolation before vector pseudo-relevance feedback, after feedback,
+    and at both points. Depict sparse search using word-weight bars and dense search using vector tiles.
+    Their two streams join a fusion node before a vector PRF refinement loop; a sparse stream rejoins
+    at final fusion to produce ranked results. Emphasize there are two fusion opportunities surrounding
+    feedback. Minimal exact labels only: "Sparse", "Dense", "Fusion", "Vector PRF", "Final fusion", "Ranked
+    results".'
+  revision_prompt: Correct this scientific conceptual illustration while retaining its style and all labels/modules.
+    The final fusion must combine the output of Vector PRF with the original SPARSE retrieval stream.
+    Currently an extra bypass arrow runs from the Dense panel to Final fusion; remove that bypass completely.
+    Replace it with a separate blue bypass line from the Sparse panel to Final fusion, routed along the
+    top in open white space. Keep Sparse and Dense both entering first Fusion. Keep first Fusion feeding
+    Vector PRF and Vector PRF feeding Final fusion. Remove the amber U-shaped cyclic loop arrow underneath
+    Vector PRF; feedback is represented inside that module and should not imply iterative cycling. Preserve
+    everything else.
+sigir2026-judge:
+  image: /images/publications/sigir2026-judge.webp
+  kind: generated
+  source: /files/sigir2026-judge.pdf
+  alt: A diagnostic comparison of human relevance judgments and LLM scores examines inflated ratings after
+    passage-length and lexical changes.
+  width: 1200
+  height: 800
+  selection_note: All five pages and both figure captions inspected. Existing figures are label-transition
+    heatmaps and label-distribution bar plots, not a pipeline overview.
+  generator: built-in image_gen
+  prompt: 'Use case: scientific-educational. Asset type: landscape academic publication thumbnail in a
+    3:2 composition. Create a restrained editorial scientific illustration that reads clearly at a small
+    size: crisp flat diagram shapes with gentle depth, generous white space, white/off-white background,
+    coordinated blue and teal with restrained amber accents. Preserve safe margins. Only sparse short
+    labels and clear arrows. No paper title, logos, watermarks, dense prose, invented numerical findings
+    or performance charts. This is a conceptual method illustration, not an experimental figure. The paper
+    diagnoses overrating by LLM relevance judges with controlled passage rewrites varying length and query-related
+    lexical cues. Show a query and a passage beside two variations: a longer passage card and a card with
+    extra highlighted keyword stripes. From those items branch toward two assessment modules, Human and
+    LLM judge. Use small symbolic relevance markers showing an inflated LLM rating relative to the human
+    reference for this diagnostic example, with no numbers or benchmarks. Don''t imply every LLM judgment
+    is wrong. Minimal exact labels only: "Query", "Passage variants", "Human", "LLM judge", "Relevance".'
+ssrn2026-7412000:
+  image: /images/publications/ssrn2026-7412000.webp
+  kind: paper-figure
+  source: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7412000
+  alt: 'Three-stage late-interaction retrieval pipeline: offline model training, document preparation
+    and indexing, and online query encoding, candidate retrieval and MaxSim scoring.'
+  width: 1200
+  height: 667
+  selection_note: Original method overview figure, cropped from PDF with scientific content intact.
+  figure: 2
+  pdf_page: 8
+tois2021:
+  image: /images/publications/tois2021.webp
+  kind: paper-figure
+  source: /files/li-tois-2022.pdf
+  alt: A deep language model encodes the query, a Faiss dense index retrieves passages, and feedback passage
+    embeddings refine the query for a second retrieval pass.
+  width: 1186
+  height: 375
+  selection_note: Paper includes multiple real overview figures. Original Fig. 2 captures vector-based
+    PRF architecture clearly, matching the selected-work emphasis; it is more legible at thumbnail size
+    than the text-based overview. Complete figure cropped from page 8 without caption.
+  figure: 2
+  pdf_page: 8
+trecdl21:
+  image: /images/publications/trecdl21.webp
+  kind: generated
+  source: /files/trecdl21.pdf
+  alt: Separate uniCOIL/ADORE hybrid retrieval and BM25-to-TILDEv2 reranking systems, with offline TILDE
+    passage expansion for document preparation.
+  width: 1200
+  height: 800
+  selection_note: The three-page track report contains model descriptions and result tables but no pipeline
+    figure.
+  generator: built-in image_gen
+  prompt: 'Use case: scientific-educational. Landscape 3:2 academic publication thumbnail. Restrained
+    clean technical editorial illustration, crisp readable flat modules with gentle depth, white/off-white
+    background, blue and teal with restrained amber accents, generous safe margins. No numbers, results
+    graphs, logos, watermark, title or dense prose. This is a conceptual research illustration. Represent
+    independent systems in the IELAB TREC Deep Learning 2021 report, not one combined pipeline. Top lane:
+    a query branches into uniCOIL sparse retrieval and ADORE dense retrieval; those candidates merge at
+    Hybrid and end in a ranked passage stack. Do not connect Hybrid to TILDEv2.
+
+    Second lane: a separate query feeds BM25 retrieval, then TILDEv2 reranking, ending in its own ranked
+    passage stack. No arrow connecting the top and second lane.
+
+    Add a small distinct offline document-expansion motif marked "TILDE expansion" near the lower-left,
+    visually associated with document preparation for uniCOIL and TILDEv2, not the hybrid merge. It may
+    be a small separate inset with document cards and a gear rather than detailed arrows.
+
+    Sparse labels only: "Query", "uniCOIL", "ADORE", "Hybrid", "BM25", "TILDEv2", "TILDE expansion".'
+wsdm2023agask:
+  image: /images/publications/wsdm2023agask.webp
+  kind: paper-figure
+  source: /files/wsdm2023agask.pdf
+  alt: AgAsk conversational search architecture connecting Telegram and Macaw to BM25 retrieval, TILDEv2
+    reranking, BART answer generation, and agricultural document ingestion.
+  width: 909
+  height: 909
+  selection_note: Original Fig. 1 is explicitly the overall architecture. Complete portrait figure cropped
+    from the left column of page 2 without caption; fit with contain to preserve all stages.
+  figure: 1
+  pdf_page: 2
+wsdm2023mesh:
+  image: /images/publications/wsdm2023mesh.webp
+  kind: paper-figure
+  source: /files/wsdm2023mesh.pdf
+  alt: Web-based MeSH suggestion system linking the user and query-building front end to the MeSH suggestion
+    API and interaction logging service.
+  width: 597
+  height: 897
+  selection_note: Figure 1 explicitly shows the overall web-based system architecture.
+  figure: 1
+  pdf_page: 2

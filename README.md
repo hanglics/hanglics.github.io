@@ -1,95 +1,63 @@
-# hangli.me - Personal Academic Website
+# hangli.me
 
-Personal website for Dr. Hang Li, built with [Jekyll](https://jekyllrb.com/) using a customized [AcademicPages](https://github.com/academicpages/academicpages.github.io) theme (a fork of [Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/)).
+Personal academic website for Dr. Hang Li (Alex), a postdoctoral researcher at the University of Queensland. Built with Jekyll and deployed through GitHub Actions to GitHub Pages at [hangli.me](https://hangli.me).
 
-**Live site:** [https://hangli.me](https://hangli.me)
+The design uses a restrained Liquid Glass aesthetic: translucent navigation and controls, soft background colour, and readable research content. It adapts to mobile screens and includes keyboard focus, reduced-motion support, and a fallback for browsers without backdrop blur.
 
-## Run Locally
+## Local development
 
-### Prerequisites
-
-- Ruby (2.6+ recommended)
-- Bundler (`gem install bundler`)
-- Node.js
-
-**macOS:**
+Use **Ruby 3.2 or newer** and **Bundler 4.0.7**, the version recorded in `Gemfile.lock`. macOS's system Ruby 2.6 cannot run this dependency set. Select a compatible Ruby through your preferred version manager, or use an existing Homebrew Ruby installation:
 
 ```bash
-brew install ruby node
-gem install bundler
+# When Homebrew ruby@3.4 is installed on Apple Silicon:
+export PATH="/opt/homebrew/opt/ruby@3.4/bin:$PATH"
+
+ruby --version
+gem install bundler -v 4.0.7
+bundle _4.0.7_ install
+bundle _4.0.7_ exec jekyll serve --config _config.yml,_config.dev.yml --livereload
 ```
 
-**Ubuntu/Debian:**
+Open [localhost:4000](http://localhost:4000). Jekyll rebuilds after content and style changes; restart the server after editing `_config.yml`. Node.js is not needed for the current Jekyll build.
+
+Keep `Gemfile.lock`: it pins the dependency versions used by the deployed site. If Bundler reports a Ruby compatibility error, select a compatible Ruby before installing dependencies.
+
+To check the production build locally:
 
 ```bash
-sudo apt install ruby-dev ruby-bundler nodejs
+JEKYLL_ENV=production bundle _4.0.7_ exec jekyll build
 ```
 
-### Setup and Serve
+Generated files live in `_site/`; edit the source files below.
 
-```bash
-# Clone the repository
-git clone https://github.com/hanglics/hanglics.github.io.git
-cd hanglics.github.io
+## Editing the website
 
-# Install dependencies
-bundle install
-# If you get errors, try: rm Gemfile.lock && bundle install
+| Content | Source |
+| --- | --- |
+| Homepage biography and sections | `_pages/about.md` and the homepage data in `_data/` |
+| Publication metadata and individual paper pages | `_publications/*.md` |
+| Publications index | `_pages/publications.md` |
+| Teaching entries | `_teaching/*.md` |
+| Main navigation | `_data/navigation.yml` |
+| Site identity and contact links | `_config.yml` |
+| Shared layouts and page components | `_layouts/` and `_includes/` |
+| Design styles | `assets/css/` and `_sass/` |
+| Navigation and publication interactions | `assets/js/` |
+| Portrait and publication images | `images/` |
+| CV and downloadable materials | `files/` |
 
-# Serve locally with live reload
-bundle exec jekyll serve
-```
+Keep publication titles, authors, venues, resource links, and dates in the existing front matter. Follow a recent entry when adding a paper. Use its original pipeline figure when available; otherwise create a representative conceptual illustration.
 
-The site will be available at `http://localhost:4000`. It auto-rebuilds on file changes.
+Publication thumbnails live in `images/publications/` as optimized WebP images. Set `research_image`, descriptive `research_image_alt`, the image's actual `research_image_width` and `research_image_height`, and `research_image_kind` (`paper-figure` or `generated`) in each publication's front matter. `research_image_caption` supplies the caption on the detail page. The shared cards preserve the complete figure on both the homepage and publications index.
 
-## Deploy to GitHub Pages
+`_data/publication_images.yml` records each thumbnail's source paper, figure number and PDF page, or the full prompt used with the built-in image generator. Keep this source record in sync when replacing an image.
 
-This site is deployed automatically via GitHub Pages.
+The navigation links directly to `files/cv.pdf`; `/cv/` and `/resume` also redirect there. Previous placeholder student and miscellaneous pages redirect to the teaching page and homepage.
 
-### How it works
+## Deployment
 
-1. Push changes to the `master` branch of the repository `hanglics/hanglics.github.io`.
-2. GitHub Pages automatically builds and deploys the Jekyll site.
+[`.github/workflows/jekyll.yml`](.github/workflows/jekyll.yml) installs Ruby 3.2 and the locked gems, builds the site, and uploads the output to GitHub Pages. It runs on pushes to `master` and can also be started manually from the repository's Actions tab.
 
-### Custom Domain (hangli.me) with HTTPS
+The custom domain is stored in `CNAME`. Domain and HTTPS settings are managed in the repository's **Settings → Pages**.
 
-The custom domain is configured via:
-
-- A `CNAME` file in the repo root containing `hangli.me`.
-- DNS records pointing to GitHub Pages servers. The DNS should have:
-  - An `A` record pointing to GitHub Pages IPs:
-    ```
-    185.199.108.153
-    185.199.109.153
-    185.199.110.153
-    185.199.111.153
-    ```
-  - A `CNAME` record for `www` pointing to `hanglics.github.io`.
-- HTTPS is enforced via the repository settings under **Settings > Pages > Enforce HTTPS**.
-
-### Adding Content
-
-- **Publications:** Add Markdown files to `_publications/` with proper front matter.
-- **Teaching:** Add Markdown files to `_teaching/`.
-- **Files (PDFs, etc.):** Place in `files/` directory. Accessible at `https://hangli.me/files/<filename>`.
-- **Images:** Place in `images/` directory.
-- **Site config:** Edit `_config.yml` (requires server restart).
-
-## Project Structure
-
-```
-_config.yml         # Site configuration
-_pages/             # Static pages (about, publications, teaching, etc.)
-_publications/      # Publication entries
-_teaching/          # Teaching entries
-_talks/             # Talk entries
-_includes/          # HTML partials (masthead, footer, sidebar, etc.)
-_layouts/           # Page layout templates
-_sass/              # SCSS stylesheets
-assets/css/         # Main CSS entry point and additional styles
-assets/js/          # JavaScript files
-images/             # Image assets
-files/              # Downloadable files (PDFs, etc.)
-_data/              # YAML data files (navigation, authors)
-CNAME               # Custom domain configuration
-```
+The site retains the Jekyll, AcademicPages, and Minimal Mistakes foundation. Theme attribution and licences are preserved in the repository.
