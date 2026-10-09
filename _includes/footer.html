@@ -1,8 +1,11 @@
-<div class="site-container footer-inner">
+{% assign show_footer_visitor_map = false %}
+{% if site.visitor_counter.enabled and page.layout != 'home' %}{% assign show_footer_visitor_map = true %}{% endif %}
+<div class="site-container footer-inner{% if show_footer_visitor_map %} footer-inner--visitor-map{% endif %}">
   <div class="footer-brand">
     <a href="{{ '/' | relative_url }}">Dr. Hang Li<span class="brand-dot">.</span></a>
     <p>Information Retrieval. Large Language Models. Better Search.</p>
   </div>
+  {% if show_footer_visitor_map %}{% include visitor-counter.html %}{% endif %}
   <nav class="footer-links" aria-label="Social and contact links">
     {% if site.author.email %}<a href="mailto:{{ site.author.email }}">Email <span aria-hidden="true">↗</span></a>{% endif %}
     {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}">Scholar <span aria-hidden="true">↗</span></a>{% endif %}

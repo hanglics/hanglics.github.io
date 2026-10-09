@@ -131,6 +131,47 @@
     filterPublications();
   });
 
+  var visitorMap = document.querySelector('[data-visitor-map]');
+  if (visitorMap) {
+    var mapStatus = visitorMap.querySelector('[data-visitor-map-status]');
+    var mapHost = visitorMap.getAttribute('data-visitor-map-host');
+
+    // The provider's tracking ID belongs to the live site, not local previews.
+    if (window.location.hostname !== mapHost || window.location.protocol !== 'https:') {
+      mapStatus.textContent = 'Live after publishing';
+    } else {
+      var mapTimer;
+      var mapObserver;
+
+      function showVisitorMap() {
+        var visitorText = visitorMap.querySelector('.mapmyvisitors-visitors');
+        if (!visitorText || !visitorText.textContent.trim()) return;
+        mapStatus.hidden = true;
+        mapObserver.disconnect();
+        window.clearTimeout(mapTimer);
+      }
+
+      function mapUnavailable() {
+        mapStatus.textContent = 'Map temporarily unavailable';
+        // Leave the observer active so a slow response can still display the map.
+        window.clearTimeout(mapTimer);
+      }
+
+      mapStatus.textContent = 'Loading visitor map…';
+      mapObserver = new MutationObserver(showVisitorMap);
+      mapObserver.observe(visitorMap, { childList: true, subtree: true });
+      mapTimer = window.setTimeout(mapUnavailable, 10000);
+      var mapScript = document.createElement('script');
+      mapScript.type = 'text/javascript';
+      mapScript.id = 'mapmyvisitors';
+      mapScript.src = visitorMap.getAttribute('data-visitor-map-src');
+      mapScript.async = true;
+      mapScript.onerror = mapUnavailable;
+      // MapMyVisitors inserts its widget after this script, inside the body.
+      visitorMap.appendChild(mapScript);
+    }
+  }
+
   var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if ('IntersectionObserver' in window && !reduceMotion) {
     var observer = new IntersectionObserver(function (entries) {

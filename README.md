@@ -54,6 +54,8 @@ Publication thumbnails live in `images/publications/` as optimized WebP images. 
 
 The navigation links directly to `files/cv.pdf`; `/cv/` and `/resume` also redirect there. Previous placeholder student and miscellaneous pages redirect to the teaching page and homepage.
 
+The homepage displays a compact [MapMyVisitors](https://mapmyvisitors.com/web/1c8rs) map beside the contact section; other pages show it in the footer. Its script URL and statistics link are configured under `visitor_counter` in `_config.yml`. The widget loads only over HTTPS on `visitor_counter.host`; local previews show "Live after publishing" and send no tracking requests. Set `visitor_counter.enabled: false` to remove it. If the provider is blocked or unavailable, the statistics link remains available.
+
 ## Deployment
 
 [`.github/workflows/jekyll.yml`](.github/workflows/jekyll.yml) installs Ruby 3.2 and the locked gems, builds the site, and uploads the output to GitHub Pages. It runs on pushes to `master` and can also be started manually from the repository's Actions tab.

@@ -1,0 +1,7 @@
+<section class="visitor-map" aria-label="Visitor map">
+  <h2 class="visitor-map__title">Visitors Around the World</h2>
+  <div class="visitor-map__embed" data-visitor-map data-visitor-map-host="{{ site.visitor_counter.host | escape }}" data-visitor-map-src="{{ site.visitor_counter.script_url | escape }}">
+    <p class="visitor-map__status" data-visitor-map-status aria-live="polite">Visitor map</p>
+  </div>
+  <a class="visitor-map__link" href="{{ site.visitor_counter.statistics_url | escape }}">View visitor statistics <span aria-hidden="true">↗</span></a>
+</section>

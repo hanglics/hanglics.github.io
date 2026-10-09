@@ -81,6 +81,13 @@ analytics:
   google:
     tracking_id          :
 
+# Public footer statistics. Only the live domain sends counting requests.
+visitor_counter:
+  enabled: true
+  host: "hangli.me"
+  script_url: "https://mapmyvisitors.com/map.js?d=_0i3sh6o7P4JgymXMzbhHkffgdbAh_LsbGq9AduPhno&cl=ffffff&w=a"
+  statistics_url: "https://mapmyvisitors.com/web/1c8rs"
+
 
 # Site Author
 author:

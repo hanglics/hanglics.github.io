@@ -88,4 +88,12 @@ redirect_from:
   <details class="content-disclosure travel-disclosure"><summary>Travel Archive <span aria-hidden="true">+</span></summary><div class="travel-history">{% capture travel_history %}{% include travel-history.md %}{% endcapture %}{{ travel_history | markdownify }}</div></details>
 </section>
 
-<section class="contact-section" aria-labelledby="contact-title"><p class="eyebrow">Let’s Connect</p><h2 id="contact-title">Good Questions Lead<br>to <em>Good Conversations.</em></h2><p>Interested in retrieval, language models, or working together? I’d be happy to hear from you.</p><a class="glass-button glass-button--primary" href="mailto:{{ site.author.email }}">{{ site.author.email }} <span aria-hidden="true">↗</span></a></section>
+<section class="contact-section{% if site.visitor_counter.enabled %} contact-section--with-map{% endif %}" aria-labelledby="contact-title">
+  <div class="contact-section__copy">
+    <p class="eyebrow">Let’s Connect</p>
+    <h2 id="contact-title">Good Questions Lead<br>to <em>Good Conversations.</em></h2>
+    <p>Interested in retrieval, language models, or working together? I’d be happy to hear from you.</p>
+    <a class="glass-button glass-button--primary" href="mailto:{{ site.author.email }}">{{ site.author.email }} <span aria-hidden="true">↗</span></a>
+  </div>
+  {% if site.visitor_counter.enabled %}{% include visitor-counter.html %}{% endif %}
+</section>
